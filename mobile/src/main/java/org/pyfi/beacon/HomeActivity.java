@@ -27,7 +27,9 @@ import java.net.NetworkInterface;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -138,6 +140,12 @@ public class HomeActivity extends AppCompatActivity
             mBound = false;
         }
     };
+
+    public void record_location(View view) {
+        Map<String, Integer> recorded_location = new HashMap<>(mService.beacon_matrix);
+        mService.recorded_location = recorded_location;
+        Log.i(TAG, String.valueOf(mService.recorded_location));
+    }
     public void update(View view) {
         Uri uri = Uri.parse("http://68.12.157.176:8080/beacon.apk"); // missing 'http://' will cause crashed
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);

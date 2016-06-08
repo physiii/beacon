@@ -72,4 +72,15 @@
         android:textSize="20dp"
         android:layout_above="@+id/textView2" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record Location"
+        android:id="@+id/btnStoreBeacons"
+        android:layout_gravity="center_horizontal"
+        android:onClick="record_location"
+        android:textColor="#444"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>

@@ -158,6 +158,7 @@ public class wsService extends Service implements OnPreparedListener {
     Map<String, Integer> beacon_matrix = new HashMap<>();
     Map<String, Integer> prev_beacon_matrix = new HashMap<>();
     Map<String, Integer> delta_matrix = new HashMap<>();
+    Map<String, Integer> recorded_location = new HashMap<>();
     public void initializeTimerTask2() {
         timerTask2 = new TimerTask() {
             public void run() {
@@ -169,17 +170,19 @@ public class wsService extends Service implements OnPreparedListener {
                             //Log.i(TAG,"<< ----- PREVIOUS ----- >> " + wifi.getScanResults().get(i).BSSID + "  " + beacon_matrix.get(wifi.getScanResults().get(i).BSSID));
                             //Log.i(TAG,"<< ----- CURRENT ----- >> " + wifi.getScanResults().get(i).BSSID + "  " + wifi.getScanResults().get(i).level);
                             int delta_value = 0;
-                            if (beacon_matrix.get(wifi.getScanResults().get(i).BSSID) != null) {
-                                delta_value = wifi.getScanResults().get(i).level - beacon_matrix.get(wifi.getScanResults().get(i).BSSID);
+                            if (recorded_location.get(wifi.getScanResults().get(i).BSSID) != null) {
+                                delta_value = wifi.getScanResults().get(i).level - recorded_location.get(wifi.getScanResults().get(i).BSSID);
+                                delta_matrix.put(wifi.getScanResults().get(i).BSSID, delta_value);
                             }
                             beacon_matrix.put(wifi.getScanResults().get(i).BSSID, wifi.getScanResults().get(i).level);
-                            delta_matrix.put(wifi.getScanResults().get(i).BSSID, delta_value);
                         }
                         rssiString = "\n\n\n\ndelta matrix\n";
                         printMatrix(delta_matrix);
+                        rssiString += "\n\n\n\nrecorded matrix\n";
+                        printMatrix(recorded_location);
                         //subtract_matrix(beacon_matrix,prev_beacon_matrix);
                         prev_beacon_matrix = beacon_matrix;
-                        //Log.i(TAG, rssiString);
+                        Log.i(TAG, String.valueOf(recorded_location));
                     }
                 });
             }
@@ -205,8 +208,9 @@ public class wsService extends Service implements OnPreparedListener {
         Iterator it = matrix.entrySet().iterator();
         while (it.hasNext()) {
             Map.Entry pair = (Map.Entry)it.next();
-            Log.d(TAG,"printMatrix | " + pair.getKey() + "   " + pair.getValue());
-            rssiString += "\n" + pair.getKey() + "  " + pair.getValue();
+            //Log.d(TAG,"printMatrix | " + pair.getKey() + "   " + pair.getValue());
+            //rssiString += "\n" + pair.getKey() + "  " + pair.getValue();
+            rssiString += "  " + pair.getValue();
         }
     }
     /*public void printMatrix(Map matrix) {
