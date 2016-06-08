@@ -153,69 +153,89 @@ public class wsService extends Service implements OnPreparedListener {
         initializeTimerTask2();
 
         //schedule the timer, after the first 5000ms the TimerTask will run every 10000ms
-        timer2.schedule(timerTask2, 1000, 1000); //
+        timer2.schedule(timerTask2, 1000, 5000); //
     }
     Map<String, Integer> beacon_matrix = new HashMap<>();
     Map<String, Integer> prev_beacon_matrix = new HashMap<>();
     Map<String, Integer> delta_matrix = new HashMap<>();
     public void initializeTimerTask2() {
-        /*List<Map<String, String>> data = new ArrayList<>();
-        data.add(0, map);
-        data.get(0).get("name");*/
         timerTask2 = new TimerTask() {
             public void run() {
-
-                //use a handler to run a toast that shows the current timestamp
                 handler2.post(new Runnable() {
                     public void run() {
-                        //get the current timeStamp
-                        Calendar calendar = Calendar.getInstance();
-                        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd:MMMM:yyyy HH:mm:ss a");
-                        final String strDate = simpleDateFormat.format(calendar.getTime());
-
                         WifiManager wifi = (WifiManager) getSystemService(Context.WIFI_SERVICE);
-                        rssiString = "";
-                        prev_beacon_matrix = beacon_matrix;
                         wifi.startScan();
                         for (int i = 0; i < wifi.getScanResults().size(); i++){
+                            //Log.i(TAG,"<< ----- PREVIOUS ----- >> " + wifi.getScanResults().get(i).BSSID + "  " + beacon_matrix.get(wifi.getScanResults().get(i).BSSID));
+                            //Log.i(TAG,"<< ----- CURRENT ----- >> " + wifi.getScanResults().get(i).BSSID + "  " + wifi.getScanResults().get(i).level);
+                            int delta_value = 0;
+                            if (beacon_matrix.get(wifi.getScanResults().get(i).BSSID) != null) {
+                                delta_value = wifi.getScanResults().get(i).level - beacon_matrix.get(wifi.getScanResults().get(i).BSSID);
+                            }
                             beacon_matrix.put(wifi.getScanResults().get(i).BSSID, wifi.getScanResults().get(i).level);
-                            int delta_matrix_value = beacon_matrix.get(wifi.getScanResults().get(i).BSSID) - prev_beacon_matrix.get(wifi.getScanResults().get(i).BSSID);
+                            delta_matrix.put(wifi.getScanResults().get(i).BSSID, delta_value);
                         }
-                        rssiString += "\n\n\n\nbeacon matrix\n";
-                        subtract_matrix(beacon_matrix, prev_beacon_matrix);
-                        loopMatrix(beacon_matrix);
-                        Log.i(TAG, rssiString);
-                        rssiString += "\ndelta matrix\n";
-                        loopMatrix(delta_matrix);
-                        Log.i(TAG, rssiString);
+                        rssiString = "\n\n\n\ndelta matrix\n";
+                        printMatrix(delta_matrix);
+                        //subtract_matrix(beacon_matrix,prev_beacon_matrix);
+                        prev_beacon_matrix = beacon_matrix;
+                        //Log.i(TAG, rssiString);
                     }
                 });
             }
         };
     }
 
+    public void subtract_matrix(Map matrix, Map matrix2) {
+        Iterator it = matrix.entrySet().iterator();
+        while (it.hasNext()) {
+            Map.Entry pair = (Map.Entry)it.next();
+            //Log.d(TAG, " << ----- Current Matrix ----- >>" + pair.getKey() + "  " + pair.getValue());
+            rssiString += "\n" + pair.getKey() + "  " + pair.getValue() + "   " + matrix2.get(pair.getKey());
+        }
+        Iterator it2 = matrix2.entrySet().iterator();
+        while (it2.hasNext()) {
+            Map.Entry pair2 = (Map.Entry)it2.next();
+            //Log.d(TAG, " << ----- PREVIOUS Matrix ----- >>" + pair2.getKey() + "  " + pair2.getValue());
+            rssiString += "\n" + pair2.getKey() + "  " + pair2.getValue() + "   " + matrix2.get(pair2.getKey());
+        }
+    }
+
+    public void printMatrix(Map matrix) {
+        Iterator it = matrix.entrySet().iterator();
+        while (it.hasNext()) {
+            Map.Entry pair = (Map.Entry)it.next();
+            Log.d(TAG,"printMatrix | " + pair.getKey() + "   " + pair.getValue());
+            rssiString += "\n" + pair.getKey() + "  " + pair.getValue();
+        }
+    }
+    /*public void printMatrix(Map matrix) {
+        Iterator it = matrix.entrySet().iterator();
+        while (it.hasNext()) {
+            Map.Entry pair = (Map.Entry)it.next();
+            Log.d(TAG,"printMatrix | " + pair.getKey() + "   " + pair.getValue());
+        }
+    }
+
+
     public void subtract_matrix(Map matrix1, Map matrix2) {
         Iterator it = matrix1.entrySet().iterator();
+        Log.d(TAG, "subtract_matrix");
         while (it.hasNext()) {
             Map.Entry pair = (Map.Entry)it.next();
             it.remove(); // avoids a ConcurrentModificationException
             Iterator it2 = matrix2.entrySet().iterator();
+            Log.d(TAG, "subtract_matrix");
             while (it2.hasNext()) {
                 Map.Entry pair2 = (Map.Entry)it2.next();
+                int delta_value = (int)pair.getValue() - (int)pair2.getValue();
+                Log.d(TAG, "DELTA VALUE | " + String.valueOf(delta_value));
                 delta_matrix.put(pair2.getKey().toString(), (int)pair.getValue() - (int)pair2.getValue());
                 //it2.remove(); // avoids a ConcurrentModificationException
             }
         }
-    }
+    }*/
 
-    public void loopMatrix(Map matrix) {
-        Iterator it = matrix.entrySet().iterator();
-        while (it.hasNext()) {
-            Map.Entry pair = (Map.Entry)it.next();
-            rssiString += pair.getKey() + "   " + pair.getValue() + "\n";
-            it.remove(); // avoids a ConcurrentModificationException
-        }
-    }
     String rssiString = "init";
     // Binder given to clients
     private final IBinder mBinder = new LocalBinder();
