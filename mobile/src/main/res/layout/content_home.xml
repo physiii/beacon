@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="org.pyfi.beacon.HomeActivity"
+    android:background="#222">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="MAC"
+        android:id="@+id/txtMac"
+        android:textColor="#cfcccc"
+        android:layout_below="@+id/txtEmail"
+        android:layout_marginTop="35dp"
+        android:textAlignment="center"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="User"
+        android:id="@+id/txtEmail"
+        android:textColor="#cfcccc"
+        android:textAlignment="center"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/btnUpdate"
+        android:layout_gravity="center_horizontal"
+        android:onClick="update"
+        android:textColor="#444"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="v0.4"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/btnUpdate"
+        android:layout_alignStart="@+id/btnUpdate"
+        android:textSize="20dp"
+        android:textColor="#888"
+        android:layout_alignEnd="@+id/btnUpdate"
+        android:textAlignment="textEnd" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="init"
+        android:id="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/btnUpdate"
+        android:textColor="#cfcccc"
+        android:textSize="20dp"
+        android:layout_above="@+id/textView2" />
+
+</RelativeLayout>
