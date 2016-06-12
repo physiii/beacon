@@ -166,6 +166,8 @@ public class wsService extends Service implements OnPreparedListener {
                     public void run() {
                         WifiManager wifi = (WifiManager) getSystemService(Context.WIFI_SERVICE);
                         wifi.startScan();
+                        int match_count = 0;
+                        delta_matrix.clear();
                         for (int i = 0; i < wifi.getScanResults().size(); i++){
                             //Log.i(TAG,"<< ----- PREVIOUS ----- >> " + wifi.getScanResults().get(i).BSSID + "  " + beacon_matrix.get(wifi.getScanResults().get(i).BSSID));
                             //Log.i(TAG,"<< ----- CURRENT ----- >> " + wifi.getScanResults().get(i).BSSID + "  " + wifi.getScanResults().get(i).level);
@@ -173,12 +175,13 @@ public class wsService extends Service implements OnPreparedListener {
                             if (recorded_location.get(wifi.getScanResults().get(i).BSSID) != null) {
                                 delta_value = wifi.getScanResults().get(i).level - recorded_location.get(wifi.getScanResults().get(i).BSSID);
                                 delta_matrix.put(wifi.getScanResults().get(i).BSSID, delta_value);
+                                match_count++;
                             }
                             beacon_matrix.put(wifi.getScanResults().get(i).BSSID, wifi.getScanResults().get(i).level);
                         }
-                        rssiString = "\n\n\n\ndelta matrix\n";
+                        rssiString = "\n\n\n\ndelta matrix [" + match_count + "]\n";
                         printMatrix(delta_matrix);
-                        rssiString += "\n\n\n\nrecorded matrix\n";
+                        rssiString += "\n\nrecorded matrix\n";
                         printMatrix(recorded_location);
                         //subtract_matrix(beacon_matrix,prev_beacon_matrix);
                         prev_beacon_matrix = beacon_matrix;
