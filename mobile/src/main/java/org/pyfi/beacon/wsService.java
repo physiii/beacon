@@ -36,16 +36,19 @@ import com.github.nkzawa.socketio.client.Socket;
 
 import com.google.android.gms.location.LocationRequest;
 import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.lang.reflect.Type;
 import java.net.NetworkInterface;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -56,6 +59,7 @@ import java.util.TimerTask;
 
 
 public class wsService extends Service implements OnPreparedListener {
+
     public static final String PREFS_NAME = "MyPrefsFile";
 
     double longitude = 0;
@@ -85,7 +89,8 @@ public class wsService extends Service implements OnPreparedListener {
         } catch (URISyntaxException e) {}
 
     }
-
+    String trigger_locations = "";
+    SharedPreferences hash_map;
     /** Called when the service is being created. */
     @Override
     public void onCreate() {
@@ -108,6 +113,13 @@ public class wsService extends Service implements OnPreparedListener {
         locationManager.requestLocationUpdates(locationProvider, 0, 0, locationListener);
         startTimer();
         startTimer2();
+
+
+        hash_map = getSharedPreferences("HashMap", 0);
+        String mapListString = hash_map.getString("device_trigger_locations",null);
+        Type type = new TypeToken<Map<String, Integer>>(){}.getType();
+        recorded_location = gson.fromJson(mapListString, type);
+        Log.i(TAG, "<<<<---- RECORDED TRIGGER LOCATIONS ----->>> " + recorded_location);
     }
 
     Timer timer;
@@ -155,10 +167,12 @@ public class wsService extends Service implements OnPreparedListener {
         //schedule the timer, after the first 5000ms the TimerTask will run every 10000ms
         timer2.schedule(timerTask2, 1000, 5000); //
     }
+
     Map<String, Integer> beacon_matrix = new HashMap<>();
     Map<String, Integer> prev_beacon_matrix = new HashMap<>();
     Map<String, Integer> delta_matrix = new HashMap<>();
     Map<String, Integer> recorded_location = new HashMap<>();
+
     public void initializeTimerTask2() {
         timerTask2 = new TimerTask() {
             public void run() {
@@ -271,6 +285,7 @@ public class wsService extends Service implements OnPreparedListener {
         Log.i(TAG, "<<<<---- SENDING PING ----->>> ");
     }
 
+    Gson gson = new Gson();
     private void ws_connect() {
         SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
         userName = settings.getString("username", "Please enter a username");
@@ -291,6 +306,7 @@ public class wsService extends Service implements OnPreparedListener {
             ws_connect();
         }
     };
+
     private Emitter.Listener onDisconnect = new Emitter.Listener() {
         @Override
         public void call(final Object... args) {

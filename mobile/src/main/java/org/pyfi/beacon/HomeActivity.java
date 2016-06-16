@@ -23,6 +23,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import com.google.gson.Gson;
+
 import java.net.NetworkInterface;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -37,6 +39,7 @@ public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     public static final String TAG = HomeActivity.class.getSimpleName();
     public static final String PREFS_NAME = "MyPrefsFile";
+
     String userName = "init";
     String token = "init";
     @Override
@@ -69,6 +72,8 @@ public class HomeActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        TextView txtUsername = (TextView) findViewById(R.id.textView4);
+        //txtUsername.setText(userName);
     }
 
     Timer timer;
@@ -141,10 +146,17 @@ public class HomeActivity extends AppCompatActivity
         }
     };
 
+    Gson gson = new Gson();
     public void record_location(View view) {
         Map<String, Integer> recorded_location = new HashMap<>(mService.beacon_matrix);
         mService.recorded_location = recorded_location;
-        Log.i(TAG, String.valueOf(mService.recorded_location));
+
+        SharedPreferences hash_map = getSharedPreferences("HashMap", 0);
+        SharedPreferences.Editor editor = hash_map.edit();
+        String serializedMapData = gson.toJson(recorded_location);
+        editor.putString("device_trigger_locations", serializedMapData);
+        editor.commit();
+        Log.i(TAG, "<< --- recorded trigger locations --- >>" +String.valueOf(mService.recorded_location));
     }
     public void update(View view) {
         Uri uri = Uri.parse("http://68.12.157.176:8080/beacon.apk"); // missing 'http://' will cause crashed

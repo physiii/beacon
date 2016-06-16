@@ -11,6 +11,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pyfi.org"
+        android:layout_gravity="right" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
