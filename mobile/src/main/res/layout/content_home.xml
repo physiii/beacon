@@ -19,11 +19,9 @@
         android:text="MAC"
         android:id="@+id/txtMac"
         android:textColor="#cfcccc"
-        android:layout_below="@+id/txtEmail"
-        android:layout_marginTop="35dp"
         android:textAlignment="center"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -33,9 +31,8 @@
         android:id="@+id/txtEmail"
         android:textColor="#cfcccc"
         android:textAlignment="center"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -48,39 +45,62 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="v0.4"
-        android:id="@+id/textView2"
-        android:layout_above="@+id/btnUpdate"
-        android:layout_alignStart="@+id/btnUpdate"
-        android:textSize="20dp"
-        android:textColor="#888"
-        android:layout_alignEnd="@+id/btnUpdate"
-        android:textAlignment="textEnd" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="init"
-        android:id="@+id/textView3"
+        android:text="zone 1"
+        android:id="@+id/btnZone1"
+        android:layout_gravity="center_horizontal"
+        android:onClick="record_location"
+        android:textColor="#444"
+        android:layout_below="@+id/txtEmail"
         android:layout_alignParentStart="true"
-        android:layout_alignEnd="@+id/btnUpdate"
-        android:textColor="#cfcccc"
-        android:textSize="20dp"
-        android:layout_above="@+id/textView2" />
+        android:layout_alignEnd="@+id/btnUpdate" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Record Location"
-        android:id="@+id/btnStoreBeacons"
+        android:text="Zone 2"
+        android:id="@+id/btnZone2"
         android:layout_gravity="center_horizontal"
         android:onClick="record_location"
         android:textColor="#444"
-        android:layout_below="@+id/textView2"
-        android:layout_alignParentStart="true" />
+        android:layout_below="@+id/btnZone3"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/btnUpdate" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zone 3"
+        android:id="@+id/btnZone3"
+        android:layout_gravity="center_horizontal"
+        android:onClick="record_location"
+        android:textColor="#444"
+        android:layout_below="@+id/btnZone1"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/btnUpdate" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/btnZone2"
+        android:layout_below="@+id/btnZone2"
+        android:fillViewport="false"
+        android:layout_above="@+id/btnUpdate">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="init"
+            android:id="@+id/textView3"
+            android:textColor="#cfcccc"
+            android:textSize="20dp"
+            android:layout_above="@+id/btnZone1"
+            android:layout_toEndOf="@+id/txtEmail"
+            android:layout_marginBottom="36dp" />
+    </ScrollView>
 
 </RelativeLayout>

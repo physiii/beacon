@@ -23,9 +23,21 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import com.android.volley.Cache;
+import com.android.volley.Network;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.BasicNetwork;
+import com.android.volley.toolbox.DiskBasedCache;
+import com.android.volley.toolbox.HurlStack;
+import com.android.volley.toolbox.StringRequest;
+import com.github.nkzawa.socketio.client.IO;
 import com.google.gson.Gson;
 
 import java.net.NetworkInterface;
+import java.net.URISyntaxException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Collections;
@@ -72,7 +84,7 @@ public class HomeActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-        TextView txtUsername = (TextView) findViewById(R.id.textView4);
+        //TextView txtUsername = (TextView) findViewById(R.id.textView4);
         //txtUsername.setText(userName);
     }
 
@@ -150,16 +162,17 @@ public class HomeActivity extends AppCompatActivity
     public void record_location(View view) {
         Map<String, Integer> recorded_location = new HashMap<>(mService.beacon_matrix);
         mService.recorded_location = recorded_location;
-
+        String id_str = getResources().getResourceEntryName(view.getId());
+        Log.i(TAG, id_str);
         SharedPreferences hash_map = getSharedPreferences("HashMap", 0);
         SharedPreferences.Editor editor = hash_map.edit();
         String serializedMapData = gson.toJson(recorded_location);
-        editor.putString("device_trigger_locations", serializedMapData);
+        editor.putString(id_str, serializedMapData);
         editor.commit();
         Log.i(TAG, "<< --- recorded trigger locations --- >>" +String.valueOf(mService.recorded_location));
     }
     public void update(View view) {
-        Uri uri = Uri.parse("http://68.12.157.176:8080/beacon.apk"); // missing 'http://' will cause crashed
+        Uri uri = Uri.parse("http://pyfi.org/php/get_ip.php?server_name=android"); // missing 'http://' will cause crashed
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }

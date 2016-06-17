@@ -22,6 +22,7 @@ import android.os.Handler;
 import android.os.IBinder;
 import android.util.Log;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /*import org.java_websocket.client.WebSocketClient;
 import org.java_websocket.drafts.Draft;
@@ -30,6 +31,17 @@ import org.java_websocket.framing.Framedata;
 import org.java_websocket.handshake.ServerHandshake;
 */
 
+import com.android.volley.Cache;
+import com.android.volley.Network;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.BasicNetwork;
+import com.android.volley.toolbox.DiskBasedCache;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.github.nkzawa.emitter.Emitter;
 import com.github.nkzawa.socketio.client.IO;
 import com.github.nkzawa.socketio.client.Socket;
@@ -84,6 +96,7 @@ public class wsService extends Service implements OnPreparedListener {
     boolean mAllowRebind;
     private Socket mSocket;
     {
+
         try {
             mSocket = IO.socket("http://68.12.126.213:5000");
         } catch (URISyntaxException e) {}
@@ -120,6 +133,8 @@ public class wsService extends Service implements OnPreparedListener {
         Type type = new TypeToken<Map<String, Integer>>(){}.getType();
         recorded_location = gson.fromJson(mapListString, type);
         Log.i(TAG, "<<<<---- RECORDED TRIGGER LOCATIONS ----->>> " + recorded_location);
+
+
     }
 
     Timer timer;
