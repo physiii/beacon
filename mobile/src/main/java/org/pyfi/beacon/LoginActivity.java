@@ -177,9 +177,12 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         String macAddress = getWifiMacAddress();
         Log.i(TAG, "<<<<---- MAC ADDRESS ----->>> " + macAddress);
         String message = "HELLO FROM DROID";
+        String server = "http://pyfi.org/php/set_mobile.php";
+        String dev_server = "http://68.12.126.213:8080/open-automation.org/php/set_mobile.php";
         message = "{\"user\":\"" + email
                 + "\", \"password\":\"" + password
                 + "\", \"mac\":\"" + macAddress
+                + "\", \"server\":\"" + dev_server
                 + "\"}";
         mSocket.emit("set_mobile", message);
         Log.i(TAG, "<<<<---- set username ----->>> " + email);

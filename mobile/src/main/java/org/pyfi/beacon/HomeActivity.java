@@ -227,8 +227,13 @@ public class HomeActivity extends AppCompatActivity
         } else if (id == R.id.nav_send) {
 
         } else if (id == R.id.nav_logout) {
-            Log.i(TAG, "<<<<---- LOGOUT ---->>> ");
-            Intent i = new Intent(getApplicationContext(), HomeActivity.class);
+            SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
+            SharedPreferences.Editor editor = settings.edit();
+            editor.putString("token", null);
+            editor.putString("username", null);
+            editor.commit();
+            Log.i(TAG, "<<<<---- LOGOUT ----->>> ");
+            Intent i = new Intent(getApplicationContext(), LoginActivity.class);
             startActivity(i);
         }
 

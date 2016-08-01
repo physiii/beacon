@@ -201,17 +201,17 @@ public class wsService extends Service implements OnPreparedListener {
                             //Log.i(TAG,"<< ----- PREVIOUS ----- >> " + wifi.getScanResults().get(i).BSSID + "  " + beacon_matrix.get(wifi.getScanResults().get(i).BSSID));
                             //Log.i(TAG,"<< ----- CURRENT ----- >> " + wifi.getScanResults().get(i).BSSID + "  " + wifi.getScanResults().get(i).level);
                             int delta_value = 0;
-                            if (recorded_location.get(wifi.getScanResults().get(i).BSSID) != null) {
+                            /*if (recorded_location.get(wifi.getScanResults().get(i).BSSID) != null) {
                                 delta_value = wifi.getScanResults().get(i).level - recorded_location.get(wifi.getScanResults().get(i).BSSID);
                                 delta_matrix.put(wifi.getScanResults().get(i).BSSID, delta_value);
                                 match_count++;
-                            }
+                            }*/
                             beacon_matrix.put(wifi.getScanResults().get(i).BSSID, wifi.getScanResults().get(i).level);
                         }
                         rssiString = "\n\n\n\ndelta matrix [" + match_count + "]\n";
                         printMatrix(delta_matrix);
                         rssiString += "\n\nrecorded matrix\n";
-                        printMatrix(recorded_location);
+                        //printMatrix(recorded_location);
                         //subtract_matrix(beacon_matrix,prev_beacon_matrix);
                         prev_beacon_matrix = beacon_matrix;
                         Log.i(TAG, String.valueOf(recorded_location));
