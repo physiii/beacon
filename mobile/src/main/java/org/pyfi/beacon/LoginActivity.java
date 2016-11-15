@@ -70,26 +70,18 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     public static final String PREFS_NAME = "MyPrefsFile";
     public static final String TAG = LoginActivity.class.getSimpleName();
     String userName;
-    String val;
     String password;
     String token;
-    /**
-     * A dummy authentication store containing known user names and passwords.
-     * TODO: remove after connecting to a real authentication system.
-     */
-    private static final String[] DUMMY_CREDENTIALS = new String[]{
-            "foo@example.com:hello", "bar@example.com:world"
-    };
-    /**
-     * Keep track of the login task to ensure we can cancel it if requested.
-     */
-    private UserLoginTask mAuthTask = null;
+    //String io_server = "http://24.253.223.242:5000";
+    String io_server = "24.253.223.242";
 
+    private UserLoginTask mAuthTask = null;
     // UI references.
     private AutoCompleteTextView mEmailView;
     private EditText mPasswordView;
     private View mProgressView;
     private View mLoginFormView;
+
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
      * See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -100,25 +92,27 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        //start http service
-        mSocket.on("token", onToken);
+
         mSocket.connect();
+        mSocket.on("token", onToken);
         SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
         userName = settings.getString("username", "Please enter a username");
         token = settings.getString("token", "no token");
         if (!token.equals("no token")) {
+            String message = "{\"token\":\"" + token + "\"}";
+            mSocket.emit("link_mobile", message);
+            Log.i(TAG, "<<<<---- " + userName + ":" + token + " ---->>> ");
             Intent i = new Intent(getApplicationContext(), HomeActivity.class);
             startActivity(i);
+        } else {
+            Log.i(TAG, "<<<<---- no token ---->>> ");
         }
-        String message = "{\"token\":\"" + token + "\"}";
-        mSocket.emit("link_mobile", message);
-        Log.i(TAG, "<<<<---- " + userName + ":" + token + " ---->>> ");
-        // Set up the login form.
+
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
         startService(new Intent(getBaseContext(), wsService.class));
         mPasswordView = (EditText) findViewById(R.id.password);
-        mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
+        /*mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView textView, int id, KeyEvent keyEvent) {
                 if (id == R.id.login || id == EditorInfo.IME_NULL) {
@@ -127,7 +121,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 }
                 return false;
             }
-        });
+        });*/
 
         Button mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
         mEmailSignInButton.setOnClickListener(new OnClickListener() {
@@ -142,8 +136,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
-
-
     }
 
     private void populateAutoComplete() {
@@ -170,21 +162,17 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         String email = mEmailView.getText().toString();
         password = mPasswordView.getText().toString();
 
-        boolean cancel = false;
-        View focusView = null;
-
         userName = email;
         String macAddress = getWifiMacAddress();
         Log.i(TAG, "<<<<---- MAC ADDRESS ----->>> " + macAddress);
         String message = "HELLO FROM DROID";
-        String server = "http://pyfi.org/php/set_mobile.php";
-        String dev_server = "http://68.12.126.213:8080/open-automation.org/php/set_mobile.php";
+        String server = "http://" + io_server + ":8080/php/set_mobile.php";
         message = "{\"user\":\"" + email
                 + "\", \"password\":\"" + password
                 + "\", \"mac\":\"" + macAddress
-                + "\", \"server\":\"" + dev_server
+                + "\", \"server\":\"" + "http://" + io_server + ":8080/open-automation.org/php/set_mobile.php"
                 + "\"}";
-        mSocket.emit("set_mobile", message);
+        mSocket.emit("set mobile", message);
         Log.i(TAG, "<<<<---- set username ----->>> " + email);
     }
 
@@ -192,7 +180,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
     {
         try {
-            mSocket = IO.socket("http://68.12.126.213:5000");
+            mSocket = IO.socket("http://"+io_server+":5000");
         } catch (URISyntaxException e) {
         }
     }
@@ -201,6 +189,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private Emitter.Listener onToken = new Emitter.Listener() {
         @Override
         public void call(final Object... args) {
+            Log.i(TAG, "<<<<---- args ----->>> " + args[0]);
             LoginActivity.this.runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
@@ -427,13 +416,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 return false;
             }
 
-            for (String credential : DUMMY_CREDENTIALS) {
-                String[] pieces = credential.split(":");
-                if (pieces[0].equals(mEmail)) {
-                    // Account exists, return true if the password matches.
-                    return pieces[1].equals(mPassword);
-                }
-            }
 
             // TODO: register the new account here.
             return true;

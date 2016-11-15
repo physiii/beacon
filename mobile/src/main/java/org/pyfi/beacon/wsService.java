@@ -199,13 +199,13 @@ public class wsService extends Service implements OnPreparedListener {
                         delta_matrix.clear();
                         for (int i = 0; i < wifi.getScanResults().size(); i++){
                             int delta_value = 0;
-                            if (recorded_location.get(wifi.getScanResults().get(i).BSSID) != null) {
+                            //if (recorded_location.get(wifi.getScanResults().get(i).BSSID) != null) {
                                 //if (wifi.getScanResults().get(i).level < -75) {
-                                    delta_value = wifi.getScanResults().get(i).level - recorded_location.get(wifi.getScanResults().get(i).BSSID);
-                                    delta_matrix.put(wifi.getScanResults().get(i).BSSID, delta_value);
-                                    match_count++;
+                                    //delta_value = wifi.getScanResults().get(i).level - recorded_location.get(wifi.getScanResults().get(i).BSSID);
+                                    //delta_matrix.put(wifi.getScanResults().get(i).BSSID, delta_value);
+                                    //match_count++;
                                 //}
-                            }
+                            //}
                             beacon_matrix.put(wifi.getScanResults().get(i).BSSID, wifi.getScanResults().get(i).level);
                         }
                         //int confidence = match_count * 100 / recorded_location.size();
