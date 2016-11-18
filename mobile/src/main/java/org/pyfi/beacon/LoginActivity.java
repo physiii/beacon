@@ -153,26 +153,25 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         if (mAuthTask != null) {
             return;
         }
-
-        // Reset errors.
         mEmailView.setError(null);
         mPasswordView.setError(null);
-
-        // Store values at the time of the login attempt.
         String email = mEmailView.getText().toString();
-        password = mPasswordView.getText().toString();
-
         userName = email;
+        password = mPasswordView.getText().toString();
         String macAddress = getWifiMacAddress();
         Log.i(TAG, "<<<<---- MAC ADDRESS ----->>> " + macAddress);
-        String message = "HELLO FROM DROID";
-        String server = "http://" + io_server + ":8080/php/set_mobile.php";
-        message = "{\"user\":\"" + email
+        String server = "http://" + io_server + ":8080/open-automation.org/php/set_mobile.php";
+        String message = "{\"user\":\"" + userName
                 + "\", \"password\":\"" + password
                 + "\", \"mac\":\"" + macAddress
-                + "\", \"server\":\"" + "http://" + io_server + ":8080/open-automation.org/php/set_mobile.php"
+                + "\", \"server\":\"" + server
                 + "\"}";
-        mSocket.emit("set mobile", message);
+        try {
+            JSONObject data = new JSONObject(message);
+            mSocket.emit("set mobile", data);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
         Log.i(TAG, "<<<<---- set username ----->>> " + email);
     }
 
@@ -195,6 +194,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 public void run() {
                     try {
                         JSONObject data = new JSONObject((String) args[0]);
+                        //JSONObject data = (JSONObject) args[0];
                         Log.i(TAG, "<<<<---- TOKENNN ----->>> " + args[0]);
                         token = data.getString("token");
                         addMessage(userName, token);
