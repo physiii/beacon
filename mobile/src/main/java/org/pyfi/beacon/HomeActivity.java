@@ -61,6 +61,7 @@ public class HomeActivity extends AppCompatActivity
 
     String userName = "init";
     String token = "init";
+    String wifi_trigger_location = "init";
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
      * See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -81,9 +82,11 @@ public class HomeActivity extends AppCompatActivity
         SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
         userName = settings.getString("username", "does not exist");
         token = settings.getString("token", "does not exist");
+        wifi_trigger_location = settings.getString("wifi_trigger_location","nothing set");
         textView = (TextView) findViewById(R.id.txtEmail);
         textView.setText(userName);
-
+        textView = (TextView) findViewById(R.id.txtWifiTrigger);
+        textView.setText(wifi_trigger_location);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -128,7 +131,6 @@ public class HomeActivity extends AppCompatActivity
     }
 
     boolean service_connected = false;
-
     public void initializeTimerTask() {
 
         timerTask = new TimerTask() {
@@ -223,11 +225,22 @@ public class HomeActivity extends AppCompatActivity
         @Override
         public void onServiceDisconnected(ComponentName arg0) {
             mBound = false;
+            mService = null;
         }
     };
 
     Gson gson = new Gson();
 
+    public void store_trigger_location(View view) {
+        Log.i(TAG,"store_trigger_location");
+        mService.wifi_trigger_location = mService.current_wifi;
+        TextView textView = (TextView) findViewById(R.id.txtWifiTrigger);
+        textView.setText(mService.wifi_trigger_location);
+        SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
+        SharedPreferences.Editor editor = settings.edit();
+        editor.putString("wifi_trigger_location", mService.wifi_trigger_location);
+        editor.commit();
+    }
     public void record_location(View view) {
         Map<String, Integer> recorded_location = new HashMap<>(mService.beacon_matrix);
         recorded_location = sortByValues(recorded_location);

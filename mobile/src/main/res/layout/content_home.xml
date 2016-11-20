@@ -45,49 +45,12 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="zone 1"
-        android:id="@+id/btnZone1"
-        android:layout_gravity="center_horizontal"
-        android:onClick="record_location"
-        android:textColor="#444"
-        android:layout_below="@+id/txtEmail"
-        android:layout_alignParentStart="true"
-        android:layout_alignEnd="@+id/btnUpdate" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Zone 2"
-        android:id="@+id/btnZone2"
-        android:layout_gravity="center_horizontal"
-        android:onClick="record_location"
-        android:textColor="#444"
-        android:layout_below="@+id/btnZone3"
-        android:layout_alignParentStart="true"
-        android:layout_alignEnd="@+id/btnUpdate" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Zone 3"
-        android:id="@+id/btnZone3"
-        android:layout_gravity="center_horizontal"
-        android:onClick="record_location"
-        android:textColor="#444"
-        android:layout_below="@+id/btnZone1"
-        android:layout_alignParentStart="true"
-        android:layout_alignEnd="@+id/btnUpdate" />
 
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/scrollView"
         android:layout_alignParentStart="true"
-        android:layout_alignEnd="@+id/btnZone2"
-        android:layout_below="@+id/btnZone2"
         android:fillViewport="false"
         android:layout_above="@+id/btnUpdate">
 
@@ -102,5 +65,28 @@
             android:layout_toEndOf="@+id/txtEmail"
             android:layout_marginBottom="36dp" />
     </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="set wifi location"
+        android:id="@+id/btnZone1"
+        android:layout_gravity="center_horizontal"
+        android:onClick="store_trigger_location"
+        android:textColor="#444"
+        android:layout_below="@+id/txtEmail"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="nothing set"
+        android:id="@+id/txtWifiTrigger"
+        android:textColor="#cfcccc"
+        android:textAlignment="center"
+        android:layout_alignBottom="@+id/btnZone1"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

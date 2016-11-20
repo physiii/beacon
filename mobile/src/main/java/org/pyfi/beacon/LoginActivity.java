@@ -4,11 +4,14 @@ import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
 import android.app.AlarmManager;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.content.ServiceConnection;
 import android.content.SharedPreferences;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
+import android.os.IBinder;
 import android.support.v7.app.AppCompatActivity;
 import android.app.LoaderManager.LoaderCallbacks;
 
@@ -33,6 +36,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.github.nkzawa.socketio.client.IO;
 import com.github.nkzawa.socketio.client.Socket;
 import com.github.nkzawa.emitter.Emitter;
@@ -58,10 +67,14 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
+import java.util.Timer;
+import java.util.TimerTask;
 
 /**
  * A login screen that offers login via email/password.
@@ -71,17 +84,15 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     public static final String TAG = LoginActivity.class.getSimpleName();
     String userName;
     String password;
-    String token;
-    //String io_server = "http://24.253.223.242:5000";
-    String io_server = "24.253.223.242";
-
+    String macAddress = getWifiMacAddress();
     private UserLoginTask mAuthTask = null;
     // UI references.
     private AutoCompleteTextView mEmailView;
     private EditText mPasswordView;
     private View mProgressView;
     private View mLoginFormView;
-
+    wsService mService;
+    boolean mBound = false;
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
      * See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -92,37 +103,11 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
-        mSocket.connect();
-        mSocket.on("token", onToken);
-        SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
-        userName = settings.getString("username", "Please enter a username");
-        token = settings.getString("token", "no token");
-        if (!token.equals("no token")) {
-            String message = "{\"token\":\"" + token + "\"}";
-            mSocket.emit("link_mobile", message);
-            Log.i(TAG, "<<<<---- " + userName + ":" + token + " ---->>> ");
-            Intent i = new Intent(getApplicationContext(), HomeActivity.class);
-            startActivity(i);
-        } else {
-            Log.i(TAG, "<<<<---- no token ---->>> ");
-        }
-
+        //get_servers();
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
         startService(new Intent(getBaseContext(), wsService.class));
         mPasswordView = (EditText) findViewById(R.id.password);
-        /*mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
-            @Override
-            public boolean onEditorAction(TextView textView, int id, KeyEvent keyEvent) {
-                if (id == R.id.login || id == EditorInfo.IME_NULL) {
-                    attemptLogin();
-                    return true;
-                }
-                return false;
-            }
-        });*/
-
         Button mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
         mEmailSignInButton.setOnClickListener(new OnClickListener() {
             @Override
@@ -130,7 +115,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 attemptLogin();
             }
         });
-
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
         // ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -143,6 +127,27 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     }
 
 
+    /**
+     * Defines callbacks for service binding, passed to bindService()
+     */
+    private ServiceConnection mConnection = new ServiceConnection() {
+
+        @Override
+        public void onServiceConnected(ComponentName className,
+                                       IBinder service) {
+            // We've bound to LocalService, cast the IBinder and get LocalService instance
+            wsService.LocalBinder binder = (wsService.LocalBinder) service;
+            mService = binder.getService();
+            mBound = true;
+            mService.get_servers();
+        }
+
+        @Override
+        public void onServiceDisconnected(ComponentName arg0) {
+            mService = null;
+            mBound = false;
+        }
+    };
 
     /**
      * Attempts to sign in or register the account specified by the login form.
@@ -155,70 +160,18 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         }
         mEmailView.setError(null);
         mPasswordView.setError(null);
-        String email = mEmailView.getText().toString();
-        userName = email;
+        userName = mEmailView.getText().toString();
         password = mPasswordView.getText().toString();
-        String macAddress = getWifiMacAddress();
-        Log.i(TAG, "<<<<---- MAC ADDRESS ----->>> " + macAddress);
-        String server = "http://" + io_server + ":8080/open-automation.org/php/set_mobile.php";
-        String message = "{\"user\":\"" + userName
-                + "\", \"password\":\"" + password
-                + "\", \"mac\":\"" + macAddress
-                + "\", \"server\":\"" + server
-                + "\"}";
-        try {
-            JSONObject data = new JSONObject(message);
-            mSocket.emit("set mobile", data);
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-        Log.i(TAG, "<<<<---- set username ----->>> " + email);
+        Log.i(TAG, "<<<<---- attemptLogin ----->>> " + macAddress);
+        mService.attempt_login(userName,password);
     }
 
-    private Socket mSocket;
 
-    {
-        try {
-            mSocket = IO.socket("http://"+io_server+":5000");
-        } catch (URISyntaxException e) {
-        }
-    }
 
-    //Listening new message event to receive message
-    private Emitter.Listener onToken = new Emitter.Listener() {
-        @Override
-        public void call(final Object... args) {
-            Log.i(TAG, "<<<<---- args ----->>> " + args[0]);
-            LoginActivity.this.runOnUiThread(new Runnable() {
-                @Override
-                public void run() {
-                    try {
-                        JSONObject data = new JSONObject((String) args[0]);
-                        //JSONObject data = (JSONObject) args[0];
-                        Log.i(TAG, "<<<<---- TOKENNN ----->>> " + args[0]);
-                        token = data.getString("token");
-                        addMessage(userName, token);
-                    } catch (JSONException e) {
-                        Log.i(TAG, "<<<<---- ERROR ----->>> " + e);
-                        return;
-                    }
-                }
-            });
-        }
-    };
-
-    private boolean addMessage(String user, String token) {
-        SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
-        SharedPreferences.Editor editor = settings.edit();
-        editor.putString("token", token);
-        editor.putString("username", userName);
-        editor.commit();
-        Log.i(TAG, "<<<<---- set token ----->>> " + user);
-        String message = "{\"token\":\"" + token + "\"}";
-        mSocket.emit("link_mobile", message);
-        Intent i = new Intent(getApplicationContext(), HomeActivity.class);
-        startActivity(i);
-        return true;
+    public void register_page(View view) {
+        Uri uri = Uri.parse("http://pyfi.org/index.php?route=account/register"); // missing 'http://' will cause crashed
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
     }
 
     public static String getWifiMacAddress() {
@@ -262,7 +215,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     @Override
     public void onStart() {
         super.onStart();
-
+        Intent intent = new Intent(this, wsService.class);
+        bindService(intent, mConnection, Context.BIND_AUTO_CREATE);
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client.connect();
@@ -297,6 +251,11 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         );
         AppIndex.AppIndexApi.end(client, viewAction);
         client.disconnect();
+
+        if (mBound) {
+            unbindService(mConnection);
+            mBound = false;
+        }
     }
 
 
@@ -440,22 +399,5 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             showProgress(false);
         }
     }
-
-    public void register_page(View view) {
-        Uri uri = Uri.parse("http://pyfi.org/index.php?route=account/register"); // missing 'http://' will cause crashed
-        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-        startActivity(intent);
-    }
-
-    // Reads an InputStream and converts it to a String.
-    public String readIt(InputStream stream, int len) throws IOException, UnsupportedEncodingException {
-        Reader reader = null;
-        reader = new InputStreamReader(stream, "UTF-8");
-        char[] buffer = new char[len];
-        reader.read(buffer);
-        return new String(buffer);
-    }
-
-
 }
 

@@ -1,6 +1,7 @@
 package org.pyfi.beacon;
 
 import android.app.IntentService;
+import android.app.NotificationManager;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
@@ -20,6 +21,9 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
+import android.os.PowerManager;
+import android.support.v4.content.WakefulBroadcastReceiver;
+import android.support.v7.app.NotificationCompat;
 import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -69,6 +73,8 @@ import java.util.Map;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import static android.support.v4.content.WakefulBroadcastReceiver.startWakefulService;
+
 
 public class wsService extends Service implements OnPreparedListener {
 
@@ -86,7 +92,10 @@ public class wsService extends Service implements OnPreparedListener {
     public static final String TAG = wsService.class.getSimpleName();
     private LocationRequest mLocationRequest;
     MediaPlayer mp;
-
+    String io_server = "init";
+    String webserver = "24.253.223.242";
+    String macAddress = getWifiMacAddress();
+    String wifi_trigger_location;
 
     /** indicates how to behave if the service is killed */
     int mStartMode;
@@ -94,27 +103,18 @@ public class wsService extends Service implements OnPreparedListener {
 
     /** indicates whether onRebind should be used */
     boolean mAllowRebind;
-    private Socket mSocket;
-    {
-
-        try {
-            mSocket = IO.socket("http://68.12.126.213:5000");
-        } catch (URISyntaxException e) {}
-
-    }
+    public Socket mSocket;
     String trigger_locations = "";
     SharedPreferences hash_map;
     /** Called when the service is being created. */
     @Override
     public void onCreate() {
-        Log.d(TAG, "-- Starting wsService --");
-        mSocket.on("png_test", onCommand);
-        mSocket.on(Socket.EVENT_DISCONNECT,onDisconnect);
-        mSocket.on(Socket.EVENT_CONNECT,onConnect);
+        get_servers();
+        //mSocket.on("png_test", onCommand);
         //String message = "{\"token\":\"" + token + "\"}";
         //mSocket.emit("png_test");
         //new LongOperation().execute("test");
-        ws_connect();
+        //ws_connect();
         mp = MediaPlayer.create(this, R.raw.led);
         String locationProvider = LocationManager.NETWORK_PROVIDER;
         mLocationRequest = LocationRequest.create() // Create the LocationRequest object
@@ -127,15 +127,130 @@ public class wsService extends Service implements OnPreparedListener {
         startTimer();
         startTimer2();
 
-
         hash_map = getSharedPreferences("HashMap", 0);
         String mapListString = hash_map.getString("device_trigger_locations",null);
         Type type = new TypeToken<Map<String, Integer>>(){}.getType();
         recorded_location = gson.fromJson(mapListString, type);
         Log.i(TAG, "<<<<---- RECORDED TRIGGER LOCATIONS ----->>> " + recorded_location);
-
-
     }
+
+    public void get_servers() {
+        // Instantiate the RequestQueue.
+        RequestQueue queue = Volley.newRequestQueue(this);
+        String url ="http://pyfi.org/php/get_ip.php?server_name=socket_io";
+
+// Request a string response from the provided URL.
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        // Display the first 500 characters of the response string.
+                        try {
+                            io_server = response;
+                            mSocket = IO.socket("http://"+io_server);
+                            mSocket.connect();
+                            Log.d(TAG, "-- Starting wsService --" + io_server);
+                            try {
+                                mSocket = IO.socket("http://"+io_server);
+                                mSocket.on(Socket.EVENT_DISCONNECT,onDisconnect);
+                                mSocket.on(Socket.EVENT_CONNECT,onConnect);
+                                mSocket.on("token",onToken);
+                                mSocket.on("link mobile",link_mobile);
+                            } catch (URISyntaxException e) {}
+                            SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
+                            userName = settings.getString("username", "Please enter a username");
+                            token = settings.getString("token", "no token");
+                            if (!token.equals("no token")) {
+                                String message = "{\"user\":\"" + userName
+                                        + "\", \"token\":\"" + token
+                                        + "\", \"mac\":\"" + macAddress
+                                        + "\"}";
+                                try {
+                                    JSONObject data = new JSONObject(message);
+                                    mSocket.emit("link mobile", data);
+                                } catch (JSONException e) {
+                                    e.printStackTrace();
+                                }
+
+                                Log.i(TAG, "<<<<---- " + userName + ":" + token + " ---->>> ");
+                            } else {
+                                Log.i(TAG, "<<<<---- no token ---->>> ");
+                            }
+
+                            Log.i(TAG,"wsService io_server: " + response);
+                        } catch (URISyntaxException e) {}
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.i(TAG,"error: " + error);
+            }
+        });
+// Add the request to the RequestQueue.
+        queue.add(stringRequest);
+    }
+
+    public void attempt_login(String user, String password) {
+        String server = "http://" + webserver + ":8080/open-automation.org/php/set_mobile.php";
+        String message = "{\"user\":\"" + user
+                + "\", \"password\":\"" + password
+                + "\", \"mac\":\"" + macAddress
+                + "\", \"server\":\"" + server
+                + "\"}";
+        try {
+            JSONObject data = new JSONObject(message);
+            mSocket.emit("set mobile", data);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        Log.i(TAG, "<<<<---- set username ----->>> " + user);
+    }
+
+
+    private Emitter.Listener onToken = new Emitter.Listener() {
+        @Override
+        public void call(final Object... args) {
+            try {
+                //JSONObject data = (JSONObject) args[0];
+                JSONObject data = new JSONObject((String) args[0]);
+                token = data.getString("token");
+                userName = data.getString("email");
+                store_token(userName, token);
+            } catch (JSONException e) {
+                Log.i(TAG, "<<<<---- ERROR ----->>> " + e);
+                return;
+            }
+        }
+    };
+
+    private boolean store_token(String user, String token) {
+        SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
+        SharedPreferences.Editor editor = settings.edit();
+        editor.putString("token", token);
+        editor.putString("username", user);
+        editor.commit();
+        Log.i(TAG, "<<<<---- set token ----->>> " + user);
+        String message = "{\"user\":\"" + userName
+                + "\", \"token\":\"" + token
+                + "\", \"mac\":\"" + macAddress
+                + "\"}";
+        try {
+            JSONObject data = new JSONObject(message);
+            mSocket.emit("link mobile", data);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return true;
+    }
+
+    private Emitter.Listener link_mobile = new Emitter.Listener() {
+        @Override
+        public void call(final Object... args) {
+            Log.i(TAG, "<<<<---- link_mobile ----->>> " + args[0]);
+            Intent i = new Intent(getApplicationContext(), HomeActivity.class);
+            startActivity(i);
+        }
+    };
 
     Timer timer;
     TimerTask timerTask;
@@ -179,20 +294,34 @@ public class wsService extends Service implements OnPreparedListener {
         //initialize the TimerTask's job
         initializeTimerTask2();
 
-        //schedule the timer, after the first 5000ms the TimerTask will run every 10000ms
-        timer2.schedule(timerTask2, 1000, 5000); //
+        //schedule the timer, after the first 10000ms the TimerTask will run every 10000ms
+        timer2.schedule(timerTask2, 8000, 8000); //
     }
+
 
     Map<String, Integer> beacon_matrix = new HashMap<>();
     Map<String, Integer> prev_beacon_matrix = new HashMap<>();
     Map<String, Integer> delta_matrix = new HashMap<>();
     Map<String, Integer> recorded_location = new HashMap<>();
-
+    public String current_wifi = "init";
     public void initializeTimerTask2() {
         timerTask2 = new TimerTask() {
             public void run() {
                 handler2.post(new Runnable() {
                     public void run() {
+                        PowerManager powerManager = (PowerManager) getSystemService(POWER_SERVICE);
+                        PowerManager.WakeLock wakeLock = powerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK,
+                                "MyWakelockTag");
+                        wakeLock.acquire();
+                        if (mSocket != null) {
+                            try {
+                                JSONObject data = new JSONObject(gps_string);
+                                mSocket.emit("set location", data);
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
+                            Log.i(TAG, "<<<<---- set location ---->>> ");
+                        }
                         WifiManager wifi = (WifiManager) getSystemService(Context.WIFI_SERVICE);
                         wifi.startScan();
                         int match_count = 0;
@@ -215,9 +344,9 @@ public class wsService extends Service implements OnPreparedListener {
                         //printMatrix(recorded_location);
                         //subtract_matrix(beacon_matrix,prev_beacon_matrix);
                         prev_beacon_matrix = beacon_matrix;
-                        Log.i(TAG, "<< --- current --- >>" + String.valueOf(beacon_matrix));
-
+                        //Log.i(TAG, "<< --- current --- >>" + String.valueOf(beacon_matrix));
                         //Log.i(TAG, "<< --- confidence --- >>" + confidence);
+                        wakeLock.release();
                     }
                 });
             }
@@ -311,7 +440,7 @@ public class wsService extends Service implements OnPreparedListener {
         String message = "{\"mac\":\"" + getWifiMacAddress() + "\","
                 + "\"token\":\"" + token + "\"}";
         mSocket.connect();
-        mSocket.emit("link_mobile", message);
+        mSocket.emit("link mobile", message);
         Log.i(TAG, "<<<<---- LINK MOBILE ----->>> ");
         mSocket.on("to_mobile", onCommand);
         mSocket.on("png_test", onCommand);
@@ -321,7 +450,7 @@ public class wsService extends Service implements OnPreparedListener {
         @Override
         public void call(final Object... args) {
             Log.i(TAG, "<<<<---- !! RECONNECTING !! ----->>> ");
-            ws_connect();
+            //ws_connect();
         }
     };
 
@@ -369,35 +498,29 @@ public class wsService extends Service implements OnPreparedListener {
     private void handleNewLocation(Location location) {
         WifiManager wifi = (WifiManager) getSystemService(Context.WIFI_SERVICE);
         ScanResult result0 = wifi.getScanResults().get(0);
+        WifiInfo info = wifi.getConnectionInfo ();
+        current_wifi  = info.getSSID().replace("\"","");
         String ssid0 = result0.SSID;
         int rssi0 = result0.level;
         String rssiString0 = String.valueOf(rssi0);
-        Log.i(TAG, "<<<<---- RSSI ---->>> " + ssid0 + ":" + rssiString0);
-        String macAddress = getWifiMacAddress();
+        Log.i(TAG, "<<<<---- current wifi ---->>> " + current_wifi);
         longitude = location.getLongitude();
         latitude = location.getLatitude();
         time = location.getTime();
         speed = location.getSpeed();
         accuracy = location.getAccuracy();
         bearing = location.getBearing();
-        SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
-        userName = settings.getString("username","does not exist");
-        token = settings.getString("token","does not exist");
         gps_string = "{ \"mac\":\"" + macAddress
-                + "\", \"userName\":\"" + userName
+                + "\", \"email\":\"" + userName
                 + "\", \"token\":\"" + token
                 + "\", \"time\":\"" + time
+                + "\", \"current_wifi\":\"" + current_wifi
                 + "\", \"longitude\":\"" + longitude
                 + "\", \"latitude\":\"" + latitude
                 + "\", \"speed\":\"" + speed
                 + "\", \"accuracy\":\"" + accuracy
                 + "\", \"bearing\":\"" + bearing
                 + "\"}";
-        mSocket.emit("from_mobile", gps_string);
-        Log.i(TAG, "<<<<---- SENDING GPS DATA ---->>> ");
-
-        //mSocket.emit("link_mobile", gps_string);
-        //Log.i(TAG, "<<<<---- LINK MOBILE (gps) ----->>> ");
     }
 
     // Define a listener that responds to location updates
@@ -426,6 +549,35 @@ public class wsService extends Service implements OnPreparedListener {
         Log.i(TAG, "<<<<---- STOP PING ----->>> ");
         mp.stop();
         sound_stopped = true;
+    }
+
+    public class MyWakefulReceiver extends WakefulBroadcastReceiver {
+
+        @Override
+        public void onReceive(Context context, Intent intent) {
+
+            // Start the service, keeping the device awake while the service is
+            // launching. This is the Intent to deliver to the service.
+            Intent service = new Intent(context, MyIntentService.class);
+            startWakefulService(context, service);
+        }
+    }
+
+    public class MyIntentService extends IntentService {
+        public static final int NOTIFICATION_ID = 1;
+        private NotificationManager mNotificationManager;
+        NotificationCompat.Builder builder;
+        public MyIntentService() {
+            super("MyIntentService");
+        }
+        @Override
+        protected void onHandleIntent(Intent intent) {
+            Bundle extras = intent.getExtras();
+            // Do the work that requires your app to keep the CPU running.
+            // ...
+            // Release the wake lock provided by the WakefulBroadcastReceiver.
+            MyWakefulReceiver.completeWakefulIntent(intent);
+        }
     }
 
     public static String getWifiMacAddress() {
