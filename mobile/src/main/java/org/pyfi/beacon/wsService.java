@@ -1,7 +1,9 @@
 package org.pyfi.beacon;
 
+import android.app.AlarmManager;
 import android.app.IntentService;
 import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
@@ -12,6 +14,8 @@ import android.location.LocationManager;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnPreparedListener;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.wifi.ScanResult;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
@@ -22,6 +26,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.PowerManager;
+import android.os.SystemClock;
 import android.support.v4.content.WakefulBroadcastReceiver;
 import android.support.v7.app.NotificationCompat;
 import android.util.Log;
@@ -96,6 +101,11 @@ public class wsService extends Service implements OnPreparedListener {
     String webserver = "24.253.223.242";
     String macAddress = getWifiMacAddress();
     String wifi_trigger_location;
+    private SendLocationTask mTask;
+    private String mPulseUrl;
+    private AlarmManager alarms;
+    private PendingIntent alarmIntent;
+    private ConnectivityManager cnnxManager;
 
     /** indicates how to behave if the service is killed */
     int mStartMode;
@@ -109,12 +119,15 @@ public class wsService extends Service implements OnPreparedListener {
     /** Called when the service is being created. */
     @Override
     public void onCreate() {
+        super.onCreate();
+        ConnectivityManager cnnxManager = (ConnectivityManager)
+                getSystemService(Context.CONNECTIVITY_SERVICE);
+
+        Intent intentOnAlarm = new Intent(
+                LaunchReceiver.ACTION_PULSE_SERVER_ALARM);
+        alarmIntent = PendingIntent.getBroadcast(this, 0, intentOnAlarm, 0);
+
         get_servers();
-        //mSocket.on("png_test", onCommand);
-        //String message = "{\"token\":\"" + token + "\"}";
-        //mSocket.emit("png_test");
-        //new LongOperation().execute("test");
-        //ws_connect();
         mp = MediaPlayer.create(this, R.raw.led);
         String locationProvider = LocationManager.NETWORK_PROVIDER;
         mLocationRequest = LocationRequest.create() // Create the LocationRequest object
@@ -139,7 +152,7 @@ public class wsService extends Service implements OnPreparedListener {
         RequestQueue queue = Volley.newRequestQueue(this);
         String url ="http://pyfi.org/php/get_ip.php?server_name=socket_io";
 
-// Request a string response from the provided URL.
+        // Request a string response from the provided URL.
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
                     @Override
@@ -252,6 +265,85 @@ public class wsService extends Service implements OnPreparedListener {
         }
     };
 
+    public void send_location() {
+
+        if (mTask != null
+                && mTask.getStatus() != SendLocationTask.Status.FINISHED) {
+            return;
+        }
+        mTask = (SendLocationTask) new SendLocationTask().execute();
+    }
+
+    private class SendLocationTask extends AsyncTask<Void, Void, Void> {
+
+        // TODO: create two base service urls, one for debugging and one for live.
+        @Override
+        protected Void doInBackground(Void... arg0) {
+            AlarmManager alarms = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
+            try {
+                // if we have no data connection, no point in proceeding.
+                NetworkInfo ni = cnnxManager.getActiveNetworkInfo();
+                if (ni == null || !ni.isAvailable() || !ni.isConnected()) {
+                    //AppGlobal
+                    //        .logWarning("No usable network. Skipping pulse action.");
+                    //return null;
+                }
+                // / grab and log data
+            } catch (Exception e) {
+                //AppGlobal.logError(
+                //        "Unknown error in background pulse task. Error: '%s'.",
+                //        e, e.getMessage());
+            } finally {
+
+                // ----------------------  send location data --------------------------//
+                PowerManager powerManager = (PowerManager) getSystemService(POWER_SERVICE);
+                PowerManager.WakeLock wakeLock = powerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK,
+                        "MyWakelockTag");
+                if (mSocket != null) {
+                    try {
+                        JSONObject data = new JSONObject(gps_string);
+                        mSocket.emit("set location", data);
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                    Log.i(TAG, "<<<<---- set location ---->>> ");
+                }
+                WifiManager wifi = (WifiManager) getSystemService(Context.WIFI_SERVICE);
+                wifi.startScan();
+                int match_count = 0;
+                delta_matrix.clear();
+                for (int i = 0; i < wifi.getScanResults().size(); i++){
+                    int delta_value = 0;
+                    //if (recorded_location.get(wifi.getScanResults().get(i).BSSID) != null) {
+                    //if (wifi.getScanResults().get(i).level < -75) {
+                    //delta_value = wifi.getScanResults().get(i).level - recorded_location.get(wifi.getScanResults().get(i).BSSID);
+                    //delta_matrix.put(wifi.getScanResults().get(i).BSSID, delta_value);
+                    //match_count++;
+                    //}
+                    //}
+                    beacon_matrix.put(wifi.getScanResults().get(i).BSSID, wifi.getScanResults().get(i).level);
+                }
+                //int confidence = match_count * 100 / recorded_location.size();
+                rssiString = "\n\n\n\ndelta matrix [" + match_count + "]\n";
+                printMatrix(delta_matrix);
+                rssiString += "\n\nrecorded matrix\n";
+                //printMatrix(recorded_location);
+                //subtract_matrix(beacon_matrix,prev_beacon_matrix);
+                prev_beacon_matrix = beacon_matrix;
+                // ------------------------------------------------------------------------//
+
+                // always set the next wakeup alarm.
+                int interval = 5;
+                long timeToAlarm = SystemClock.elapsedRealtime() + interval
+                        * 1000;
+
+                alarms.setRepeating(AlarmManager.RTC_WAKEUP, 0,
+                        10*1000, alarmIntent);
+            }
+            return null;
+        }
+    }
+
     Timer timer;
     TimerTask timerTask;
     final Handler handler = new Handler();
@@ -309,44 +401,7 @@ public class wsService extends Service implements OnPreparedListener {
             public void run() {
                 handler2.post(new Runnable() {
                     public void run() {
-                        PowerManager powerManager = (PowerManager) getSystemService(POWER_SERVICE);
-                        PowerManager.WakeLock wakeLock = powerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK,
-                                "MyWakelockTag");
-                        wakeLock.acquire();
-                        if (mSocket != null) {
-                            try {
-                                JSONObject data = new JSONObject(gps_string);
-                                mSocket.emit("set location", data);
-                            } catch (JSONException e) {
-                                e.printStackTrace();
-                            }
-                            Log.i(TAG, "<<<<---- set location ---->>> ");
-                        }
-                        WifiManager wifi = (WifiManager) getSystemService(Context.WIFI_SERVICE);
-                        wifi.startScan();
-                        int match_count = 0;
-                        delta_matrix.clear();
-                        for (int i = 0; i < wifi.getScanResults().size(); i++){
-                            int delta_value = 0;
-                            //if (recorded_location.get(wifi.getScanResults().get(i).BSSID) != null) {
-                                //if (wifi.getScanResults().get(i).level < -75) {
-                                    //delta_value = wifi.getScanResults().get(i).level - recorded_location.get(wifi.getScanResults().get(i).BSSID);
-                                    //delta_matrix.put(wifi.getScanResults().get(i).BSSID, delta_value);
-                                    //match_count++;
-                                //}
-                            //}
-                            beacon_matrix.put(wifi.getScanResults().get(i).BSSID, wifi.getScanResults().get(i).level);
-                        }
-                        //int confidence = match_count * 100 / recorded_location.size();
-                        rssiString = "\n\n\n\ndelta matrix [" + match_count + "]\n";
-                        printMatrix(delta_matrix);
-                        rssiString += "\n\nrecorded matrix\n";
-                        //printMatrix(recorded_location);
-                        //subtract_matrix(beacon_matrix,prev_beacon_matrix);
-                        prev_beacon_matrix = beacon_matrix;
-                        //Log.i(TAG, "<< --- current --- >>" + String.valueOf(beacon_matrix));
-                        //Log.i(TAG, "<< --- confidence --- >>" + confidence);
-                        wakeLock.release();
+                        //send_location();
                     }
                 });
             }
@@ -613,8 +668,11 @@ public class wsService extends Service implements OnPreparedListener {
     /** The service is starting, due to a call to startService() */
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
+        Log.i(TAG,"onStartCommand HIT");
+        send_location();
         return START_STICKY;
     }
+
 
     /** A client is binding to the service with bindService() */
     @Override

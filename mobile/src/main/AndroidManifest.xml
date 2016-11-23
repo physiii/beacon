@@ -39,7 +39,16 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
-        <receiver android:name=".MyWakefulReceiver"></receiver>
+        <receiver
+            android:name=".LaunchReceiver"
+            android:label="LaunchReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.pyfi.beacon.ACTION_PULSE_SERVER_ALARM" />
+            </intent-filter>
+        </receiver>
         <receiver
             android:name=".StartMyServiceAtBootReceiver"
             android:label="StartMyServiceAtBootReceiver">
