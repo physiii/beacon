@@ -103,7 +103,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        //get_servers();
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
         startService(new Intent(getBaseContext(), wsService.class));
@@ -117,8 +116,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         });
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
@@ -140,6 +137,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             mService = binder.getService();
             mBound = true;
             mService.get_servers();
+            mService.isLogin = true;
         }
 
         @Override

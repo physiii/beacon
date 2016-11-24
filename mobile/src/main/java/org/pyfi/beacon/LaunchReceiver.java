@@ -15,7 +15,6 @@ public class LaunchReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        Log.i("LaunchReceiver","!! HIT !!");
         Intent serviceIntent = new Intent(context,
                 wsService.class);
         context.startService(serviceIntent);

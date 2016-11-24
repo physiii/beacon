@@ -231,16 +231,18 @@ public class HomeActivity extends AppCompatActivity
 
     Gson gson = new Gson();
 
-    public void store_trigger_location(View view) {
-        Log.i(TAG,"store_trigger_location");
-        mService.wifi_trigger_location = mService.current_wifi;
-        TextView textView = (TextView) findViewById(R.id.txtWifiTrigger);
+    public void set_trigger_location(View view) {
+        Log.i(TAG,"set_trigger");
+        mService.set_trigger();
+
+        /*TextView textView = (TextView) findViewById(R.id.txtWifiTrigger);
         textView.setText(mService.wifi_trigger_location);
         SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
         SharedPreferences.Editor editor = settings.edit();
         editor.putString("wifi_trigger_location", mService.wifi_trigger_location);
-        editor.commit();
+        editor.commit();*/
     }
+
     public void record_location(View view) {
         Map<String, Integer> recorded_location = new HashMap<>(mService.beacon_matrix);
         recorded_location = sortByValues(recorded_location);
@@ -281,7 +283,7 @@ public class HomeActivity extends AppCompatActivity
     }
 
     public void update(View view) {
-        Uri uri = Uri.parse("http://pyfi.org/php/get_ip.php?server_name=android"); // missing 'http://' will cause crashed
+        Uri uri = Uri.parse("http://24.253.223.242:8080/open-automation.org/downloads/beacon.apk"); // missing 'http://' will cause crashed
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
