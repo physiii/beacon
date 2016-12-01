@@ -75,10 +75,8 @@ public class HomeActivity extends AppCompatActivity
         String macAddress = getWifiMacAddress();
         TextView textView = (TextView) findViewById(R.id.txtMac);
         textView.setText(macAddress);
-        startTimer();
         startService(new Intent(getBaseContext(), wsService.class));
-
-
+        
         SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
         userName = settings.getString("username", "does not exist");
         token = settings.getString("token", "does not exist");
@@ -119,40 +117,7 @@ public class HomeActivity extends AppCompatActivity
         startActivity(i);
         return true;
     }
-
-    Timer timer;
-    TimerTask timerTask;
-    final Handler handler = new Handler();
-
-    public void startTimer() {
-        timer = new Timer();
-        initializeTimerTask();
-        timer.schedule(timerTask, 1000, 1000); //
-    }
-
     boolean service_connected = false;
-    public void initializeTimerTask() {
-
-        timerTask = new TimerTask() {
-            public void run() {
-
-                //use a handler to run a toast that shows the current timestamp
-                handler.post(new Runnable() {
-                    public void run() {
-                        //get the current timeStamp
-                        Calendar calendar = Calendar.getInstance();
-                        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd:MMMM:yyyy HH:mm:ss a");
-                        final String strDate = simpleDateFormat.format(calendar.getTime());
-                        if (service_connected) {
-                            String rssiString = mService.rssiString;
-                            TextView textView3 = (TextView) findViewById(R.id.textView3);
-                            textView3.setText(rssiString);
-                        }
-                    }
-                });
-            }
-        };
-    }
 
     wsService mService;
     boolean mBound = false;
@@ -231,9 +196,9 @@ public class HomeActivity extends AppCompatActivity
 
     Gson gson = new Gson();
 
-    public void set_trigger_location(View view) {
+    public void set_zone(View view) {
         Log.i(TAG,"set_trigger");
-        mService.set_trigger();
+        mService.set_zone();
 
         /*TextView textView = (TextView) findViewById(R.id.txtWifiTrigger);
         textView.setText(mService.wifi_trigger_location);

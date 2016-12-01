@@ -18,6 +18,7 @@ import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.os.Binder;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.IBinder;
 import android.support.v4.content.WakefulBroadcastReceiver;
 import android.support.v7.app.NotificationCompat;
@@ -47,6 +48,8 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
 
@@ -74,11 +77,19 @@ public class wsService extends Service implements OnPreparedListener {
     private AlarmManager alarms;
     private WifiManager wifi;
     public String current_wifi = "init";
+    Map<String, Integer> beacon_matrix = new HashMap<>();
+    Map<String, Integer> prev_beacon_matrix = new HashMap<>();
+    Map<String, Integer> delta_matrix = new HashMap<>();
+    Map<String, Integer> recorded_location = new HashMap<>();
+    String rssiString = "init";
+    String gps_string = "init";
+    private Timer timer;
+    private TimerTask timerTask;
+    private Handler handler = new Handler();
 
     /** indicates whether onRebind should be used */
     boolean mAllowRebind;
     public Socket mSocket;
-    String trigger_location = "";
     SharedPreferences hash_map;
     /** Called when the service is being created. */
     @Override
@@ -102,9 +113,7 @@ public class wsService extends Service implements OnPreparedListener {
         locationManager.requestLocationUpdates(locationProvider, 0, 0, locationListener);
 
         hash_map = getSharedPreferences("HashMap", 0);
-        String mapListString = hash_map.getString("device_trigger_locations",null);
         Type type = new TypeToken<Map<String, Integer>>(){}.getType();
-        recorded_location = gson.fromJson(mapListString, type);
     }
 
     public void get_servers() {
@@ -159,11 +168,18 @@ public class wsService extends Service implements OnPreparedListener {
         queue.add(stringRequest);
     }
 
-    public void set_trigger() {
-        String location = "{\"current_wifi\":\"" + current_wifi
+    public void set_zone() {
+        String zone = "{\"wifi\":\"" + current_wifi
+                + "\", \"token\":\"" + token
+                + "\", \"mac\":\"" + macAddress
                 + "\"}";
-        mSocket.emit("set trigger", location);
-        Log.i(TAG, "<<<<---- store_trigger ----->>> ");
+        try {
+            JSONObject data = new JSONObject(zone);
+            mSocket.emit("set zone", data);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        Log.i(TAG, "<<<<---- set_zone ----->>> ");
     }
     public void attempt_login(String user, String password) {
         String server = "http://" + webserver + ":8080/open-automation.org/php/set_mobile.php";
@@ -232,7 +248,6 @@ public class wsService extends Service implements OnPreparedListener {
     };
 
     public void send_location() {
-        // ----------------------  send location data --------------------------//
         if (mSocket != null) {
             try {
                 JSONObject data = new JSONObject(gps_string);
@@ -242,7 +257,7 @@ public class wsService extends Service implements OnPreparedListener {
             }
             Log.i(TAG, "<<<<---- set location ---->>> ");
         }
-        wifi = (WifiManager) getSystemService(Context.WIFI_SERVICE);
+        /*wifi = (WifiManager) getSystemService(Context.WIFI_SERVICE);
         wifi.startScan();
         int match_count = 0;
         delta_matrix.clear();
@@ -261,69 +276,9 @@ public class wsService extends Service implements OnPreparedListener {
         rssiString = "\n\n\n\ndelta matrix [" + match_count + "]\n";
         printMatrix(delta_matrix);
         rssiString += "\n\nrecorded matrix\n";
-        //printMatrix(recorded_location);
-        //subtract_matrix(beacon_matrix,prev_beacon_matrix);
-        prev_beacon_matrix = beacon_matrix;
-        // ------------------------------------------------------------------------//
+        prev_beacon_matrix = beacon_matrix;*/
     }
 
-    Map<String, Integer> beacon_matrix = new HashMap<>();
-    Map<String, Integer> prev_beacon_matrix = new HashMap<>();
-    Map<String, Integer> delta_matrix = new HashMap<>();
-    Map<String, Integer> recorded_location = new HashMap<>();
-
-    public void subtract_matrix(Map matrix, Map matrix2) {
-        Iterator it = matrix.entrySet().iterator();
-        while (it.hasNext()) {
-            Map.Entry pair = (Map.Entry)it.next();
-            //Log.d(TAG, " << ----- Current Matrix ----- >>" + pair.getKey() + "  " + pair.getValue());
-            rssiString += "\n" + pair.getKey() + "  " + pair.getValue() + "   " + matrix2.get(pair.getKey());
-        }
-        Iterator it2 = matrix2.entrySet().iterator();
-        while (it2.hasNext()) {
-            Map.Entry pair2 = (Map.Entry)it2.next();
-            //Log.d(TAG, " << ----- PREVIOUS Matrix ----- >>" + pair2.getKey() + "  " + pair2.getValue());
-            rssiString += "\n" + pair2.getKey() + "  " + pair2.getValue() + "   " + matrix2.get(pair2.getKey());
-        }
-    }
-
-    public void printMatrix(Map matrix) {
-        Iterator it = matrix.entrySet().iterator();
-        while (it.hasNext()) {
-            Map.Entry pair = (Map.Entry)it.next();
-            //Log.d(TAG,"printMatrix | " + pair.getKey() + "   " + pair.getValue());
-            //rssiString += "\n" + pair.getKey() + "  " + pair.getValue();
-            rssiString += "  " + pair.getValue();
-        }
-    }
-    /*public void printMatrix(Map matrix) {
-        Iterator it = matrix.entrySet().iterator();
-        while (it.hasNext()) {
-            Map.Entry pair = (Map.Entry)it.next();
-            Log.d(TAG,"printMatrix | " + pair.getKey() + "   " + pair.getValue());
-        }
-    }
-
-
-    public void subtract_matrix(Map matrix1, Map matrix2) {
-        Iterator it = matrix1.entrySet().iterator();
-        Log.d(TAG, "subtract_matrix");
-        while (it.hasNext()) {
-            Map.Entry pair = (Map.Entry)it.next();
-            it.remove(); // avoids a ConcurrentModificationException
-            Iterator it2 = matrix2.entrySet().iterator();
-            Log.d(TAG, "subtract_matrix");
-            while (it2.hasNext()) {
-                Map.Entry pair2 = (Map.Entry)it2.next();
-                int delta_value = (int)pair.getValue() - (int)pair2.getValue();
-                Log.d(TAG, "DELTA VALUE | " + String.valueOf(delta_value));
-                delta_matrix.put(pair2.getKey().toString(), (int)pair.getValue() - (int)pair2.getValue());
-                //it2.remove(); // avoids a ConcurrentModificationException
-            }
-        }
-    }*/
-
-    String rssiString = "init";
     // Binder given to clients
     private final IBinder mBinder = new LocalBinder();
 
@@ -338,24 +293,21 @@ public class wsService extends Service implements OnPreparedListener {
         }
     }
 
-    /** method for clients */
-    public String getRssi() {
-        return rssiString;
-    }
-
-
-    public void send_ping() {
-        String message = "{\"mac\":\"" + getWifiMacAddress() + "\","
-                + "\"token\":\"" + token + "\"}";
-        mSocket.emit("png_test", message);
-        Log.i(TAG, "<<<<---- SENDING PING ----->>> ");
-    }
-
     Gson gson = new Gson();
 
     private Emitter.Listener onConnect = new Emitter.Listener() {
         @Override
         public void call(final Object... args) {
+            String message = "{\"user\":\"" + userName
+                    + "\", \"token\":\"" + token
+                    + "\", \"mac\":\"" + macAddress
+                    + "\"}";
+            try {
+                JSONObject data = new JSONObject(message);
+                mSocket.emit("link mobile", data);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
             Log.i(TAG, "<<<<---- !! RECONNECTING !! ----->>> ");
         }
     };
@@ -363,6 +315,7 @@ public class wsService extends Service implements OnPreparedListener {
     private Emitter.Listener onDisconnect = new Emitter.Listener() {
         @Override
         public void call(final Object... args) {
+            get_servers();
             Log.i(TAG, "<<<<---- !! DISCONNECTED !! ----->>> ");
         }
     };
@@ -399,7 +352,6 @@ public class wsService extends Service implements OnPreparedListener {
         }
     };
 
-    String gps_string = "HELLO FROM DROID";
     private void handleNewLocation(Location location) {
         wifi = (WifiManager) getSystemService(Context.WIFI_SERVICE);
         WifiInfo info = wifi.getConnectionInfo ();
@@ -423,15 +375,12 @@ public class wsService extends Service implements OnPreparedListener {
                 + "\"}";
     }
 
-    // Define a listener that responds to location updates
     LocationListener locationListener = new LocationListener() {
         public void onLocationChanged(Location location) {
             handleNewLocation(location);
         }
         public void onStatusChanged(String provider, int status, Bundle extras) {}
-
         public void onProviderEnabled(String provider) {}
-
         public void onProviderDisabled(String provider) {}
     };
 
@@ -449,35 +398,6 @@ public class wsService extends Service implements OnPreparedListener {
         Log.i(TAG, "<<<<---- STOP PING ----->>> ");
         mp.stop();
         sound_stopped = true;
-    }
-
-    public class MyWakefulReceiver extends WakefulBroadcastReceiver {
-
-        @Override
-        public void onReceive(Context context, Intent intent) {
-
-            // Start the service, keeping the device awake while the service is
-            // launching. This is the Intent to deliver to the service.
-            Intent service = new Intent(context, MyIntentService.class);
-            startWakefulService(context, service);
-        }
-    }
-
-    public class MyIntentService extends IntentService {
-        public static final int NOTIFICATION_ID = 1;
-        private NotificationManager mNotificationManager;
-        NotificationCompat.Builder builder;
-        public MyIntentService() {
-            super("MyIntentService");
-        }
-        @Override
-        protected void onHandleIntent(Intent intent) {
-            Bundle extras = intent.getExtras();
-            // Do the work that requires your app to keep the CPU running.
-            // ...
-            // Release the wake lock provided by the WakefulBroadcastReceiver.
-            MyWakefulReceiver.completeWakefulIntent(intent);
-        }
     }
 
     public static String getWifiMacAddress() {
@@ -507,13 +427,130 @@ public class wsService extends Service implements OnPreparedListener {
         return "";
     }
 
+
+    private void stopTimer(){
+        if(timer != null){
+            timer.cancel();
+            timer.purge();
+        }
+    }
+
+    private void startTimer(){
+        timer = new Timer();
+        timerTask = new TimerTask() {
+            public void run() {
+                handler.post(new Runnable() {
+                    public void run(){
+                        send_location();
+                    }
+                });
+            }
+        };
+        timer.schedule(timerTask, 8000, 8000);
+    }
+
+        /*public class MyWakefulReceiver extends WakefulBroadcastReceiver {
+
+        @Override
+        public void onReceive(Context context, Intent intent) {
+
+            // Start the service, keeping the device awake while the service is
+            // launching. This is the Intent to deliver to the service.
+            Intent service = new Intent(context, MyIntentService.class);
+            startWakefulService(context, service);
+        }
+    }
+
+    public class MyIntentService extends IntentService {
+        public static final int NOTIFICATION_ID = 1;
+        private NotificationManager mNotificationManager;
+        NotificationCompat.Builder builder;
+        public MyIntentService() {
+            super("MyIntentService");
+        }
+        @Override
+        protected void onHandleIntent(Intent intent) {
+            Bundle extras = intent.getExtras();
+            // Do the work that requires your app to keep the CPU running.
+            // ...
+            // Release the wake lock provided by the WakefulBroadcastReceiver.
+            MyWakefulReceiver.completeWakefulIntent(intent);
+        }
+    }*/
+
+        /*public void printMatrix(Map matrix) {
+        Iterator it = matrix.entrySet().iterator();
+        while (it.hasNext()) {
+            Map.Entry pair = (Map.Entry)it.next();
+            Log.d(TAG,"printMatrix | " + pair.getKey() + "   " + pair.getValue());
+        }
+    }
+
+
+
+    public void subtract_matrix(Map matrix1, Map matrix2) {
+        Iterator it = matrix1.entrySet().iterator();
+        Log.d(TAG, "subtract_matrix");
+        while (it.hasNext()) {
+            Map.Entry pair = (Map.Entry)it.next();
+            it.remove(); // avoids a ConcurrentModificationException
+            Iterator it2 = matrix2.entrySet().iterator();
+            Log.d(TAG, "subtract_matrix");
+            while (it2.hasNext()) {
+                Map.Entry pair2 = (Map.Entry)it2.next();
+                int delta_value = (int)pair.getValue() - (int)pair2.getValue();
+                Log.d(TAG, "DELTA VALUE | " + String.valueOf(delta_value));
+                delta_matrix.put(pair2.getKey().toString(), (int)pair.getValue() - (int)pair2.getValue());
+                //it2.remove(); // avoids a ConcurrentModificationException
+            }
+        }
+    }*/
+
+    public void subtract_matrix(Map matrix, Map matrix2) {
+        Iterator it = matrix.entrySet().iterator();
+        while (it.hasNext()) {
+            Map.Entry pair = (Map.Entry)it.next();
+            //Log.d(TAG, " << ----- Current Matrix ----- >>" + pair.getKey() + "  " + pair.getValue());
+            rssiString += "\n" + pair.getKey() + "  " + pair.getValue() + "   " + matrix2.get(pair.getKey());
+        }
+        Iterator it2 = matrix2.entrySet().iterator();
+        while (it2.hasNext()) {
+            Map.Entry pair2 = (Map.Entry)it2.next();
+            //Log.d(TAG, " << ----- PREVIOUS Matrix ----- >>" + pair2.getKey() + "  " + pair2.getValue());
+            rssiString += "\n" + pair2.getKey() + "  " + pair2.getValue() + "   " + matrix2.get(pair2.getKey());
+        }
+    }
+
+    public void printMatrix(Map matrix) {
+        Iterator it = matrix.entrySet().iterator();
+        while (it.hasNext()) {
+            Map.Entry pair = (Map.Entry)it.next();
+            //Log.d(TAG,"printMatrix | " + pair.getKey() + "   " + pair.getValue());
+            //rssiString += "\n" + pair.getKey() + "  " + pair.getValue();
+            rssiString += "  " + pair.getValue();
+        }
+    }
+
+    /** method for clients */
+    public String getRssi() {
+        return rssiString;
+    }
+
+
+    public void send_ping() {
+        String message = "{\"mac\":\"" + getWifiMacAddress() + "\","
+                + "\"token\":\"" + token + "\"}";
+        mSocket.emit("png_test", message);
+        Log.i(TAG, "<<<<---- SENDING PING ----->>> ");
+    }
     public void onPrepared(MediaPlayer player) {
         player.start();
     }
     /** The service is starting, due to a call to startService() */
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        send_location();
+        stopTimer();
+        startTimer();
         return START_STICKY;
     }
 
