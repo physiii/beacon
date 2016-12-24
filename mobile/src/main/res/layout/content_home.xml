@@ -69,4 +69,16 @@
         android:layout_alignBottom="@+id/btnZone1"
         android:layout_alignParentEnd="true" />
 
+    <TextView
+        android:text="Loading data..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLocationData"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:textColor="#cfcccc"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnZone1"
+        android:layout_above="@+id/button7" />
+
 </RelativeLayout>

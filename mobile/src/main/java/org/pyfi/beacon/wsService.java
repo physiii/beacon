@@ -1,12 +1,12 @@
 package org.pyfi.beacon;
 
 import android.app.AlarmManager;
-import android.app.IntentService;
-import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.location.Location;
 import android.location.LocationListener;
@@ -20,8 +20,10 @@ import android.os.Binder;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
-import android.support.v4.content.WakefulBroadcastReceiver;
-import android.support.v7.app.NotificationCompat;
+import android.telephony.CellInfoLte;
+import android.telephony.CellInfoWcdma;
+import android.telephony.CellSignalStrengthLte;
+import android.telephony.TelephonyManager;
 import android.util.Log;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -87,13 +89,17 @@ public class wsService extends Service implements OnPreparedListener {
     private TimerTask timerTask;
     private Handler handler = new Handler();
 
+
     /** indicates whether onRebind should be used */
     boolean mAllowRebind;
     public Socket mSocket;
     SharedPreferences hash_map;
+
+
     /** Called when the service is being created. */
     @Override
     public void onCreate() {
+
         super.onCreate();
         Intent intentOnAlarm = new Intent(
                 LaunchReceiver.ACTION_PULSE_SERVER_ALARM);
@@ -143,6 +149,7 @@ public class wsService extends Service implements OnPreparedListener {
                                 String message = "{\"user\":\"" + userName
                                         + "\", \"token\":\"" + token
                                         + "\", \"mac\":\"" + macAddress
+                                        + "\", \"device_type\":['mobile']"
                                         + "\"}";
                                 try {
                                     JSONObject data = new JSONObject(message);
@@ -224,6 +231,7 @@ public class wsService extends Service implements OnPreparedListener {
         String message = "{\"user\":\"" + userName
                 + "\", \"token\":\"" + token
                 + "\", \"mac\":\"" + macAddress
+                + "\", \"device_type\":['mobile']"
                 + "\"}";
         try {
             JSONObject data = new JSONObject(message);
@@ -250,12 +258,16 @@ public class wsService extends Service implements OnPreparedListener {
     public void send_location() {
         if (mSocket != null) {
             try {
+                Intent local = new Intent();
+                local.setAction("com.hello.action");
+                local.putExtra("location_data", gps_string);
+                this.sendBroadcast(local);
                 JSONObject data = new JSONObject(gps_string);
                 mSocket.emit("set location", data);
+                Log.i(TAG, "<<<<---- set location ---->>> " + data);
             } catch (JSONException e) {
                 e.printStackTrace();
             }
-            Log.i(TAG, "<<<<---- set location ---->>> ");
         }
         /*wifi = (WifiManager) getSystemService(Context.WIFI_SERVICE);
         wifi.startScan();
@@ -295,15 +307,19 @@ public class wsService extends Service implements OnPreparedListener {
 
     Gson gson = new Gson();
 
+
     private Emitter.Listener onConnect = new Emitter.Listener() {
         @Override
         public void call(final Object... args) {
+            //String[] device_type = {"mobile"};
             String message = "{\"user\":\"" + userName
                     + "\", \"token\":\"" + token
                     + "\", \"mac\":\"" + macAddress
-                    + "\"}";
+                    + "\", \"device_type\":['mobile']"
+                    + "}";
             try {
                 JSONObject data = new JSONObject(message);
+                Log.i(TAG,"MESSAGE " + message);
                 mSocket.emit("link mobile", data);
             } catch (JSONException e) {
                 e.printStackTrace();
@@ -352,7 +368,14 @@ public class wsService extends Service implements OnPreparedListener {
         }
     };
 
+
     private void handleNewLocation(Location location) {
+        TelephonyManager telephonyManager = (TelephonyManager)this.getSystemService(Context.TELEPHONY_SERVICE);
+        // for example value of first element
+        CellInfoLte cellinfolte = (CellInfoLte)telephonyManager.getAllCellInfo().get(0);
+        CellSignalStrengthLte cellinfoLte = cellinfolte.getCellSignalStrength();
+        //Log.i(TAG, "<< !! CELLINFOLTE !! >> " + String.valueOf(cellinfolte));
+        //int cell_signal_level = cellinfoLte.getDbm();
         wifi = (WifiManager) getSystemService(Context.WIFI_SERVICE);
         WifiInfo info = wifi.getConnectionInfo ();
         current_wifi  = info.getSSID().replace("\"","");
@@ -366,6 +389,7 @@ public class wsService extends Service implements OnPreparedListener {
                 + "\", \"email\":\"" + userName
                 + "\", \"token\":\"" + token
                 + "\", \"time\":\"" + time
+                + "\", \"cell_signal_level\":\"" + cellinfoLte.getDbm()
                 + "\", \"current_wifi\":\"" + current_wifi
                 + "\", \"longitude\":\"" + longitude
                 + "\", \"latitude\":\"" + latitude

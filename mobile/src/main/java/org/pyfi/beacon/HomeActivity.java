@@ -1,8 +1,10 @@
 package org.pyfi.beacon;
 
+import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.ServiceConnection;
 import android.content.SharedPreferences;
 import android.net.Uri;
@@ -67,7 +69,7 @@ public class HomeActivity extends AppCompatActivity
      * See https://g.co/AppIndexing/AndroidStudio for more information.
      */
     private GoogleApiClient client;
-
+    BroadcastReceiver updateUIReceiver;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -76,6 +78,23 @@ public class HomeActivity extends AppCompatActivity
         TextView textView = (TextView) findViewById(R.id.txtMac);
         textView.setText(macAddress);
         startService(new Intent(getBaseContext(), wsService.class));
+
+
+        IntentFilter filter = new IntentFilter();
+
+        filter.addAction("com.hello.action");
+
+        updateUIReceiver = new BroadcastReceiver() {
+
+            @Override
+            public void onReceive(Context context, Intent intent) {
+                //UI update here
+                String location_data = intent.getExtras().getString("location_data");
+                TextView txtSignalLevel = (TextView) findViewById(R.id.txtLocationData);
+                txtSignalLevel.setText(location_data);
+            }
+        };
+        registerReceiver(updateUIReceiver,filter);
         
         SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
         userName = settings.getString("username", "does not exist");
