@@ -1,12 +1,13 @@
 <resources>
     <string name="app_name">Beacon</string>
-    <string name="title_activity_maps">Beacon</string>
-    <string name="title_activity_main">MainActivity</string>
-    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="title_activity_main">open-automation</string>
+    <string name="title_activity_main2">open-automation2</string>
     <string name="appwidget_text">Beacon</string>
     <string name="configure">Choose a device...</string>
     <string name="add_widget">Add widget</string>
     <string name="title_activity_login">Beacon</string>
+    <string name="version_number">0.2.0</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>

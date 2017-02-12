@@ -57,8 +57,9 @@ import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
 
 public class wsService extends Service implements OnPreparedListener {
 
-    public static final String PREFS_NAME = "MyPrefsFile";
+    String SERVER_MODE = "development";
 
+    public static final String PREFS_NAME = "MyPrefsFile";
     double longitude = 0;
     double latitude = 0;
     long time = 0;
@@ -73,7 +74,7 @@ public class wsService extends Service implements OnPreparedListener {
     private LocationRequest mLocationRequest;
     MediaPlayer mp;
     String io_server = "init";
-    String webserver = "24.253.223.242";
+    //String webserver = "24.253.223.242";
     String macAddress = getWifiMacAddress();
     private PendingIntent alarmIntent;
     private AlarmManager alarms;
@@ -122,9 +123,15 @@ public class wsService extends Service implements OnPreparedListener {
         Type type = new TypeToken<Map<String, Integer>>(){}.getType();
     }
 
+    String url = "init";
     public void get_servers() {
+        if (SERVER_MODE.equals("development")) {
+            url ="http://pyfi.org/php/get_ip.php?server_name=socket_io_dev";
+        }
+        if (SERVER_MODE.equals("production")) {
+            url ="http://pyfi.org/php/get_ip.php?server_name=socket_io";
+        }
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url ="http://pyfi.org/php/get_ip.php?server_name=socket_io";
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
                     @Override
@@ -132,16 +139,17 @@ public class wsService extends Service implements OnPreparedListener {
                         // Display the first 500 characters of the response string.
                         try {
                             io_server = response;
-                            mSocket = IO.socket("http://"+io_server);
+                            mSocket = IO.socket("http://"+io_server+":5000");
                             mSocket.connect();
                             Log.d(TAG, "-- Starting wsService --" + io_server);
-                            try {
-                                mSocket = IO.socket("http://"+io_server);
+                            //try {
+                                //mSocket = IO.socket("http://"+io_server+":5000");
                                 mSocket.on(Socket.EVENT_DISCONNECT,onDisconnect);
                                 mSocket.on(Socket.EVENT_CONNECT,onConnect);
                                 mSocket.on("token",onToken);
+                                mSocket.on("command",onCommand);
                                 mSocket.on("link mobile",link_mobile);
-                            } catch (URISyntaxException e) {}
+                            //} catch (URISyntaxException e) {}
                             SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
                             userName = settings.getString("username", "Please enter a username");
                             token = settings.getString("token", "no token");
@@ -150,7 +158,7 @@ public class wsService extends Service implements OnPreparedListener {
                                         + "\", \"token\":\"" + token
                                         + "\", \"mac\":\"" + macAddress
                                         + "\", \"device_type\":['mobile']"
-                                        + "\"}";
+                                        + "}";
                                 try {
                                     JSONObject data = new JSONObject(message);
                                     mSocket.emit("link mobile", data);
@@ -189,15 +197,15 @@ public class wsService extends Service implements OnPreparedListener {
         Log.i(TAG, "<<<<---- set_zone ----->>> ");
     }
     public void attempt_login(String user, String password) {
-        String server = "http://" + webserver + ":8080/open-automation.org/php/set_mobile.php";
-        String message = "{\"user\":\"" + user
+        //String server = "http://" + webserver + ":8080/open-automation.org/php/set_mobile.php";
+        String message = "{\"username\":\"" + user
                 + "\", \"password\":\"" + password
                 + "\", \"mac\":\"" + macAddress
-                + "\", \"server\":\"" + server
+                //+ "\", \"server\":\"" + server
                 + "\"}";
         try {
             JSONObject data = new JSONObject(message);
-            mSocket.emit("set mobile", data);
+            mSocket.emit("login mobile", data);
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -209,10 +217,10 @@ public class wsService extends Service implements OnPreparedListener {
         @Override
         public void call(final Object... args) {
             try {
-                //JSONObject data = (JSONObject) args[0];
-                JSONObject data = new JSONObject((String) args[0]);
+                JSONObject data = (JSONObject) args[0];
+                //JSONObject data = new JSONObject((String) args[0]);
                 token = data.getString("token");
-                userName = data.getString("email");
+                userName = data.getString("user");
                 store_token(userName, token);
             } catch (JSONException e) {
                 Log.i(TAG, "<<<<---- ERROR ----->>> " + e);
@@ -232,7 +240,7 @@ public class wsService extends Service implements OnPreparedListener {
                 + "\", \"token\":\"" + token
                 + "\", \"mac\":\"" + macAddress
                 + "\", \"device_type\":['mobile']"
-                + "\"}";
+                + "}";
         try {
             JSONObject data = new JSONObject(message);
             mSocket.emit("link mobile", data);
@@ -369,13 +377,16 @@ public class wsService extends Service implements OnPreparedListener {
     };
 
 
+    int cell_signal_level = 0;
     private void handleNewLocation(Location location) {
         TelephonyManager telephonyManager = (TelephonyManager)this.getSystemService(Context.TELEPHONY_SERVICE);
         // for example value of first element
-        CellInfoLte cellinfolte = (CellInfoLte)telephonyManager.getAllCellInfo().get(0);
-        CellSignalStrengthLte cellinfoLte = cellinfolte.getCellSignalStrength();
-        //Log.i(TAG, "<< !! CELLINFOLTE !! >> " + String.valueOf(cellinfolte));
-        //int cell_signal_level = cellinfoLte.getDbm();
+        try {
+            CellInfoLte cellinfolte = (CellInfoLte)telephonyManager.getAllCellInfo().get(0);
+            CellSignalStrengthLte cellinfoLte = cellinfolte.getCellSignalStrength();
+            cell_signal_level = cellinfoLte.getDbm();
+        } catch (Exception ex) { } // for now eat exceptions
+
         wifi = (WifiManager) getSystemService(Context.WIFI_SERVICE);
         WifiInfo info = wifi.getConnectionInfo ();
         current_wifi  = info.getSSID().replace("\"","");
@@ -387,9 +398,10 @@ public class wsService extends Service implements OnPreparedListener {
         bearing = location.getBearing();
         gps_string = "{ \"mac\":\"" + macAddress
                 + "\", \"email\":\"" + userName
-                + "\", \"token\":\"" + token
+                + "\", \"device_type\":['mobile']"
+                + ", \"token\":\"" + token
                 + "\", \"time\":\"" + time
-                + "\", \"cell_signal_level\":\"" + cellinfoLte.getDbm()
+                + "\", \"cell_signal_level\":\"" + cell_signal_level
                 + "\", \"current_wifi\":\"" + current_wifi
                 + "\", \"longitude\":\"" + longitude
                 + "\", \"latitude\":\"" + latitude
