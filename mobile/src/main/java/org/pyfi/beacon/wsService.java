@@ -42,6 +42,7 @@ import com.google.gson.reflect.TypeToken;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.lang.reflect.Array;
 import java.lang.reflect.Type;
 import java.net.NetworkInterface;
 import java.net.URISyntaxException;
@@ -57,7 +58,7 @@ import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
 
 public class wsService extends Service implements OnPreparedListener {
 
-    String SERVER_MODE = "development";
+    String SERVER_MODE = "prod";
 
     public static final String PREFS_NAME = "MyPrefsFile";
     double longitude = 0;
@@ -70,6 +71,7 @@ public class wsService extends Service implements OnPreparedListener {
     boolean isLogin = false;
     String userName = "init";
     String token = "init";
+    String user_token = "init";
     public static final String TAG = wsService.class.getSimpleName();
     private LocationRequest mLocationRequest;
     MediaPlayer mp;
@@ -79,23 +81,23 @@ public class wsService extends Service implements OnPreparedListener {
     private PendingIntent alarmIntent;
     private AlarmManager alarms;
     private WifiManager wifi;
-    public String current_wifi = "init";
+    public String connected_wifi = "init";
     Map<String, Integer> beacon_matrix = new HashMap<>();
     Map<String, Integer> prev_beacon_matrix = new HashMap<>();
     Map<String, Integer> delta_matrix = new HashMap<>();
     Map<String, Integer> recorded_location = new HashMap<>();
+
     String rssiString = "init";
-    String gps_string = "init";
+    String location_string = "init";
     private Timer timer;
     private TimerTask timerTask;
     private Handler handler = new Handler();
-
+    boolean ws_connected = false;
 
     /** indicates whether onRebind should be used */
     boolean mAllowRebind;
     public Socket mSocket;
     SharedPreferences hash_map;
-
 
     /** Called when the service is being created. */
     @Override
@@ -109,7 +111,12 @@ public class wsService extends Service implements OnPreparedListener {
         alarms.setRepeating(AlarmManager.RTC_WAKEUP, System.currentTimeMillis(),
                 10*1000, alarmIntent);
 
-        get_servers();
+        try {
+            connect_to_io();
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+        }
+
         mp = MediaPlayer.create(this, R.raw.led);
         String locationProvider = LocationManager.NETWORK_PROVIDER;
         mLocationRequest = LocationRequest.create() // Create the LocationRequest object
@@ -123,49 +130,68 @@ public class wsService extends Service implements OnPreparedListener {
         Type type = new TypeToken<Map<String, Integer>>(){}.getType();
     }
 
-    String url = "init";
-    public void get_servers() {
-        if (SERVER_MODE.equals("development")) {
-            url ="http://pyfi.org/php/get_ip.php?server_name=socket_io_dev";
+    public void connect_to_io() throws URISyntaxException {
+        if (SERVER_MODE.equals("dev")) {
+            //url ="http://pyfi.org/get_ip?server_type=dev";
+            io_server = "dev.pyfi.org";
         }
-        if (SERVER_MODE.equals("production")) {
-            url ="http://pyfi.org/php/get_ip.php?server_name=socket_io";
+        if (SERVER_MODE.equals("prod")) {
+            //url ="http://pyfi.org/get_ip?server_type=prod";
+            io_server = "pyfi.org";
+        }
+        try {
+            mSocket = IO.socket("http://"+io_server+"");
+            mSocket.connect();
+            Log.d(TAG, "-- Starting wsService --" + io_server);
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+        }
+        mSocket.on(Socket.EVENT_DISCONNECT,onDisconnect);
+        mSocket.on(Socket.EVENT_CONNECT,onConnect);
+        mSocket.on("login",login);
+        mSocket.on("link device",link_device);
+        //mSocket.on("get token",onToken);
+        mSocket.on("ping audio",ping_audio);
+        SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
+        userName = settings.getString("username", "Please enter a username");
+        user_token = settings.getString("user_token", "no user_token");
+        token = settings.getString("token", "no token");
+        if (!token.equals("no device_token")) {
+            link_device();
+            Log.i(TAG, "<<<<---- " + userName + ":" + token + " ---->>> ");
+        } else {
+            Log.i(TAG, "<<<<---- no token ---->>> ");
+        }
+    }
+    /*public void get_servers() {
+        if (SERVER_MODE.equals("dev")) {
+            url ="http://pyfi.org/get_ip?server_type=dev";
+        }
+        if (SERVER_MODE.equals("prod")) {
+            url ="http://pyfi.org/get_ip?server_type=prod";
         }
         RequestQueue queue = Volley.newRequestQueue(this);
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
-                        // Display the first 500 characters of the response string.
                         try {
                             io_server = response;
-                            mSocket = IO.socket("http://"+io_server+":5000");
+                            mSocket = IO.socket("http://"+io_server+"");
                             mSocket.connect();
                             Log.d(TAG, "-- Starting wsService --" + io_server);
-                            //try {
-                                //mSocket = IO.socket("http://"+io_server+":5000");
-                                mSocket.on(Socket.EVENT_DISCONNECT,onDisconnect);
-                                mSocket.on(Socket.EVENT_CONNECT,onConnect);
-                                mSocket.on("token",onToken);
-                                mSocket.on("command",onCommand);
-                                mSocket.on("link mobile",link_mobile);
-                            //} catch (URISyntaxException e) {}
+                            mSocket.on(Socket.EVENT_DISCONNECT,onDisconnect);
+                            mSocket.on(Socket.EVENT_CONNECT,onConnect);
+                            mSocket.on("login",login);
+                            mSocket.on("link device",link_device);
+                            //mSocket.on("get token",onToken);
+                            mSocket.on("ping audio",ping_audio);
                             SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
                             userName = settings.getString("username", "Please enter a username");
+                            user_token = settings.getString("user_token", "no user_token");
                             token = settings.getString("token", "no token");
-                            if (!token.equals("no token")) {
-                                String message = "{\"user\":\"" + userName
-                                        + "\", \"token\":\"" + token
-                                        + "\", \"mac\":\"" + macAddress
-                                        + "\", \"device_type\":['mobile']"
-                                        + "}";
-                                try {
-                                    JSONObject data = new JSONObject(message);
-                                    mSocket.emit("link mobile", data);
-                                } catch (JSONException e) {
-                                    e.printStackTrace();
-                                }
-
+                            if (!token.equals("no device_token")) {
+                                link_device();
                                 Log.i(TAG, "<<<<---- " + userName + ":" + token + " ---->>> ");
                             } else {
                                 Log.i(TAG, "<<<<---- no token ---->>> ");
@@ -181,10 +207,10 @@ public class wsService extends Service implements OnPreparedListener {
             }
         });
         queue.add(stringRequest);
-    }
+    }*/
 
     public void set_zone() {
-        String zone = "{\"wifi\":\"" + current_wifi
+        String zone = "{\"wifi\":\"" + connected_wifi
                 + "\", \"token\":\"" + token
                 + "\", \"mac\":\"" + macAddress
                 + "\"}";
@@ -197,15 +223,17 @@ public class wsService extends Service implements OnPreparedListener {
         Log.i(TAG, "<<<<---- set_zone ----->>> ");
     }
     public void attempt_login(String user, String password) {
-        //String server = "http://" + webserver + ":8080/open-automation.org/php/set_mobile.php";
-        String message = "{\"username\":\"" + user
-                + "\", \"password\":\"" + password
-                + "\", \"mac\":\"" + macAddress
-                //+ "\", \"server\":\"" + server
-                + "\"}";
+        SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
+        SharedPreferences.Editor editor = settings.edit();
+        editor.putString("username", user);
+        editor.commit();
+
         try {
-            JSONObject data = new JSONObject(message);
-            mSocket.emit("login mobile", data);
+            JSONObject login_obj = new JSONObject("{\"device_type\":['mobile']}");
+            login_obj.put("username",user);
+            login_obj.put("password",password);
+            login_obj.put("mac",macAddress);
+            mSocket.emit("login", login_obj);
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -213,47 +241,25 @@ public class wsService extends Service implements OnPreparedListener {
     }
 
 
-    private Emitter.Listener onToken = new Emitter.Listener() {
+    /*private Emitter.Listener onToken = new Emitter.Listener() {
         @Override
         public void call(final Object... args) {
             try {
                 JSONObject data = (JSONObject) args[0];
-                //JSONObject data = new JSONObject((String) args[0]);
                 token = data.getString("token");
                 userName = data.getString("user");
-                store_token(userName, token);
+
+                SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
+                SharedPreferences.Editor editor = settings.edit();
+                editor.putString("token", token);
+                editor.commit();
+                Log.i(TAG, "<<<<---- set token ----->>> " + userName);
+
             } catch (JSONException e) {
                 Log.i(TAG, "<<<<---- ERROR ----->>> " + e);
                 return;
             }
-        }
-    };
 
-    private boolean store_token(String user, String token) {
-        SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
-        SharedPreferences.Editor editor = settings.edit();
-        editor.putString("token", token);
-        editor.putString("username", user);
-        editor.commit();
-        //Log.i(TAG, "<<<<---- set token ----->>> " + user);
-        String message = "{\"user\":\"" + userName
-                + "\", \"token\":\"" + token
-                + "\", \"mac\":\"" + macAddress
-                + "\", \"device_type\":['mobile']"
-                + "}";
-        try {
-            JSONObject data = new JSONObject(message);
-            mSocket.emit("link mobile", data);
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-        return true;
-    }
-
-    private Emitter.Listener link_mobile = new Emitter.Listener() {
-        @Override
-        public void call(final Object... args) {
-            Log.i(TAG, "<<<<---- link_mobile ----->>> " + args[0]);
             if (isLogin) {
                 Intent i = new Intent(getApplicationContext(), HomeActivity.class);
                 i.addFlags(FLAG_ACTIVITY_NEW_TASK);
@@ -261,18 +267,47 @@ public class wsService extends Service implements OnPreparedListener {
                 //isLogin = false;
             }
         }
+    };*/
+
+    private Emitter.Listener login = new Emitter.Listener() {
+        @Override
+        public void call(final Object... args) {
+            try {
+                JSONObject data = (JSONObject) args[0];
+                token = data.getString("token");
+                user_token = data.getString("user_token");
+                userName = data.getString("username");
+                SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
+                SharedPreferences.Editor editor = settings.edit();
+                editor.putString("username", userName);
+                editor.putString("token", token);
+                editor.putString("user_token", user_token);
+                editor.commit();
+                Log.i(TAG, "<<<<---- login ----->>> " + token);
+                link_device();
+            } catch (JSONException e) {
+                Log.i(TAG, "<<<<---- ERROR ----->>> " + e);
+                return;
+            }
+        }
     };
 
-    public void send_location() {
+    public void send_location(String location_string) {
         if (mSocket != null) {
             try {
                 Intent local = new Intent();
                 local.setAction("com.hello.action");
-                local.putExtra("location_data", gps_string);
+                local.putExtra("location_data", location_string);
                 this.sendBroadcast(local);
-                JSONObject data = new JSONObject(gps_string);
+                JSONObject location_obj = new JSONObject(location_string);
+                JSONObject data = new JSONObject();
+                data.put("mac",macAddress);
+                data.put("email",userName);
+                data.put("device_type","['mobile']");
+                data.put("token",token);
+                data.put("location",location_obj);
                 mSocket.emit("set location", data);
-                Log.i(TAG, "<<<<---- set location ---->>> " + data);
+                Log.i(TAG, "<<<<---- set location ---->>> ");
             } catch (JSONException e) {
                 e.printStackTrace();
             }
@@ -319,19 +354,8 @@ public class wsService extends Service implements OnPreparedListener {
     private Emitter.Listener onConnect = new Emitter.Listener() {
         @Override
         public void call(final Object... args) {
-            //String[] device_type = {"mobile"};
-            String message = "{\"user\":\"" + userName
-                    + "\", \"token\":\"" + token
-                    + "\", \"mac\":\"" + macAddress
-                    + "\", \"device_type\":['mobile']"
-                    + "}";
-            try {
-                JSONObject data = new JSONObject(message);
-                Log.i(TAG,"MESSAGE " + message);
-                mSocket.emit("link mobile", data);
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
+            ws_connected = true;
+            link_device();
             Log.i(TAG, "<<<<---- !! RECONNECTING !! ----->>> ");
         }
     };
@@ -339,70 +363,88 @@ public class wsService extends Service implements OnPreparedListener {
     private Emitter.Listener onDisconnect = new Emitter.Listener() {
         @Override
         public void call(final Object... args) {
-            get_servers();
+            ws_connected = false;
             Log.i(TAG, "<<<<---- !! DISCONNECTED !! ----->>> ");
         }
     };
 
-    private Emitter.Listener onCommand = new Emitter.Listener() {
+    private Emitter.Listener link_device = new Emitter.Listener() {
+        @Override
+        public void call(final Object... args) {
+            if (isLogin) {
+                Intent i = new Intent(getApplicationContext(), HomeActivity.class);
+                i.addFlags(FLAG_ACTIVITY_NEW_TASK);
+                startActivity(i);
+            }
+            Log.i(TAG, "<<<<---- link_device ----->>> ");
+        }
+    };
+
+    private Emitter.Listener ping_audio = new Emitter.Listener() {
         @Override
         public void call(final Object... args) {
             JSONObject data = (JSONObject)args[0];
             String command = null;
-            String png = null;
             try {
                 command = data.getString("command");
             } catch (JSONException e) {
                 e.printStackTrace();
             }
             Log.i(TAG, "<<<<---- RECEIVING COMMAND ----->>> " + command);
-            if (command.equals("ping_audio_start")) {
+            if (command.equals("start")) {
                 AudioManager audioManager =
                         (AudioManager)getSystemService(Context.AUDIO_SERVICE);
-
                 audioManager.setStreamVolume(AudioManager.STREAM_MUSIC,95,1);
                 start_sound();
             }
-            if (command.equals("ping_audio_stop")) {
+            if (command.equals("stop")) {
                 stop_sound();
-            }
-            if (command.equals("ping_gps")) {
-                Log.i(TAG, "<<<<---- RESPONDING GPS REQUEST ----->>> ");
-                mSocket.emit("from_mobile", gps_string);
-            }
-            if (command.equals("ping")) {
-                Log.i(TAG, "<<<<---- received ping ----->>> ");
             }
         }
     };
 
-
-    int cell_signal_level = 0;
+    public void link_device() {
+        try {
+            JSONObject device_obj = new JSONObject("{\"device_type\":['mobile']}");
+            device_obj.put("user_token",user_token);
+            device_obj.put("username",userName);
+            device_obj.put("token",token);
+            device_obj.put("mac",macAddress);
+            mSocket.emit("link device", device_obj);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
     private void handleNewLocation(Location location) {
         TelephonyManager telephonyManager = (TelephonyManager)this.getSystemService(Context.TELEPHONY_SERVICE);
+        //Map<String, Integer> current_wifi = new HashMap<>();
+        int cell_signal_level = 0;
         // for example value of first element
         try {
             CellInfoLte cellinfolte = (CellInfoLte)telephonyManager.getAllCellInfo().get(0);
             CellSignalStrengthLte cellinfoLte = cellinfolte.getCellSignalStrength();
             cell_signal_level = cellinfoLte.getDbm();
+            Log.i(TAG,cellinfoLte.toString());
         } catch (Exception ex) { } // for now eat exceptions
 
-        wifi = (WifiManager) getSystemService(Context.WIFI_SERVICE);
+        /*for (int i = 0; i < wifi.getScanResults().size(); i++){
+            Log.i(TAG,wifi.getScanResults());
+            current_wifi.put(wifi.getScanResults().get(i).BSSID, wifi.getScanResults().get(i).level);
+        }*/
+        wifi = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
         WifiInfo info = wifi.getConnectionInfo ();
-        current_wifi  = info.getSSID().replace("\"","");
+        connected_wifi  = info.getSSID().replace("\"","");
         longitude = location.getLongitude();
         latitude = location.getLatitude();
         time = location.getTime();
         speed = location.getSpeed();
         accuracy = location.getAccuracy();
         bearing = location.getBearing();
-        gps_string = "{ \"mac\":\"" + macAddress
-                + "\", \"email\":\"" + userName
-                + "\", \"device_type\":['mobile']"
-                + ", \"token\":\"" + token
-                + "\", \"time\":\"" + time
+        location_string = "{\"time\":\"" + time
                 + "\", \"cell_signal_level\":\"" + cell_signal_level
-                + "\", \"current_wifi\":\"" + current_wifi
+                + "\", \"cell_type\":\"" + cell_signal_level
+                + "\", \"connected_wifi\":\"" + connected_wifi
+                //+ "\", \"wifi_scan\":\"" + wifi.getScanResults().toString()
                 + "\", \"longitude\":\"" + longitude
                 + "\", \"latitude\":\"" + latitude
                 + "\", \"speed\":\"" + speed
@@ -477,7 +519,16 @@ public class wsService extends Service implements OnPreparedListener {
             public void run() {
                 handler.post(new Runnable() {
                     public void run(){
-                        send_location();
+                        if (ws_connected) {
+                            send_location(location_string);
+                        } else {
+                            try {
+                                connect_to_io();
+                            } catch (URISyntaxException e) {
+                                e.printStackTrace();
+                            }
+                        }
+
                     }
                 });
             }

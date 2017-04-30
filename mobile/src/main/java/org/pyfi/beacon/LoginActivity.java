@@ -136,7 +136,11 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             wsService.LocalBinder binder = (wsService.LocalBinder) service;
             mService = binder.getService();
             mBound = true;
-            mService.get_servers();
+            try {
+                mService.connect_to_io();
+            } catch (URISyntaxException e) {
+                e.printStackTrace();
+            }
             mService.isLogin = true;
         }
 
@@ -167,7 +171,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
 
     public void register_page(View view) {
-        Uri uri = Uri.parse("http://pyfi.org/index.php?route=account/register"); // missing 'http://' will cause crashed
+        Uri uri = Uri.parse("http://pyfi.org/"); // missing 'http://' will cause crashed
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
