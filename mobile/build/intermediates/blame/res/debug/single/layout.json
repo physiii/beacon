@@ -1,0 +1,458 @@
+[
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/home/physiiii/.android/build-cache/a6aaf4e0ee3ff254a87afc971cded19986eb1066/output/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/mr_media_route_chooser_dialog.xml",
+        "source": "/home/physiiii/.android/build-cache/6e9583972cd199da060090f94a13bac3b9cf0887/output/res/layout/mr_media_route_chooser_dialog.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/home/physiiii/code/android/beacon/mobile/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/activity_home.xml",
+        "source": "/home/physiiii/code/android/beacon/mobile/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/home/physiii/.android/build-cache/6795fe6b56bfb9293bbf7d5006c269b1324ca9b3/output/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/content_home.xml",
+        "source": "/home/physiiii/code/android/beacon/mobile/src/main/res/layout/content_home.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/beacon_widget_configure.xml",
+        "source": "/home/physiii/code/android/beacon/mobile/src/main/res/layout/beacon_widget_configure.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/home/physiiii/.android/build-cache/a6aaf4e0ee3ff254a87afc971cded19986eb1066/output/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/home/physiii/.android/build-cache/6795fe6b56bfb9293bbf7d5006c269b1324ca9b3/output/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/home/physiiii/.android/build-cache/a6aaf4e0ee3ff254a87afc971cded19986eb1066/output/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/beacon_widget.xml",
+        "source": "/home/physiiii/code/android/beacon/mobile/src/main/res/layout/beacon_widget.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/home/physiii/.android/build-cache/6795fe6b56bfb9293bbf7d5006c269b1324ca9b3/output/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/content_home.xml",
+        "source": "/home/physiii/code/android/beacon/mobile/src/main/res/layout/content_home.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/app_bar_home.xml",
+        "source": "/home/physiii/code/android/beacon/mobile/src/main/res/layout/app_bar_home.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/home/physiiii/.android/build-cache/a6aaf4e0ee3ff254a87afc971cded19986eb1066/output/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/home/physiiii/.android/build-cache/a6aaf4e0ee3ff254a87afc971cded19986eb1066/output/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/home/physiiii/.android/build-cache/a6aaf4e0ee3ff254a87afc971cded19986eb1066/output/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/activity_home.xml",
+        "source": "/home/physiii/code/android/beacon/mobile/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/beacon_widget_configure.xml",
+        "source": "/home/physiiii/code/android/beacon/mobile/src/main/res/layout/beacon_widget_configure.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/home/physiiii/.android/build-cache/a6aaf4e0ee3ff254a87afc971cded19986eb1066/output/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/home/physiiii/.android/build-cache/a6aaf4e0ee3ff254a87afc971cded19986eb1066/output/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/mr_media_route_chooser_dialog.xml",
+        "source": "/home/physiii/.android/build-cache/7ea515e7d4d687a3727d1fc59e91ffc37eaab3dc/output/res/layout/mr_media_route_chooser_dialog.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/home/physiii/.android/build-cache/6795fe6b56bfb9293bbf7d5006c269b1324ca9b3/output/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/home/physiii/code/android/beacon/mobile/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/beacon_widget.xml",
+        "source": "/home/physiii/code/android/beacon/mobile/src/main/res/layout/beacon_widget.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/home/physiii/.android/build-cache/6795fe6b56bfb9293bbf7d5006c269b1324ca9b3/output/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/home/physiiii/.android/build-cache/a6aaf4e0ee3ff254a87afc971cded19986eb1066/output/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/nav_header_home.xml",
+        "source": "/home/physiiii/code/android/beacon/mobile/src/main/res/layout/nav_header_home.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/nav_header_home.xml",
+        "source": "/home/physiii/code/android/beacon/mobile/src/main/res/layout/nav_header_home.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/home/physiii/.android/build-cache/6795fe6b56bfb9293bbf7d5006c269b1324ca9b3/output/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/mr_media_route_controller_material_dialog_b.xml",
+        "source": "/home/physiii/.android/build-cache/7ea515e7d4d687a3727d1fc59e91ffc37eaab3dc/output/res/layout/mr_media_route_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/home/physiii/.android/build-cache/6795fe6b56bfb9293bbf7d5006c269b1324ca9b3/output/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/home/physiii/.android/build-cache/6795fe6b56bfb9293bbf7d5006c269b1324ca9b3/output/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/home/physiii/.android/build-cache/6795fe6b56bfb9293bbf7d5006c269b1324ca9b3/output/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/home/physiiii/.android/build-cache/a6aaf4e0ee3ff254a87afc971cded19986eb1066/output/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/home/physiiii/.android/build-cache/a6aaf4e0ee3ff254a87afc971cded19986eb1066/output/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/mr_media_route_controller_material_dialog_b.xml",
+        "source": "/home/physiiii/.android/build-cache/6e9583972cd199da060090f94a13bac3b9cf0887/output/res/layout/mr_media_route_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/home/physiii/.android/build-cache/6795fe6b56bfb9293bbf7d5006c269b1324ca9b3/output/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/app_bar_home.xml",
+        "source": "/home/physiiii/code/android/beacon/mobile/src/main/res/layout/app_bar_home.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/home/physiii/.android/build-cache/6795fe6b56bfb9293bbf7d5006c269b1324ca9b3/output/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+    }
+]

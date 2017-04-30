@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_copy.png",
+        "source": "/home/physiii/code/android/beacon/mobile/src/main/res/mipmap-hdpi/ic_launcher_copy.png"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_copy.png",
+        "source": "/home/physiiii/code/android/beacon/mobile/src/main/res/mipmap-hdpi/ic_launcher_copy.png"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/home/physiii/code/android/beacon/mobile/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/home/physiiii/code/android/beacon/mobile/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]

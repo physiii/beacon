@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/raw/gtm_analytics",
+        "source": "/home/physiii/.android/build-cache/436f57bfb146c4688e2a35b2a1d2f1766a12a06d/output/res/raw/gtm_analytics"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/raw/led.mp3",
+        "source": "/home/physiii/code/android/beacon/mobile/src/main/res/raw/led.mp3"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/raw/gtm_analytics",
+        "source": "/home/physiiii/.android/build-cache/07966217cb37c88a730872b813b03bed60dd9873/output/res/raw/gtm_analytics"
+    },
+    {
+        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/raw/led.mp3",
+        "source": "/home/physiiii/code/android/beacon/mobile/src/main/res/raw/led.mp3"
+    }
+]
