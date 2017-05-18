@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_medium_off_client.png",
+        "source": "/home/physiii/.android/build-cache/bce32a619139afc2c4fe9bbd1a04af87b6cd8799/output/res/drawable-tvdpi-v4/ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_small_off_client.png",
+        "source": "/home/physiii/.android/build-cache/bce32a619139afc2c4fe9bbd1a04af87b6cd8799/output/res/drawable-tvdpi-v4/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_tall_off_client.png",
+        "source": "/home/physiii/.android/build-cache/bce32a619139afc2c4fe9bbd1a04af87b6cd8799/output/res/drawable-tvdpi-v4/ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_standard_off_client.png",
+        "source": "/home/physiii/.android/build-cache/bce32a619139afc2c4fe9bbd1a04af87b6cd8799/output/res/drawable-tvdpi-v4/ic_plusone_standard_off_client.png"
+    }
+]

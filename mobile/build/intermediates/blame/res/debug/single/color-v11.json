@@ -1,18 +1,10 @@
 [
     {
         "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
-        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
-        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+        "source": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     },
     {
         "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+        "source": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     }
 ]

@@ -16,6 +16,7 @@ import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnPreparedListener;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
+import android.os.BatteryManager;
 import android.os.Binder;
 import android.os.Bundle;
 import android.os.Handler;
@@ -88,7 +89,9 @@ public class wsService extends Service implements OnPreparedListener {
     Map<String, Integer> recorded_location = new HashMap<>();
 
     String rssiString = "init";
-    String location_string = "init";
+    String status_string = "init";
+    JSONObject status_obj = new JSONObject();
+
     private Timer timer;
     private TimerTask timerTask;
     private Handler handler = new Handler();
@@ -292,22 +295,24 @@ public class wsService extends Service implements OnPreparedListener {
         }
     };
 
-    public void send_location(String location_string) {
+    public void send_status(JSONObject status_obj) {
         if (mSocket != null) {
             try {
+                Log.i(TAG, "<<<<---- sending status ---->>> ");
                 Intent local = new Intent();
                 local.setAction("com.hello.action");
-                local.putExtra("location_data", location_string);
+
+                status_string = status_obj.toString();
+                local.putExtra("status", status_string);
                 this.sendBroadcast(local);
-                JSONObject location_obj = new JSONObject(location_string);
+
                 JSONObject data = new JSONObject();
                 data.put("mac",macAddress);
                 data.put("email",userName);
                 data.put("device_type","['mobile']");
                 data.put("token",token);
-                data.put("location",location_obj);
-                mSocket.emit("set location", data);
-                Log.i(TAG, "<<<<---- set location ---->>> ");
+                data.put("status",status_obj);
+                mSocket.emit("set status", data);
             } catch (JSONException e) {
                 e.printStackTrace();
             }
@@ -424,7 +429,6 @@ public class wsService extends Service implements OnPreparedListener {
             CellInfoLte cellinfolte = (CellInfoLte)telephonyManager.getAllCellInfo().get(0);
             CellSignalStrengthLte cellinfoLte = cellinfolte.getCellSignalStrength();
             cell_signal_level = cellinfoLte.getDbm();
-            Log.i(TAG,cellinfoLte.toString());
         } catch (Exception ex) { } // for now eat exceptions
 
         /*for (int i = 0; i < wifi.getScanResults().size(); i++){
@@ -440,7 +444,7 @@ public class wsService extends Service implements OnPreparedListener {
         speed = location.getSpeed();
         accuracy = location.getAccuracy();
         bearing = location.getBearing();
-        location_string = "{\"time\":\"" + time
+        status_string = "{\"time\":\"" + time
                 + "\", \"cell_signal_level\":\"" + cell_signal_level
                 + "\", \"cell_type\":\"" + cell_signal_level
                 + "\", \"connected_wifi\":\"" + connected_wifi
@@ -451,6 +455,12 @@ public class wsService extends Service implements OnPreparedListener {
                 + "\", \"accuracy\":\"" + accuracy
                 + "\", \"bearing\":\"" + bearing
                 + "\"}";
+        try {
+            status_obj = new JSONObject(status_string);
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
     }
 
     LocationListener locationListener = new LocationListener() {
@@ -519,8 +529,20 @@ public class wsService extends Service implements OnPreparedListener {
             public void run() {
                 handler.post(new Runnable() {
                     public void run(){
+                        IntentFilter ifilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
+                        Intent batteryStatus = registerReceiver(null, ifilter);
+                        int level = batteryStatus.getIntExtra(BatteryManager.EXTRA_LEVEL, -1);
+                        int scale = batteryStatus.getIntExtra(BatteryManager.EXTRA_SCALE, -1);
+                        float batteryPct = level / (float)scale;
+
+                        try {
+                            status_obj.put("battery",batteryPct);
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+
                         if (ws_connected) {
-                            send_location(location_string);
+                            send_status(status_obj);
                         } else {
                             try {
                                 connect_to_io();

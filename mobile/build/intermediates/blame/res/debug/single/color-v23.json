@@ -1,10 +1,38 @@
 [
     {
-        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
-        "source": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/color-v23/abc_color_highlight_material.xml"
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
-        "source": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/color-v23/abc_color_highlight_material.xml"
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/color-v23/abc_tint_edittext.xml"
     }
 ]

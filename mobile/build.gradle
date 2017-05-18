@@ -9,7 +9,11 @@ android {
         minSdkVersion 19
         targetSdkVersion 19
         versionCode 1
-        versionName "1.0"
+        versionName "1.2"
+        multiDexEnabled true
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
     }
     buildTypes {
         release {
@@ -19,6 +23,9 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+        debug {
+            debuggable true
+        }
     }
 }
 
@@ -27,11 +34,11 @@ dependencies {
     wearApp project(':wear')
     testCompile 'junit:junit:4.12'
     compile 'com.android.volley:volley:1.0.0'
-    compile 'com.android.support:appcompat-v7:23.1.1'
-    compile 'com.google.android.gms:play-services:8.3.0'
+    //compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.android.support:design:23.1.1'
     compile 'com.github.nkzawa:socket.io-client:0.3.0'
     compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.google.android.gms:play-services:10.2.4'
     /*compile ('io.socket:socket.io-client:0.7.0') {
         exclude group: 'org.json', module: 'json'
     }*/

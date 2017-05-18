@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/drawable-nodpi/example_appwidget_preview.png",
-        "source": "/home/physiiii/code/android/beacon/mobile/src/main/res/drawable-nodpi/example_appwidget_preview.png"
-    },
-    {
         "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/drawable-nodpi/example_appwidget_preview.png",
         "source": "/home/physiii/code/android/beacon/mobile/src/main/res/drawable-nodpi/example_appwidget_preview.png"
     }

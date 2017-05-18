@@ -89,9 +89,9 @@ public class HomeActivity extends AppCompatActivity
             @Override
             public void onReceive(Context context, Intent intent) {
                 //UI update here
-                String location_data = intent.getExtras().getString("location_data");
+                String status = intent.getExtras().getString("status");
                 TextView txtSignalLevel = (TextView) findViewById(R.id.txtLocationData);
-                txtSignalLevel.setText(location_data);
+                txtSignalLevel.setText(status);
             }
         };
         registerReceiver(updateUIReceiver,filter);
@@ -267,7 +267,7 @@ public class HomeActivity extends AppCompatActivity
     }
 
     public void update(View view) {
-        Uri uri = Uri.parse("http://24.253.223.242:8080/open-automation.org/downloads/beacon.apk"); // missing 'http://' will cause crashed
+        Uri uri = Uri.parse("http://pyfi.org/downloads/beacon.apk"); // missing 'http://' will cause crashed
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }

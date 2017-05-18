@@ -11,13 +11,13 @@
                     "endOffset": 195
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/values-ko/values-ko.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 229,
+                        "startOffset": 55,
                         "endColumn": 94,
-                        "endOffset": 319
+                        "endOffset": 145
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 303
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/values-ko/values-ko.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 324,
+                        "startOffset": 150,
                         "endColumn": 107,
-                        "endOffset": 427
+                        "endOffset": 253
                     }
                 }
             },
@@ -49,13 +49,13 @@
                     "endOffset": 426
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/values-ko/values-ko.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 432,
+                        "startOffset": 258,
                         "endColumn": 122,
-                        "endOffset": 550
+                        "endOffset": 376
                     }
                 }
             },
@@ -68,13 +68,13 @@
                     "endOffset": 520
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/values-ko/values-ko.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 555,
+                        "startOffset": 381,
                         "endColumn": 93,
-                        "endOffset": 644
+                        "endOffset": 470
                     }
                 }
             },
@@ -87,13 +87,13 @@
                     "endOffset": 622
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/values-ko/values-ko.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 649,
+                        "startOffset": 475,
                         "endColumn": 101,
-                        "endOffset": 746
+                        "endOffset": 572
                     }
                 }
             },
@@ -106,13 +106,13 @@
                     "endOffset": 704
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/values-ko/values-ko.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 751,
+                        "startOffset": 577,
                         "endColumn": 81,
-                        "endOffset": 828
+                        "endOffset": 654
                     }
                 }
             },
@@ -125,13 +125,13 @@
                     "endOffset": 802
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/values-ko/values-ko.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 833,
+                        "startOffset": 659,
                         "endColumn": 97,
-                        "endOffset": 926
+                        "endOffset": 752
                     }
                 }
             },
@@ -144,13 +144,13 @@
                     "endOffset": 908
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/values-ko/values-ko.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 931,
+                        "startOffset": 757,
                         "endColumn": 105,
-                        "endOffset": 1032
+                        "endOffset": 858
                     }
                 }
             },
@@ -163,13 +163,13 @@
                     "endOffset": 987
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/values-ko/values-ko.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 1037,
+                        "startOffset": 863,
                         "endColumn": 78,
-                        "endOffset": 1111
+                        "endOffset": 937
                     }
                 }
             },
@@ -182,13 +182,13 @@
                     "endOffset": 1063
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/values-ko/values-ko.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1116,
+                        "startOffset": 942,
                         "endColumn": 75,
-                        "endOffset": 1187
+                        "endOffset": 1013
                     }
                 }
             },
@@ -201,13 +201,13 @@
                     "endOffset": 1143
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/values-ko/values-ko.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1192,
+                        "startOffset": 1018,
                         "endColumn": 79,
-                        "endOffset": 1267
+                        "endOffset": 1093
                     }
                 }
             },
@@ -220,13 +220,13 @@
                     "endOffset": 1241
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/values-ko/values-ko.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1272,
+                        "startOffset": 1098,
                         "endColumn": 97,
-                        "endOffset": 1365
+                        "endOffset": 1191
                     }
                 }
             },
@@ -239,13 +239,13 @@
                     "endOffset": 1336
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/values-ko/values-ko.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1370,
+                        "startOffset": 1196,
                         "endColumn": 94,
-                        "endOffset": 1460
+                        "endOffset": 1286
                     }
                 }
             },
@@ -258,13 +258,13 @@
                     "endOffset": 1431
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/values-ko/values-ko.xml",
                     "position": {
-                        "startLine": 17,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1465,
+                        "startOffset": 1291,
                         "endColumn": 94,
-                        "endOffset": 1555
+                        "endOffset": 1381
                     }
                 }
             },
@@ -277,13 +277,13 @@
                     "endOffset": 1531
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/values-ko/values-ko.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1560,
+                        "startOffset": 1386,
                         "endColumn": 99,
-                        "endOffset": 1655
+                        "endOffset": 1481
                     }
                 }
             },
@@ -296,13 +296,13 @@
                     "endOffset": 1627
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/values-ko/values-ko.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1660,
+                        "startOffset": 1486,
                         "endColumn": 95,
-                        "endOffset": 1751
+                        "endOffset": 1577
                     }
                 }
             },
@@ -315,13 +315,13 @@
                     "endOffset": 1726
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/values-ko/values-ko.xml",
                     "position": {
-                        "startLine": 20,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1756,
+                        "startOffset": 1582,
                         "endColumn": 98,
-                        "endOffset": 1850
+                        "endOffset": 1676
                     }
                 }
             },
@@ -334,13 +334,13 @@
                     "endOffset": 1841
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/values-ko/values-ko.xml",
                     "position": {
-                        "startLine": 21,
+                        "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1855,
+                        "startOffset": 1681,
                         "endColumn": 114,
-                        "endOffset": 1965
+                        "endOffset": 1791
                     }
                 }
             },
@@ -353,13 +353,13 @@
                     "endOffset": 1935
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/values-ko/values-ko.xml",
                     "position": {
-                        "startLine": 22,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 1970,
+                        "startOffset": 1796,
                         "endColumn": 93,
-                        "endOffset": 2059
+                        "endOffset": 1885
                     }
                 }
             },
@@ -368,17 +368,17 @@
                     "startLine": 21,
                     "startColumn": 4,
                     "startOffset": 1940,
-                    "endColumn": 172,
-                    "endOffset": 2108
+                    "endColumn": 67,
+                    "endOffset": 2003
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/39c23cc7f41fa8637be24b9c648f7a2d76e8972e/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 451,
-                        "endColumn": 176,
-                        "endOffset": 623
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 237,
+                        "endColumn": 63,
+                        "endOffset": 300
                     }
                 }
             },
@@ -386,18 +386,18 @@
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 2113,
-                    "endColumn": 165,
-                    "endOffset": 2274
+                    "startOffset": 2008,
+                    "endColumn": 74,
+                    "endOffset": 2078
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 2358,
-                        "endColumn": 169,
-                        "endOffset": 2523
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 298,
+                        "endColumn": 70,
+                        "endOffset": 368
                     }
                 }
             },
@@ -405,18 +405,18 @@
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 2279,
-                    "endColumn": 108,
-                    "endOffset": 2383
+                    "startOffset": 2083,
+                    "endColumn": 89,
+                    "endOffset": 2168
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 2078,
-                        "endColumn": 108,
-                        "endOffset": 2182
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 369,
+                        "endColumn": 85,
+                        "endOffset": 454
                     }
                 }
             },
@@ -424,18 +424,18 @@
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 2388,
-                    "endColumn": 210,
-                    "endOffset": 2594
+                    "startOffset": 2173,
+                    "endColumn": 81,
+                    "endOffset": 2250
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 30,
-                        "startColumn": 4,
-                        "startOffset": 4007,
-                        "endColumn": 214,
-                        "endOffset": 4217
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 455,
+                        "endColumn": 77,
+                        "endOffset": 532
                     }
                 }
             },
@@ -443,18 +443,18 @@
                 "to": {
                     "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 2599,
-                    "endColumn": 118,
-                    "endOffset": 2713
+                    "startOffset": 2255,
+                    "endColumn": 99,
+                    "endOffset": 2350
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1839,
-                        "endColumn": 118,
-                        "endOffset": 1953
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 533,
+                        "endColumn": 95,
+                        "endOffset": 628
                     }
                 }
             },
@@ -462,18 +462,18 @@
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 2718,
-                    "endColumn": 170,
-                    "endOffset": 2884
+                    "startOffset": 2355,
+                    "endColumn": 79,
+                    "endOffset": 2430
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1664,
-                        "endColumn": 174,
-                        "endOffset": 1834
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 629,
+                        "endColumn": 75,
+                        "endOffset": 704
                     }
                 }
             },
@@ -481,18 +481,18 @@
                 "to": {
                     "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 2889,
-                    "endColumn": 116,
-                    "endOffset": 3001
+                    "startOffset": 2435,
+                    "endColumn": 133,
+                    "endOffset": 2564
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1547,
-                        "endColumn": 116,
-                        "endOffset": 1659
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 705,
+                        "endColumn": 129,
+                        "endOffset": 834
                     }
                 }
             },
@@ -500,18 +500,18 @@
                 "to": {
                     "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 3006,
-                    "endColumn": 160,
-                    "endOffset": 3162
+                    "startOffset": 2569,
+                    "endColumn": 106,
+                    "endOffset": 2671
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 774,
-                        "endColumn": 164,
-                        "endOffset": 934
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 835,
+                        "endColumn": 102,
+                        "endOffset": 937
                     }
                 }
             },
@@ -519,18 +519,18 @@
                 "to": {
                     "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 3167,
-                    "endColumn": 119,
-                    "endOffset": 3282
+                    "startOffset": 2676,
+                    "endColumn": 104,
+                    "endOffset": 2776
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
                         "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1427,
-                        "endColumn": 119,
-                        "endOffset": 1542
+                        "startColumn": 0,
+                        "startOffset": 938,
+                        "endColumn": 100,
+                        "endOffset": 1038
                     }
                 }
             },
@@ -538,18 +538,18 @@
                 "to": {
                     "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 3287,
-                    "endColumn": 181,
-                    "endOffset": 3464
+                    "startOffset": 2781,
+                    "endColumn": 112,
+                    "endOffset": 2889
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 1056,
-                        "endColumn": 185,
-                        "endOffset": 1237
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1039,
+                        "endColumn": 108,
+                        "endOffset": 1147
                     }
                 }
             },
@@ -557,18 +557,18 @@
                 "to": {
                     "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 3469,
-                    "endColumn": 180,
-                    "endOffset": 3645
+                    "startOffset": 2894,
+                    "endColumn": 96,
+                    "endOffset": 2986
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 1242,
-                        "endColumn": 184,
-                        "endOffset": 1422
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1148,
+                        "endColumn": 92,
+                        "endOffset": 1240
                     }
                 }
             },
@@ -576,18 +576,18 @@
                 "to": {
                     "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 3650,
-                    "endColumn": 116,
-                    "endOffset": 3762
+                    "startOffset": 2991,
+                    "endColumn": 101,
+                    "endOffset": 3088
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 939,
-                        "endColumn": 116,
-                        "endOffset": 1051
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1241,
+                        "endColumn": 97,
+                        "endOffset": 1338
                     }
                 }
             },
@@ -595,18 +595,18 @@
                 "to": {
                     "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 3767,
-                    "endColumn": 145,
-                    "endOffset": 3908
+                    "startOffset": 3093,
+                    "endColumn": 74,
+                    "endOffset": 3163
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 3208,
-                        "endColumn": 145,
-                        "endOffset": 3349
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 1339,
+                        "endColumn": 70,
+                        "endOffset": 1409
                     }
                 }
             },
@@ -614,18 +614,18 @@
                 "to": {
                     "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 3913,
-                    "endColumn": 118,
-                    "endOffset": 4027
+                    "startOffset": 3168,
+                    "endColumn": 81,
+                    "endOffset": 3245
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 3089,
-                        "endColumn": 118,
-                        "endOffset": 3203
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 1410,
+                        "endColumn": 77,
+                        "endOffset": 1487
                     }
                 }
             },
@@ -633,18 +633,18 @@
                 "to": {
                     "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 4032,
-                    "endColumn": 145,
-                    "endOffset": 4173
+                    "startOffset": 3250,
+                    "endColumn": 81,
+                    "endOffset": 3327
                 },
                 "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 628,
-                        "endColumn": 145,
-                        "endOffset": 769
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 1488,
+                        "endColumn": 77,
+                        "endOffset": 1565
                     }
                 }
             },
@@ -652,1144 +652,18 @@
                 "to": {
                     "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 4178,
-                    "endColumn": 142,
-                    "endOffset": 4316
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 2946,
-                        "endColumn": 142,
-                        "endOffset": 3084
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 37,
-                    "startColumn": 4,
-                    "startOffset": 4321,
-                    "endColumn": 113,
-                    "endOffset": 4430
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 2832,
-                        "endColumn": 113,
-                        "endOffset": 2941
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 38,
-                    "startColumn": 4,
-                    "startOffset": 4435,
-                    "endColumn": 155,
-                    "endOffset": 4586
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 295,
-                        "endColumn": 155,
-                        "endOffset": 446
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 39,
-                    "startColumn": 4,
-                    "startOffset": 4591,
-                    "endColumn": 124,
-                    "endOffset": 4711
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 170,
-                        "endColumn": 124,
-                        "endOffset": 290
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 40,
-                    "startColumn": 4,
-                    "startOffset": 4716,
-                    "endColumn": 150,
-                    "endOffset": 4862
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 32,
-                        "startColumn": 4,
-                        "startOffset": 4336,
-                        "endColumn": 150,
-                        "endOffset": 4482
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 41,
-                    "startColumn": 4,
-                    "startOffset": 4867,
-                    "endColumn": 113,
-                    "endOffset": 4976
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 31,
-                        "startColumn": 4,
-                        "startOffset": 4222,
-                        "endColumn": 113,
-                        "endOffset": 4331
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 42,
-                    "startColumn": 4,
-                    "startOffset": 4981,
-                    "endColumn": 135,
-                    "endOffset": 5112
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 25,
-                        "startColumn": 4,
-                        "startOffset": 3354,
-                        "endColumn": 135,
-                        "endOffset": 3485
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 43,
-                    "startColumn": 4,
-                    "startOffset": 5117,
-                    "endColumn": 199,
-                    "endOffset": 5312
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 27,
-                        "startColumn": 4,
-                        "startOffset": 3610,
-                        "endColumn": 203,
-                        "endOffset": 3809
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 44,
-                    "startColumn": 4,
-                    "startOffset": 5317,
-                    "endColumn": 119,
-                    "endOffset": 5432
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 26,
-                        "startColumn": 4,
-                        "startOffset": 3490,
-                        "endColumn": 119,
-                        "endOffset": 3605
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 45,
-                    "startColumn": 4,
-                    "startOffset": 5437,
-                    "endColumn": 104,
-                    "endOffset": 5537
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 28,
-                        "startColumn": 4,
-                        "startOffset": 3814,
-                        "endColumn": 104,
-                        "endOffset": 3914
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 46,
-                    "startColumn": 4,
-                    "startOffset": 5542,
-                    "endColumn": 166,
-                    "endOffset": 5704
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 2187,
-                        "endColumn": 170,
-                        "endOffset": 2353
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 47,
-                    "startColumn": 4,
-                    "startOffset": 5709,
-                    "endColumn": 119,
-                    "endOffset": 5824
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1958,
-                        "endColumn": 119,
-                        "endOffset": 2073
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 48,
-                    "startColumn": 4,
-                    "startOffset": 5829,
-                    "endColumn": 176,
-                    "endOffset": 6001
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 2651,
-                        "endColumn": 180,
-                        "endOffset": 2827
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 49,
-                    "startColumn": 4,
-                    "startOffset": 6006,
-                    "endColumn": 122,
-                    "endOffset": 6124
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 2528,
-                        "endColumn": 122,
-                        "endOffset": 2646
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 50,
-                    "startColumn": 4,
-                    "startOffset": 6129,
-                    "endColumn": 87,
-                    "endOffset": 6212
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 29,
-                        "startColumn": 4,
-                        "startOffset": 3919,
-                        "endColumn": 87,
-                        "endOffset": 4002
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 51,
-                    "startColumn": 4,
-                    "startOffset": 6217,
-                    "endColumn": 87,
-                    "endOffset": 6300
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/77529e48304e91915534eb02433111e1320875b4/output/res/values-ko/base_strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 170,
-                        "endColumn": 87,
-                        "endOffset": 253
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 52,
-                    "startColumn": 4,
-                    "startOffset": 6305,
-                    "endColumn": 104,
-                    "endOffset": 6405
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/77529e48304e91915534eb02433111e1320875b4/output/res/values-ko/base_strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 258,
-                        "endColumn": 104,
-                        "endOffset": 358
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 53,
-                    "startColumn": 4,
-                    "startOffset": 6410,
-                    "endColumn": 106,
-                    "endOffset": 6512
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/7ea515e7d4d687a3727d1fc59e91ffc37eaab3dc/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 293,
-                        "endColumn": 106,
-                        "endOffset": 395
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 54,
-                    "startColumn": 4,
-                    "startOffset": 6517,
-                    "endColumn": 99,
-                    "endOffset": 6612
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/7ea515e7d4d687a3727d1fc59e91ffc37eaab3dc/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 400,
-                        "endColumn": 99,
-                        "endOffset": 495
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 55,
-                    "startColumn": 4,
-                    "startOffset": 6617,
-                    "endColumn": 93,
-                    "endOffset": 6706
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/7ea515e7d4d687a3727d1fc59e91ffc37eaab3dc/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 500,
-                        "endColumn": 93,
-                        "endOffset": 589
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 56,
-                    "startColumn": 4,
-                    "startOffset": 6711,
-                    "endColumn": 99,
-                    "endOffset": 6806
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/7ea515e7d4d687a3727d1fc59e91ffc37eaab3dc/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 594,
-                        "endColumn": 99,
-                        "endOffset": 689
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 57,
-                    "startColumn": 4,
-                    "startOffset": 6811,
-                    "endColumn": 82,
-                    "endOffset": 6889
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/7ea515e7d4d687a3727d1fc59e91ffc37eaab3dc/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 694,
-                        "endColumn": 82,
-                        "endOffset": 772
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 58,
-                    "startColumn": 4,
-                    "startOffset": 6894,
-                    "endColumn": 88,
-                    "endOffset": 6978
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/7ea515e7d4d687a3727d1fc59e91ffc37eaab3dc/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 777,
-                        "endColumn": 88,
-                        "endOffset": 861
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 59,
-                    "startColumn": 4,
-                    "startOffset": 6983,
-                    "endColumn": 100,
-                    "endOffset": 7079
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 2064,
-                        "endColumn": 100,
-                        "endOffset": 2160
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 60,
-                    "startColumn": 4,
-                    "startOffset": 7084,
-                    "endColumn": 99,
-                    "endOffset": 7179
-                },
-                "from": {
-                    "file": "/home/physiii/.android/build-cache/f0c314e06235fe7d785fa5772b71f7e2a4c68b04/output/res/values-ko/wallet_strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 230,
-                        "endColumn": 99,
-                        "endOffset": 325
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/home/physiiii/code/android/beacon/mobile/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 105,
-                    "endColumn": 94,
-                    "endOffset": 195
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 229,
-                        "endColumn": 94,
-                        "endOffset": 319
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 200,
+                    "startOffset": 3332,
                     "endColumn": 107,
-                    "endOffset": 303
+                    "endOffset": 3435
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 324,
-                        "endColumn": 107,
-                        "endOffset": 427
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 308,
-                    "endColumn": 122,
-                    "endOffset": 426
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 432,
-                        "endColumn": 122,
-                        "endOffset": 550
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 431,
-                    "endColumn": 93,
-                    "endOffset": 520
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 555,
-                        "endColumn": 93,
-                        "endOffset": 644
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 525,
-                    "endColumn": 101,
-                    "endOffset": 622
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 649,
-                        "endColumn": 101,
-                        "endOffset": 746
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 627,
-                    "endColumn": 81,
-                    "endOffset": 704
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 751,
-                        "endColumn": 81,
-                        "endOffset": 828
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 709,
-                    "endColumn": 97,
-                    "endOffset": 802
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 833,
-                        "endColumn": 97,
-                        "endOffset": 926
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 807,
-                    "endColumn": 105,
-                    "endOffset": 908
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 931,
-                        "endColumn": 105,
-                        "endOffset": 1032
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 913,
-                    "endColumn": 78,
-                    "endOffset": 987
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1037,
-                        "endColumn": 78,
-                        "endOffset": 1111
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 992,
-                    "endColumn": 75,
-                    "endOffset": 1063
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1116,
-                        "endColumn": 75,
-                        "endOffset": 1187
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1068,
-                    "endColumn": 79,
-                    "endOffset": 1143
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1192,
-                        "endColumn": 79,
-                        "endOffset": 1267
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1148,
-                    "endColumn": 97,
-                    "endOffset": 1241
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1272,
-                        "endColumn": 97,
-                        "endOffset": 1365
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1246,
-                    "endColumn": 94,
-                    "endOffset": 1336
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1370,
-                        "endColumn": 94,
-                        "endOffset": 1460
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1341,
-                    "endColumn": 94,
-                    "endOffset": 1431
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1465,
-                        "endColumn": 94,
-                        "endOffset": 1555
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1436,
-                    "endColumn": 99,
-                    "endOffset": 1531
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
                         "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1560,
-                        "endColumn": 99,
-                        "endOffset": 1655
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1536,
-                    "endColumn": 95,
-                    "endOffset": 1627
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1660,
-                        "endColumn": 95,
-                        "endOffset": 1751
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1632,
-                    "endColumn": 98,
-                    "endOffset": 1726
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1756,
-                        "endColumn": 98,
-                        "endOffset": 1850
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1731,
-                    "endColumn": 114,
-                    "endOffset": 1841
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 1855,
-                        "endColumn": 114,
-                        "endOffset": 1965
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 1846,
-                    "endColumn": 93,
-                    "endOffset": 1935
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/values-ko/values-ko.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 1970,
-                        "endColumn": 93,
-                        "endOffset": 2059
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 1940,
-                    "endColumn": 172,
-                    "endOffset": 2108
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 451,
-                        "endColumn": 176,
-                        "endOffset": 623
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 2113,
-                    "endColumn": 165,
-                    "endOffset": 2274
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 2358,
-                        "endColumn": 169,
-                        "endOffset": 2523
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 23,
-                    "startColumn": 4,
-                    "startOffset": 2279,
-                    "endColumn": 108,
-                    "endOffset": 2383
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 2078,
-                        "endColumn": 108,
-                        "endOffset": 2182
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 24,
-                    "startColumn": 4,
-                    "startOffset": 2388,
-                    "endColumn": 210,
-                    "endOffset": 2594
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 30,
-                        "startColumn": 4,
-                        "startOffset": 4007,
-                        "endColumn": 214,
-                        "endOffset": 4217
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 25,
-                    "startColumn": 4,
-                    "startOffset": 2599,
-                    "endColumn": 118,
-                    "endOffset": 2713
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1839,
-                        "endColumn": 118,
-                        "endOffset": 1953
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 26,
-                    "startColumn": 4,
-                    "startOffset": 2718,
-                    "endColumn": 170,
-                    "endOffset": 2884
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1664,
-                        "endColumn": 174,
-                        "endOffset": 1834
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 27,
-                    "startColumn": 4,
-                    "startOffset": 2889,
-                    "endColumn": 116,
-                    "endOffset": 3001
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1547,
-                        "endColumn": 116,
-                        "endOffset": 1659
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 28,
-                    "startColumn": 4,
-                    "startOffset": 3006,
-                    "endColumn": 160,
-                    "endOffset": 3162
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 774,
-                        "endColumn": 164,
-                        "endOffset": 934
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 29,
-                    "startColumn": 4,
-                    "startOffset": 3167,
-                    "endColumn": 119,
-                    "endOffset": 3282
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1427,
-                        "endColumn": 119,
-                        "endOffset": 1542
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 30,
-                    "startColumn": 4,
-                    "startOffset": 3287,
-                    "endColumn": 181,
-                    "endOffset": 3464
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 1056,
-                        "endColumn": 185,
-                        "endOffset": 1237
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 31,
-                    "startColumn": 4,
-                    "startOffset": 3469,
-                    "endColumn": 180,
-                    "endOffset": 3645
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 1242,
-                        "endColumn": 184,
-                        "endOffset": 1422
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 32,
-                    "startColumn": 4,
-                    "startOffset": 3650,
-                    "endColumn": 116,
-                    "endOffset": 3762
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 939,
-                        "endColumn": 116,
-                        "endOffset": 1051
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 33,
-                    "startColumn": 4,
-                    "startOffset": 3767,
-                    "endColumn": 145,
-                    "endOffset": 3908
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 3208,
-                        "endColumn": 145,
-                        "endOffset": 3349
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 34,
-                    "startColumn": 4,
-                    "startOffset": 3913,
-                    "endColumn": 118,
-                    "endOffset": 4027
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 3089,
-                        "endColumn": 118,
-                        "endOffset": 3203
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 35,
-                    "startColumn": 4,
-                    "startOffset": 4032,
-                    "endColumn": 145,
-                    "endOffset": 4173
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 628,
-                        "endColumn": 145,
-                        "endOffset": 769
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 36,
-                    "startColumn": 4,
-                    "startOffset": 4178,
-                    "endColumn": 142,
-                    "endOffset": 4316
-                },
-                "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 2946,
-                        "endColumn": 142,
-                        "endOffset": 3084
+                        "startColumn": 0,
+                        "startOffset": 1566,
+                        "endColumn": 103,
+                        "endOffset": 1669
                     }
                 }
             },
@@ -1797,18 +671,18 @@
                 "to": {
                     "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 4321,
-                    "endColumn": 113,
-                    "endOffset": 4430
+                    "startOffset": 3440,
+                    "endColumn": 71,
+                    "endOffset": 3507
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 2832,
-                        "endColumn": 113,
-                        "endOffset": 2941
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 1670,
+                        "endColumn": 67,
+                        "endOffset": 1737
                     }
                 }
             },
@@ -1816,18 +690,18 @@
                 "to": {
                     "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 4435,
-                    "endColumn": 155,
-                    "endOffset": 4586
+                    "startOffset": 3512,
+                    "endColumn": 128,
+                    "endOffset": 3636
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/9ef8637ade81f43d1bc0307215f825e60588b69a/output/res/values-ko/values.xml",
                     "position": {
                         "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 295,
-                        "endColumn": 155,
-                        "endOffset": 446
+                        "startColumn": 0,
+                        "startOffset": 288,
+                        "endColumn": 128,
+                        "endOffset": 416
                     }
                 }
             },
@@ -1835,18 +709,18 @@
                 "to": {
                     "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 4591,
-                    "endColumn": 124,
-                    "endOffset": 4711
+                    "startOffset": 3641,
+                    "endColumn": 130,
+                    "endOffset": 3767
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/9ef8637ade81f43d1bc0307215f825e60588b69a/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 170,
-                        "endColumn": 124,
-                        "endOffset": 290
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 417,
+                        "endColumn": 130,
+                        "endOffset": 547
                     }
                 }
             },
@@ -1854,18 +728,18 @@
                 "to": {
                     "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 4716,
-                    "endColumn": 150,
-                    "endOffset": 4862
+                    "startOffset": 3772,
+                    "endColumn": 92,
+                    "endOffset": 3860
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/9ef8637ade81f43d1bc0307215f825e60588b69a/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 32,
-                        "startColumn": 4,
-                        "startOffset": 4336,
-                        "endColumn": 150,
-                        "endOffset": 4482
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 548,
+                        "endColumn": 88,
+                        "endOffset": 636
                     }
                 }
             },
@@ -1873,18 +747,18 @@
                 "to": {
                     "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 4867,
-                    "endColumn": 113,
-                    "endOffset": 4976
+                    "startOffset": 3865,
+                    "endColumn": 73,
+                    "endOffset": 3934
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 31,
-                        "startColumn": 4,
-                        "startOffset": 4222,
-                        "endColumn": 113,
-                        "endOffset": 4331
+                        "startLine": 20,
+                        "startColumn": 0,
+                        "startOffset": 1738,
+                        "endColumn": 69,
+                        "endOffset": 1807
                     }
                 }
             },
@@ -1892,18 +766,18 @@
                 "to": {
                     "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 4981,
-                    "endColumn": 135,
-                    "endOffset": 5112
+                    "startOffset": 3939,
+                    "endColumn": 70,
+                    "endOffset": 4005
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 25,
-                        "startColumn": 4,
-                        "startOffset": 3354,
-                        "endColumn": 135,
-                        "endOffset": 3485
+                        "startLine": 21,
+                        "startColumn": 0,
+                        "startOffset": 1808,
+                        "endColumn": 66,
+                        "endOffset": 1874
                     }
                 }
             },
@@ -1911,18 +785,18 @@
                 "to": {
                     "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 5117,
-                    "endColumn": 199,
-                    "endOffset": 5312
+                    "startOffset": 4010,
+                    "endColumn": 73,
+                    "endOffset": 4079
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 27,
-                        "startColumn": 4,
-                        "startOffset": 3610,
-                        "endColumn": 203,
-                        "endOffset": 3809
+                        "startLine": 22,
+                        "startColumn": 0,
+                        "startOffset": 1875,
+                        "endColumn": 69,
+                        "endOffset": 1944
                     }
                 }
             },
@@ -1930,18 +804,18 @@
                 "to": {
                     "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 5317,
-                    "endColumn": 119,
-                    "endOffset": 5432
+                    "startOffset": 4084,
+                    "endColumn": 80,
+                    "endOffset": 4160
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 26,
-                        "startColumn": 4,
-                        "startOffset": 3490,
-                        "endColumn": 119,
-                        "endOffset": 3605
+                        "startLine": 23,
+                        "startColumn": 0,
+                        "startOffset": 1945,
+                        "endColumn": 76,
+                        "endOffset": 2021
                     }
                 }
             },
@@ -1949,18 +823,18 @@
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 5437,
-                    "endColumn": 104,
-                    "endOffset": 5537
+                    "startOffset": 4165,
+                    "endColumn": 80,
+                    "endOffset": 4241
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 28,
-                        "startColumn": 4,
-                        "startOffset": 3814,
-                        "endColumn": 104,
-                        "endOffset": 3914
+                        "startLine": 24,
+                        "startColumn": 0,
+                        "startOffset": 2022,
+                        "endColumn": 76,
+                        "endOffset": 2098
                     }
                 }
             },
@@ -1968,18 +842,18 @@
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 5542,
-                    "endColumn": 166,
-                    "endOffset": 5704
+                    "startOffset": 4246,
+                    "endColumn": 81,
+                    "endOffset": 4323
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 2187,
-                        "endColumn": 170,
-                        "endOffset": 2353
+                        "startLine": 25,
+                        "startColumn": 0,
+                        "startOffset": 2099,
+                        "endColumn": 77,
+                        "endOffset": 2176
                     }
                 }
             },
@@ -1987,18 +861,18 @@
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 5709,
-                    "endColumn": 119,
-                    "endOffset": 5824
+                    "startOffset": 4328,
+                    "endColumn": 85,
+                    "endOffset": 4409
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1958,
-                        "endColumn": 119,
-                        "endOffset": 2073
+                        "startLine": 26,
+                        "startColumn": 0,
+                        "startOffset": 2177,
+                        "endColumn": 81,
+                        "endOffset": 2258
                     }
                 }
             },
@@ -2006,18 +880,18 @@
                 "to": {
                     "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 5829,
-                    "endColumn": 176,
-                    "endOffset": 6001
+                    "startOffset": 4414,
+                    "endColumn": 85,
+                    "endOffset": 4495
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 2651,
-                        "endColumn": 180,
-                        "endOffset": 2827
+                        "startLine": 27,
+                        "startColumn": 0,
+                        "startOffset": 2259,
+                        "endColumn": 81,
+                        "endOffset": 2340
                     }
                 }
             },
@@ -2025,18 +899,18 @@
                 "to": {
                     "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 6006,
-                    "endColumn": 122,
-                    "endOffset": 6124
+                    "startOffset": 4500,
+                    "endColumn": 70,
+                    "endOffset": 4566
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 2528,
-                        "endColumn": 122,
-                        "endOffset": 2646
+                        "startLine": 28,
+                        "startColumn": 0,
+                        "startOffset": 2341,
+                        "endColumn": 66,
+                        "endOffset": 2407
                     }
                 }
             },
@@ -2044,18 +918,18 @@
                 "to": {
                     "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 6129,
-                    "endColumn": 87,
-                    "endOffset": 6212
+                    "startOffset": 4571,
+                    "endColumn": 91,
+                    "endOffset": 4658
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/8d26557e52fb522ffd68633a17c1de41b6493c75/output/res/values-ko/common_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
                         "startLine": 29,
-                        "startColumn": 4,
-                        "startOffset": 3919,
+                        "startColumn": 0,
+                        "startOffset": 2408,
                         "endColumn": 87,
-                        "endOffset": 4002
+                        "endOffset": 2495
                     }
                 }
             },
@@ -2063,18 +937,18 @@
                 "to": {
                     "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 6217,
-                    "endColumn": 87,
-                    "endOffset": 6300
+                    "startOffset": 4663,
+                    "endColumn": 94,
+                    "endOffset": 4753
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/9b4b7a63619761698f733d596f5d9edb7c1e0a0b/output/res/values-ko/base_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 170,
-                        "endColumn": 87,
-                        "endOffset": 253
+                        "startLine": 30,
+                        "startColumn": 0,
+                        "startOffset": 2496,
+                        "endColumn": 90,
+                        "endOffset": 2586
                     }
                 }
             },
@@ -2082,18 +956,18 @@
                 "to": {
                     "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 6305,
-                    "endColumn": 104,
-                    "endOffset": 6405
+                    "startOffset": 4758,
+                    "endColumn": 94,
+                    "endOffset": 4848
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/9b4b7a63619761698f733d596f5d9edb7c1e0a0b/output/res/values-ko/base_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 258,
-                        "endColumn": 104,
-                        "endOffset": 358
+                        "startLine": 31,
+                        "startColumn": 0,
+                        "startOffset": 2587,
+                        "endColumn": 90,
+                        "endOffset": 2677
                     }
                 }
             },
@@ -2101,18 +975,18 @@
                 "to": {
                     "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 6410,
-                    "endColumn": 106,
-                    "endOffset": 6512
+                    "startOffset": 4853,
+                    "endColumn": 103,
+                    "endOffset": 4952
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/6e9583972cd199da060090f94a13bac3b9cf0887/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 293,
-                        "endColumn": 106,
-                        "endOffset": 395
+                        "startLine": 32,
+                        "startColumn": 0,
+                        "startOffset": 2678,
+                        "endColumn": 99,
+                        "endOffset": 2777
                     }
                 }
             },
@@ -2120,18 +994,18 @@
                 "to": {
                     "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 6517,
-                    "endColumn": 99,
-                    "endOffset": 6612
+                    "startOffset": 4957,
+                    "endColumn": 140,
+                    "endOffset": 5093
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/6e9583972cd199da060090f94a13bac3b9cf0887/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 400,
-                        "endColumn": 99,
-                        "endOffset": 495
+                        "startLine": 33,
+                        "startColumn": 0,
+                        "startOffset": 2778,
+                        "endColumn": 140,
+                        "endOffset": 2918
                     }
                 }
             },
@@ -2139,18 +1013,18 @@
                 "to": {
                     "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 6617,
-                    "endColumn": 93,
-                    "endOffset": 6706
+                    "startOffset": 5098,
+                    "endColumn": 121,
+                    "endOffset": 5215
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/6e9583972cd199da060090f94a13bac3b9cf0887/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 500,
-                        "endColumn": 93,
-                        "endOffset": 589
+                        "startLine": 34,
+                        "startColumn": 0,
+                        "startOffset": 2919,
+                        "endColumn": 117,
+                        "endOffset": 3036
                     }
                 }
             },
@@ -2158,18 +1032,18 @@
                 "to": {
                     "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 6711,
-                    "endColumn": 99,
-                    "endOffset": 6806
+                    "startOffset": 5220,
+                    "endColumn": 120,
+                    "endOffset": 5336
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/6e9583972cd199da060090f94a13bac3b9cf0887/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 594,
-                        "endColumn": 99,
-                        "endOffset": 689
+                        "startLine": 35,
+                        "startColumn": 0,
+                        "startOffset": 3037,
+                        "endColumn": 116,
+                        "endOffset": 3153
                     }
                 }
             },
@@ -2177,18 +1051,18 @@
                 "to": {
                     "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 6811,
-                    "endColumn": 82,
-                    "endOffset": 6889
+                    "startOffset": 5341,
+                    "endColumn": 92,
+                    "endOffset": 5429
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/6e9583972cd199da060090f94a13bac3b9cf0887/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 694,
-                        "endColumn": 82,
-                        "endOffset": 772
+                        "startLine": 36,
+                        "startColumn": 0,
+                        "startOffset": 3154,
+                        "endColumn": 88,
+                        "endOffset": 3242
                     }
                 }
             },
@@ -2196,18 +1070,18 @@
                 "to": {
                     "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 6894,
-                    "endColumn": 88,
-                    "endOffset": 6978
+                    "startOffset": 5434,
+                    "endColumn": 90,
+                    "endOffset": 5520
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/6e9583972cd199da060090f94a13bac3b9cf0887/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 777,
-                        "endColumn": 88,
-                        "endOffset": 861
+                        "startLine": 37,
+                        "startColumn": 0,
+                        "startOffset": 3243,
+                        "endColumn": 86,
+                        "endOffset": 3329
                     }
                 }
             },
@@ -2215,18 +1089,18 @@
                 "to": {
                     "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 6983,
-                    "endColumn": 100,
-                    "endOffset": 7079
+                    "startOffset": 5525,
+                    "endColumn": 97,
+                    "endOffset": 5618
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/ab58df466dec3659b68effc9b6f99e60b4db2648/output/res/values-ko/values-ko.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
                     "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 2064,
-                        "endColumn": 100,
-                        "endOffset": 2160
+                        "startLine": 38,
+                        "startColumn": 0,
+                        "startOffset": 3330,
+                        "endColumn": 93,
+                        "endOffset": 3423
                     }
                 }
             },
@@ -2234,18 +1108,892 @@
                 "to": {
                     "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 7084,
-                    "endColumn": 99,
-                    "endOffset": 7179
+                    "startOffset": 5623,
+                    "endColumn": 76,
+                    "endOffset": 5695
                 },
                 "from": {
-                    "file": "/home/physiiii/.android/build-cache/4904a1abf64a5b9befe802561cd59829a47e7e95/output/res/values-ko/wallet_strings.xml",
+                    "file": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 0,
+                        "startOffset": 3424,
+                        "endColumn": 72,
+                        "endOffset": 3496
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 5700,
+                    "endColumn": 105,
+                    "endOffset": 5801
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/58a907db34597d0e7e6ccd1a5a1272b89ae82123/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 283,
+                        "endColumn": 101,
+                        "endOffset": 384
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 5806,
+                    "endColumn": 170,
+                    "endOffset": 5972
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/58a907db34597d0e7e6ccd1a5a1272b89ae82123/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 385,
+                        "endColumn": 170,
+                        "endOffset": 555
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 5977,
+                    "endColumn": 117,
+                    "endOffset": 6090
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/58a907db34597d0e7e6ccd1a5a1272b89ae82123/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 556,
+                        "endColumn": 113,
+                        "endOffset": 669
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 6095,
+                    "endColumn": 103,
+                    "endOffset": 6194
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/58a907db34597d0e7e6ccd1a5a1272b89ae82123/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 670,
+                        "endColumn": 99,
+                        "endOffset": 769
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 6199,
+                    "endColumn": 173,
+                    "endOffset": 6368
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/58a907db34597d0e7e6ccd1a5a1272b89ae82123/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 770,
+                        "endColumn": 173,
+                        "endOffset": 943
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 6373,
+                    "endColumn": 118,
+                    "endOffset": 6487
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/58a907db34597d0e7e6ccd1a5a1272b89ae82123/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 944,
+                        "endColumn": 114,
+                        "endOffset": 1058
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 6492,
+                    "endColumn": 123,
+                    "endOffset": 6611
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/58a907db34597d0e7e6ccd1a5a1272b89ae82123/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 1059,
+                        "endColumn": 119,
+                        "endOffset": 1178
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 6616,
+                    "endColumn": 179,
+                    "endOffset": 6791
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/87d5096711d43f8567a7155f0e4eeb6df806b9b1/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 179,
+                        "endOffset": 464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 6796,
+                    "endColumn": 203,
+                    "endOffset": 6995
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/58a907db34597d0e7e6ccd1a5a1272b89ae82123/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 1179,
+                        "endColumn": 203,
+                        "endOffset": 1382
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 7000,
+                    "endColumn": 104,
+                    "endOffset": 7100
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/58a907db34597d0e7e6ccd1a5a1272b89ae82123/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1383,
+                        "endColumn": 100,
+                        "endOffset": 1483
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 7105,
+                    "endColumn": 166,
+                    "endOffset": 7267
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/58a907db34597d0e7e6ccd1a5a1272b89ae82123/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1484,
+                        "endColumn": 166,
+                        "endOffset": 1650
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 7272,
+                    "endColumn": 119,
+                    "endOffset": 7387
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/58a907db34597d0e7e6ccd1a5a1272b89ae82123/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1651,
+                        "endColumn": 115,
+                        "endOffset": 1766
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 7392,
+                    "endColumn": 176,
+                    "endOffset": 7564
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/58a907db34597d0e7e6ccd1a5a1272b89ae82123/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 1767,
+                        "endColumn": 176,
+                        "endOffset": 1943
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 7569,
+                    "endColumn": 148,
+                    "endOffset": 7713
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/58a907db34597d0e7e6ccd1a5a1272b89ae82123/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 1944,
+                        "endColumn": 144,
+                        "endOffset": 2088
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 7718,
+                    "endColumn": 88,
+                    "endOffset": 7802
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/58a907db34597d0e7e6ccd1a5a1272b89ae82123/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 2089,
+                        "endColumn": 84,
+                        "endOffset": 2173
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 7807,
+                    "endColumn": 87,
+                    "endOffset": 7890
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/58a907db34597d0e7e6ccd1a5a1272b89ae82123/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 2174,
+                        "endColumn": 83,
+                        "endOffset": 2257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 7895,
+                    "endColumn": 103,
+                    "endOffset": 7994
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/58a907db34597d0e7e6ccd1a5a1272b89ae82123/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 2258,
+                        "endColumn": 99,
+                        "endOffset": 2357
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 7999,
+                    "endColumn": 109,
+                    "endOffset": 8104
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/39c23cc7f41fa8637be24b9c648f7a2d76e8972e/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 301,
+                        "endColumn": 105,
+                        "endOffset": 406
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 8109,
+                    "endColumn": 90,
+                    "endOffset": 8195
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/39c23cc7f41fa8637be24b9c648f7a2d76e8972e/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 407,
+                        "endColumn": 86,
+                        "endOffset": 493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 8200,
+                    "endColumn": 89,
+                    "endOffset": 8285
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/39c23cc7f41fa8637be24b9c648f7a2d76e8972e/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 494,
+                        "endColumn": 85,
+                        "endOffset": 579
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 8290,
+                    "endColumn": 96,
+                    "endOffset": 8382
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/39c23cc7f41fa8637be24b9c648f7a2d76e8972e/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 580,
+                        "endColumn": 92,
+                        "endOffset": 672
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 8387,
+                    "endColumn": 84,
+                    "endOffset": 8467
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/39c23cc7f41fa8637be24b9c648f7a2d76e8972e/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 673,
+                        "endColumn": 80,
+                        "endOffset": 753
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 8472,
+                    "endColumn": 89,
+                    "endOffset": 8557
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/39c23cc7f41fa8637be24b9c648f7a2d76e8972e/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 754,
+                        "endColumn": 85,
+                        "endOffset": 839
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 8562,
+                    "endColumn": 68,
+                    "endOffset": 8626
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/39c23cc7f41fa8637be24b9c648f7a2d76e8972e/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 840,
+                        "endColumn": 64,
+                        "endOffset": 904
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 8631,
+                    "endColumn": 93,
+                    "endOffset": 8720
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 93,
+                        "endOffset": 144
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 8725,
+                    "endColumn": 87,
+                    "endOffset": 8808
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 149,
+                        "endColumn": 87,
+                        "endOffset": 232
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 8813,
+                    "endColumn": 80,
+                    "endOffset": 8889
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 237,
+                        "endColumn": 80,
+                        "endOffset": 313
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 8894,
+                    "endColumn": 86,
+                    "endOffset": 8976
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/values-ko/values-ko.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 230,
+                        "startOffset": 318,
+                        "endColumn": 86,
+                        "endOffset": 400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 8981,
+                    "endColumn": 94,
+                    "endOffset": 9071
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 405,
+                        "endColumn": 94,
+                        "endOffset": 495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 9076,
+                    "endColumn": 92,
+                    "endOffset": 9164
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 500,
+                        "endColumn": 92,
+                        "endOffset": 588
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 9169,
+                    "endColumn": 89,
+                    "endOffset": 9254
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 593,
+                        "endColumn": 89,
+                        "endOffset": 678
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 9259,
+                    "endColumn": 88,
+                    "endOffset": 9343
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 683,
+                        "endColumn": 88,
+                        "endOffset": 767
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 9348,
+                    "endColumn": 88,
+                    "endOffset": 9432
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 772,
+                        "endColumn": 88,
+                        "endOffset": 856
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 9437,
+                    "endColumn": 99,
+                    "endOffset": 9532
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 861,
                         "endColumn": 99,
-                        "endOffset": 325
+                        "endOffset": 956
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 9537,
+                    "endColumn": 100,
+                    "endOffset": 9633
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 961,
+                        "endColumn": 100,
+                        "endOffset": 1057
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 9638,
+                    "endColumn": 82,
+                    "endOffset": 9716
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1062,
+                        "endColumn": 82,
+                        "endOffset": 1140
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 9721,
+                    "endColumn": 78,
+                    "endOffset": 9795
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1145,
+                        "endColumn": 78,
+                        "endOffset": 1219
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 9800,
+                    "endColumn": 82,
+                    "endOffset": 9878
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1224,
+                        "endColumn": 82,
+                        "endOffset": 1302
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 9883,
+                    "endColumn": 82,
+                    "endOffset": 9961
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1307,
+                        "endColumn": 82,
+                        "endOffset": 1385
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 9966,
+                    "endColumn": 88,
+                    "endOffset": 10050
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1390,
+                        "endColumn": 88,
+                        "endOffset": 1474
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 10055,
+                    "endColumn": 97,
+                    "endOffset": 10148
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/facc2e96dc1a4c5781197f5e2de7306b818c3d33/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 233,
+                        "endColumn": 93,
+                        "endOffset": 326
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 10153,
+                    "endColumn": 91,
+                    "endOffset": 10240
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/facc2e96dc1a4c5781197f5e2de7306b818c3d33/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 327,
+                        "endColumn": 87,
+                        "endOffset": 414
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 10245,
+                    "endColumn": 100,
+                    "endOffset": 10341
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1890,
+                        "endColumn": 100,
+                        "endOffset": 1986
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 10346,
+                    "endColumn": 113,
+                    "endOffset": 10455
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/39c23cc7f41fa8637be24b9c648f7a2d76e8972e/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 905,
+                        "endColumn": 109,
+                        "endOffset": 1014
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 10460,
+                    "endColumn": 84,
+                    "endOffset": 10540
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/39c23cc7f41fa8637be24b9c648f7a2d76e8972e/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1015,
+                        "endColumn": 80,
+                        "endOffset": 1095
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 10545,
+                    "endColumn": 98,
+                    "endOffset": 10639
+                },
+                "from": {
+                    "file": "/home/physiii/.android/build-cache/a97d8cb7a8ea1dc4c04cf47971ef98f861ebd24f/output/res/values-ko/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 240,
+                        "endColumn": 94,
+                        "endOffset": 334
                     }
                 }
             }

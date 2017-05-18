@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:2:1-107:12
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:2:1-101:12
 	package
 		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:3:5-30
 		INJECTED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml
@@ -27,22 +27,31 @@ ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml
 		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:12:22-73
 uses-permission#android.permission.INTERNET
 ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:13:5-67
-MERGED from [com.google.android.gms:play-services-ads:8.3.0] /home/physiii/.android/build-cache/1c2adf18482e5e6303aca70fb032edb14700c81b/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics:8.3.0] /home/physiii/.android/build-cache/436f57bfb146c4688e2a35b2a1d2f1766a12a06d/output/AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] /home/physiii/.android/build-cache/85f03b25066531bd6dc7ae557189e3aac3e5cc56/output/AndroidManifest.xml:19:5-67
-MERGED from [com.google.android.gms:play-services-gcm:8.3.0] /home/physiii/.android/build-cache/0b5c700bfa16478ff68a60a63525f6c015bbf7b3/output/AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/physiii/.android/build-cache/a7fa16f2e5587874bacace12e63ac935455d8b12/output/AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-wallet:8.3.0] /home/physiii/.android/build-cache/f0c314e06235fe7d785fa5772b71f7e2a4c68b04/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/physiii/.android/build-cache/4335c81390715c49bb1b943816fcf31e9c71c62a/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.4] /home/physiii/.android/build-cache/0c95cc7512f5453e0e1eec88fd99b1636ebaf6b9/output/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:10.2.4] /home/physiii/.android/build-cache/c377965a6493eea6531b36f23e1a794a36d43d49/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/physiii/.android/build-cache/da7dc32bea6ca08e81b152fdcbbc9c9a57c646b2/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:10.2.4] /home/physiii/.android/build-cache/26fbbd815157827f0b6476815f7cca943cde3e98/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.2.4] /home/physiii/.android/build-cache/fe08f079d8e9642a49cd637371f70a7856eea615/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.2.4] /home/physiii/.android/build-cache/f2c4581b96e27b41920b8de0bb2612a4182e11a5/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/physiii/.android/build-cache/e296e7a7126ddd1e3d09ea7afbdd2eea6fe4e965/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] /home/physiii/.android/build-cache/d3001f4985c37a6a61512c4da4efe5ea462039e0/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /home/physiii/.android/build-cache/0e63d27a3f97a2e44cca1572217f208b4f83b343/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] /home/physiii/.android/build-cache/2d47d5d7919afe695d55b12293b7990f741e690e/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /home/physiii/.android/build-cache/232b358acea88c4e7f6ae6dee048275816c187b0/output/AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:13:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:14:5-79
-MERGED from [com.google.android.gms:play-services-ads:8.3.0] /home/physiii/.android/build-cache/1c2adf18482e5e6303aca70fb032edb14700c81b/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-analytics:8.3.0] /home/physiii/.android/build-cache/436f57bfb146c4688e2a35b2a1d2f1766a12a06d/output/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/physiii/.android/build-cache/a7fa16f2e5587874bacace12e63ac935455d8b12/output/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-nearby:8.3.0] /home/physiii/.android/build-cache/2edf403ff6b33df2b89864f4a45eb98ae2ba2409/output/AndroidManifest.xml:19:5-79
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/physiii/.android/build-cache/4335c81390715c49bb1b943816fcf31e9c71c62a/output/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.4] /home/physiii/.android/build-cache/0c95cc7512f5453e0e1eec88fd99b1636ebaf6b9/output/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:10.2.4] /home/physiii/.android/build-cache/c377965a6493eea6531b36f23e1a794a36d43d49/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:10.2.4] /home/physiii/.android/build-cache/fcd10e47eb6a2c3779ae2f17970b7d3948c61964/output/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/physiii/.android/build-cache/e296e7a7126ddd1e3d09ea7afbdd2eea6fe4e965/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] /home/physiii/.android/build-cache/d3001f4985c37a6a61512c4da4efe5ea462039e0/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /home/physiii/.android/build-cache/0e63d27a3f97a2e44cca1572217f208b4f83b343/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] /home/physiii/.android/build-cache/2d47d5d7919afe695d55b12293b7990f741e690e/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /home/physiii/.android/build-cache/232b358acea88c4e7f6ae6dee048275816c187b0/output/AndroidManifest.xml:19:5-78
 	android:name
 		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:14:22-76
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
@@ -55,12 +64,15 @@ ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml
 		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:16:22-73
 uses-permission#android.permission.WAKE_LOCK
 ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:18:5-68
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/physiii/.android/build-cache/a7fa16f2e5587874bacace12e63ac935455d8b12/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics:10.2.4] /home/physiii/.android/build-cache/c377965a6493eea6531b36f23e1a794a36d43d49/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] /home/physiii/.android/build-cache/d3001f4985c37a6a61512c4da4efe5ea462039e0/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /home/physiii/.android/build-cache/0e63d27a3f97a2e44cca1572217f208b4f83b343/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] /home/physiii/.android/build-cache/2d47d5d7919afe695d55b12293b7990f741e690e/output/AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:18:22-65
 uses-permission#android.permission.GET_ACCOUNTS
 ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:20:5-71
-MERGED from [com.google.android.gms:play-services-wallet:8.3.0] /home/physiii/.android/build-cache/f0c314e06235fe7d785fa5772b71f7e2a4c68b04/output/AndroidManifest.xml:21:5-70
 	android:name
 		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:20:22-68
 uses-permission#android.permission.READ_PROFILE
@@ -72,35 +84,55 @@ ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml
 	android:name
 		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:22:22-69
 application
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:24:5-105:19
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:24:5-99:19
 MERGED from [com.android.volley:volley:1.0.0] /home/physiii/.android/build-cache/7da8904009aa39f20388f6a13761b79c406633a3/output/AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services:8.3.0] /home/physiii/.android/build-cache/4aa250420e74818807fc5fc341abf1a6a36ca015/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-ads:8.3.0] /home/physiii/.android/build-cache/1c2adf18482e5e6303aca70fb032edb14700c81b/output/AndroidManifest.xml:24:5-32:19
-MERGED from [com.google.android.gms:play-services-analytics:8.3.0] /home/physiii/.android/build-cache/436f57bfb146c4688e2a35b2a1d2f1766a12a06d/output/AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.gms:play-services-appindexing:8.3.0] /home/physiii/.android/build-cache/effd641c27165d23e2f69e563402e09b2f5d84bc/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] /home/physiii/.android/build-cache/85f03b25066531bd6dc7ae557189e3aac3e5cc56/output/AndroidManifest.xml:20:5-20
-MERGED from [com.google.android.gms:play-services-appstate:8.3.0] /home/physiii/.android/build-cache/a25a0de5fbf1b60dbf589adac737d0eaf0bb219c/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-auth:8.3.0] /home/physiii/.android/build-cache/6057aaaaba730ab8151672a97802c3d1b3d71d7d/output/AndroidManifest.xml:20:5-25:19
-MERGED from [com.google.android.gms:play-services-cast:8.3.0] /home/physiii/.android/build-cache/1bfce1b5bf890f9c0e5c8ed81363525c322f1cd2/output/AndroidManifest.xml:19:5-20
-MERGED from [com.android.support:mediarouter-v7:22.2.0] /home/physiii/.android/build-cache/7ea515e7d4d687a3727d1fc59e91ffc37eaab3dc/output/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-fitness:8.3.0] /home/physiii/.android/build-cache/c55f63f7767f2579b968663f70b6ddc0fb4511bc/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-games:8.3.0] /home/physiii/.android/build-cache/b1d9b30a3965ed071625eddb8dbacdd5064fe3fd/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-drive:8.3.0] /home/physiii/.android/build-cache/8a798b02142c80a120814caef0d1b3fee29ef760/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-gcm:8.3.0] /home/physiii/.android/build-cache/0b5c700bfa16478ff68a60a63525f6c015bbf7b3/output/AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.gms:play-services-location:8.3.0] /home/physiii/.android/build-cache/d85717ccc36e83a168fd9fed97d8659aec7dd28e/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/physiii/.android/build-cache/a7fa16f2e5587874bacace12e63ac935455d8b12/output/AndroidManifest.xml:26:5-46:19
-MERGED from [com.google.android.gms:play-services-nearby:8.3.0] /home/physiii/.android/build-cache/2edf403ff6b33df2b89864f4a45eb98ae2ba2409/output/AndroidManifest.xml:20:5-20
-MERGED from [com.google.android.gms:play-services-panorama:8.3.0] /home/physiii/.android/build-cache/0ca9bace7f59ac8f0364fc68ccdf146c1546db9a/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-plus:8.3.0] /home/physiii/.android/build-cache/2d1d467ad31893cb89b30adb0a119553f64a17a1/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-safetynet:8.3.0] /home/physiii/.android/build-cache/0cf4f377fa121f899ec57a2c522a3e0ffac8fa17/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-vision:8.3.0] /home/physiii/.android/build-cache/b4bcc373dbe652280e6eb96b85a4fb7b02381f39/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-identity:8.3.0] /home/physiii/.android/build-cache/3e2e9958e19240d6c315768c80f741ea778e6877/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/physiii/.android/build-cache/4335c81390715c49bb1b943816fcf31e9c71c62a/output/AndroidManifest.xml:27:5-20
-MERGED from [com.google.android.gms:play-services-wearable:8.3.0] /home/physiii/.android/build-cache/b8b0287d78254bd37276234041662bf6830b73a5/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:design:23.1.1] /home/physiii/.android/build-cache/6795fe6b56bfb9293bbf7d5006c269b1324ca9b3/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] /home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/physiii/.android/build-cache/0506c5c5228d8b71c6ee7d3e061c24a505dd0ae8/output/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services:10.2.4] /home/physiii/.android/build-cache/f15749a7b572276e075cc54b197bc93c4744ea31/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.4] /home/physiii/.android/build-cache/0c95cc7512f5453e0e1eec88fd99b1636ebaf6b9/output/AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-analytics:10.2.4] /home/physiii/.android/build-cache/c377965a6493eea6531b36f23e1a794a36d43d49/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/physiii/.android/build-cache/da7dc32bea6ca08e81b152fdcbbc9c9a57c646b2/output/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:10.2.4] /home/physiii/.android/build-cache/cfe1dfabffc8553b90305b2259380d74d7b931d3/output/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.4] /home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:10.2.4] /home/physiii/.android/build-cache/9ef8637ade81f43d1bc0307215f825e60588b69a/output/AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:palette-v7:24.0.0] /home/physiii/.android/build-cache/0e1a82b481e5182f9f02ef3105141c7a2884f606/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:appcompat-v7:24.0.0] /home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /home/physiii/.android/build-cache/ab06f2790f0cdc218f19a571b0b42582d9f6ff8d/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /home/physiii/.android/build-cache/4a9c7558c57dd0f1590fedc90969c6888a8a14f3/output/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.4] /home/physiii/.android/build-cache/94d50184940f7473576a52ea06021efbd78ef400/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:10.2.4] /home/physiii/.android/build-cache/f8fa676295bead356c36c15443e406f3fceff6af/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:10.2.4] /home/physiii/.android/build-cache/47b9b7df7725b64bd8aba10107b15b55e178d500/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-crash:10.2.4] /home/physiii/.android/build-cache/26fbbd815157827f0b6476815f7cca943cde3e98/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth:10.2.4] /home/physiii/.android/build-cache/51cf481931f6a8ecafc77f35fd86e763da900f2d/output/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-messaging:10.2.4] /home/physiii/.android/build-cache/4b7c6b45d571c97c9da79e6730bea0d392eea9d2/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-fitness:10.2.4] /home/physiii/.android/build-cache/259032f24b2fc4d6dd7a2c79de06800b428dce64/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:10.2.4] /home/physiii/.android/build-cache/bffec469e32d16f8f083d4301be06b35e7b39a7b/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:10.2.4] /home/physiii/.android/build-cache/7791fbe4cb534a9d7493cb8e5b59bbef2fc3fb77/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.2.4] /home/physiii/.android/build-cache/131de79087e32580bf567ae385997de7a858626c/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gcm:10.2.4] /home/physiii/.android/build-cache/fe08f079d8e9642a49cd637371f70a7856eea615/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:10.2.4] /home/physiii/.android/build-cache/34c82c16528e0acbaa720419461e08209e398e04/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.2.4] /home/physiii/.android/build-cache/f2c4581b96e27b41920b8de0bb2612a4182e11a5/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:10.2.4] /home/physiii/.android/build-cache/48a9fb3c1325abdd8cdbef54135f4430b4768c47/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-nearby:10.2.4] /home/physiii/.android/build-cache/fcd10e47eb6a2c3779ae2f17970b7d3948c61964/output/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:10.2.4] /home/physiii/.android/build-cache/65520ca53713c7e79d2ad6e3281510d22a9bfd24/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:10.2.4] /home/physiii/.android/build-cache/facc2e96dc1a4c5781197f5e2de7306b818c3d33/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:10.2.4] /home/physiii/.android/build-cache/bce32a619139afc2c4fe9bbd1a04af87b6cd8799/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.4] /home/physiii/.android/build-cache/7201cf9b246033fba5cea112e76c908fc23d37b8/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/physiii/.android/build-cache/e296e7a7126ddd1e3d09ea7afbdd2eea6fe4e965/output/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] /home/physiii/.android/build-cache/d3001f4985c37a6a61512c4da4efe5ea462039e0/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /home/physiii/.android/build-cache/0e63d27a3f97a2e44cca1572217f208b4f83b343/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:10.2.4] /home/physiii/.android/build-cache/952a03a6ac9d4dcb429a1bb364ea3cb934e4c657/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.4] /home/physiii/.android/build-cache/30f29c9f4718b1c9a77a7b4bfc2788cc2dc11c6a/output/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] /home/physiii/.android/build-cache/2d47d5d7919afe695d55b12293b7990f741e690e/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-vision:10.2.4] /home/physiii/.android/build-cache/2caca9cd79451cbaff6a41169ffae86852447cc1/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:10.2.4] /home/physiii/.android/build-cache/b0504e763539acc3022bc07cf1082b73a30e9bc3/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /home/physiii/.android/build-cache/232b358acea88c4e7f6ae6dee048275816c187b0/output/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-wearable:10.2.4] /home/physiii/.android/build-cache/54e741d25f1c5cd0542e8d82b622983a9a3174bb/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.4] /home/physiii/.android/build-cache/58a907db34597d0e7e6ccd1a5a1272b89ae82123/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /home/physiii/.android/build-cache/16a32f0eb5dfb26a9135d6440ac3ae16e370557c/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /home/physiii/.android/build-cache/87d5096711d43f8567a7155f0e4eeb6df806b9b1/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] /home/physiii/.android/build-cache/bba7cb8f3b2ab7b6963c3c6fcd4ef58485547afb/output/AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:27:9-41
 	android:supportsRtl
@@ -118,131 +150,154 @@ ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml
 	android:name
 		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:40:13-58
 receiver#org.pyfi.beacon.LaunchReceiver
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:42:9-48:20
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:43:9-49:20
 	android:label
-		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:44:13-45
+		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:45:13-45
 	android:name
-		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:43:13-43
+		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:44:13-43
 intent-filter#org.pyfi.beacon.ACTION_PULSE_SERVER_ALARM
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:45:13-47:29
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:46:13-48:29
 action#org.pyfi.beacon.ACTION_PULSE_SERVER_ALARM
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:46:17-84
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:47:17-84
 	android:name
-		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:46:25-81
+		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:47:25-81
 receiver#org.pyfi.beacon.StartMyServiceAtBootReceiver
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:49:9-55:20
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:50:9-56:20
 	android:label
+		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:52:13-57
+	android:name
 		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:51:13-57
-	android:name
-		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:50:13-57
 intent-filter#android.intent.action.BOOT_COMPLETED
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:52:13-54:29
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:53:13-55:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:53:17-79
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:54:17-79
 	android:name
-		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:53:25-76
+		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:54:25-76
 service#org.pyfi.beacon.wsService
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:57:9-63:19
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:58:9-64:19
 	android:label
-		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:59:13-45
+		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:60:13-45
 	android:name
-		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:58:13-38
+		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:59:13-38
 intent-filter#org.pyfi.beacon.wsService
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:60:13-62:29
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:61:13-63:29
 action#org.pyfi.beacon.wsService
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:61:17-68
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:62:17-68
 	android:name
-		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:61:25-65
+		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:62:25-65
 activity#org.pyfi.beacon.LoginActivity
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:65:9-72:20
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:66:9-73:20
 	android:label
-		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:67:13-57
+		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:68:13-57
 	android:name
-		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:66:13-42
+		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:67:13-42
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:68:13-71:29
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:69:13-72:29
 action#android.intent.action.MAIN
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:69:17-69
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:70:17-69
 	android:name
-		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:69:25-66
+		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:70:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:70:17-77
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:71:17-77
 	android:name
-		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:70:27-74
+		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:71:27-74
 activity#org.pyfi.beacon.HomeActivity
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:73:9-81:20
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:74:9-82:20
 	android:label
-		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:75:13-56
-	android:theme
 		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:76:13-56
+	android:theme
+		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:77:13-56
 	android:name
-		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:74:13-41
-meta-data#com.google.android.gms.version
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:86:9-88:69
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/AndroidManifest.xml:21:9-23:69
-	android:value
-		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:88:13-66
-	android:name
-		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:87:13-58
+		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:75:13-41
 receiver#org.pyfi.beacon.BeaconWidget
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:90:9-98:20
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:84:9-92:20
 	android:name
-		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:90:19-47
+		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:84:19-47
 intent-filter#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:91:13-93:29
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:85:13-87:29
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:92:17-84
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:86:17-84
 	android:name
-		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:92:25-81
+		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:86:25-81
 meta-data#android.appwidget.provider
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:95:13-97:62
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:89:13-91:62
 	android:resource
-		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:97:17-59
+		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:91:17-59
 	android:name
-		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:96:17-58
+		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:90:17-58
 activity#org.pyfi.beacon.BeaconWidgetConfigureActivity
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:100:9-104:20
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:94:9-98:20
 	android:name
-		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:100:19-64
+		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:94:19-64
 intent-filter#android.appwidget.action.APPWIDGET_CONFIGURE
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:101:13-103:29
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:95:13-97:29
 action#android.appwidget.action.APPWIDGET_CONFIGURE
-ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:102:17-87
+ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:96:17-87
 	android:name
-		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:102:25-84
+		ADDED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml:96:25-84
 uses-sdk
 INJECTED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] /home/physiii/.android/build-cache/82e07c332e59f406f6cc4d7deeeb2500b5c0cf57/output/AndroidManifest.xml:18:5-42
 MERGED from [com.android.volley:volley:1.0.0] /home/physiii/.android/build-cache/7da8904009aa39f20388f6a13761b79c406633a3/output/AndroidManifest.xml:7:5-43
-MERGED from [com.google.android.gms:play-services:8.3.0] /home/physiii/.android/build-cache/4aa250420e74818807fc5fc341abf1a6a36ca015/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-ads:8.3.0] /home/physiii/.android/build-cache/1c2adf18482e5e6303aca70fb032edb14700c81b/output/AndroidManifest.xml:23:5-42
-MERGED from [com.google.android.gms:play-services-analytics:8.3.0] /home/physiii/.android/build-cache/436f57bfb146c4688e2a35b2a1d2f1766a12a06d/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-appindexing:8.3.0] /home/physiii/.android/build-cache/effd641c27165d23e2f69e563402e09b2f5d84bc/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] /home/physiii/.android/build-cache/85f03b25066531bd6dc7ae557189e3aac3e5cc56/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-appstate:8.3.0] /home/physiii/.android/build-cache/a25a0de5fbf1b60dbf589adac737d0eaf0bb219c/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-auth:8.3.0] /home/physiii/.android/build-cache/6057aaaaba730ab8151672a97802c3d1b3d71d7d/output/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-cast:8.3.0] /home/physiii/.android/build-cache/1bfce1b5bf890f9c0e5c8ed81363525c322f1cd2/output/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:mediarouter-v7:22.2.0] /home/physiii/.android/build-cache/7ea515e7d4d687a3727d1fc59e91ffc37eaab3dc/output/AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-fitness:8.3.0] /home/physiii/.android/build-cache/c55f63f7767f2579b968663f70b6ddc0fb4511bc/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-games:8.3.0] /home/physiii/.android/build-cache/b1d9b30a3965ed071625eddb8dbacdd5064fe3fd/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-drive:8.3.0] /home/physiii/.android/build-cache/8a798b02142c80a120814caef0d1b3fee29ef760/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-gcm:8.3.0] /home/physiii/.android/build-cache/0b5c700bfa16478ff68a60a63525f6c015bbf7b3/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-location:8.3.0] /home/physiii/.android/build-cache/d85717ccc36e83a168fd9fed97d8659aec7dd28e/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/physiii/.android/build-cache/a7fa16f2e5587874bacace12e63ac935455d8b12/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-nearby:8.3.0] /home/physiii/.android/build-cache/2edf403ff6b33df2b89864f4a45eb98ae2ba2409/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-panorama:8.3.0] /home/physiii/.android/build-cache/0ca9bace7f59ac8f0364fc68ccdf146c1546db9a/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-plus:8.3.0] /home/physiii/.android/build-cache/2d1d467ad31893cb89b30adb0a119553f64a17a1/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-safetynet:8.3.0] /home/physiii/.android/build-cache/0cf4f377fa121f899ec57a2c522a3e0ffac8fa17/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-vision:8.3.0] /home/physiii/.android/build-cache/b4bcc373dbe652280e6eb96b85a4fb7b02381f39/output/AndroidManifest.xml:4:5-42
-MERGED from [com.google.android.gms:play-services-wallet:8.3.0] /home/physiii/.android/build-cache/f0c314e06235fe7d785fa5772b71f7e2a4c68b04/output/AndroidManifest.xml:19:5-42
-MERGED from [com.google.android.gms:play-services-identity:8.3.0] /home/physiii/.android/build-cache/3e2e9958e19240d6c315768c80f741ea778e6877/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/physiii/.android/build-cache/4335c81390715c49bb1b943816fcf31e9c71c62a/output/AndroidManifest.xml:26:5-42
-MERGED from [com.google.android.gms:play-services-wearable:8.3.0] /home/physiii/.android/build-cache/b8b0287d78254bd37276234041662bf6830b73a5/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/physiii/.android/build-cache/77529e48304e91915534eb02433111e1320875b4/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/physiii/.android/build-cache/14b3e37e4bc2b70da023a4f0e32813ef3fc7edd1/output/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:design:23.1.1] /home/physiii/.android/build-cache/6795fe6b56bfb9293bbf7d5006c269b1324ca9b3/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] /home/physiii/.android/build-cache/23f97f225c9efbee32331dddb912a06b59dbc126/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:23.1.1] /home/physiii/.android/build-cache/3aecd609f6576a04ad7b1386cf230ec7405f2cc8/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] /home/physiii/.android/build-cache/0506c5c5228d8b71c6ee7d3e061c24a505dd0ae8/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services:10.2.4] /home/physiii/.android/build-cache/f15749a7b572276e075cc54b197bc93c4744ea31/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads:10.2.4] /home/physiii/.android/build-cache/39c23cc7f41fa8637be24b9c648f7a2d76e8972e/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.4] /home/physiii/.android/build-cache/0c95cc7512f5453e0e1eec88fd99b1636ebaf6b9/output/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-analytics:10.2.4] /home/physiii/.android/build-cache/c377965a6493eea6531b36f23e1a794a36d43d49/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/physiii/.android/build-cache/da7dc32bea6ca08e81b152fdcbbc9c9a57c646b2/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:10.2.4] /home/physiii/.android/build-cache/cfe1dfabffc8553b90305b2259380d74d7b931d3/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.4] /home/physiii/.android/build-cache/14bf802fa601ed36b890ead4257c4b637694ce2a/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.4] /home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:10.2.4] /home/physiii/.android/build-cache/9ef8637ade81f43d1bc0307215f825e60588b69a/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:24.0.0] /home/physiii/.android/build-cache/0e1a82b481e5182f9f02ef3105141c7a2884f606/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.0.0] /home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /home/physiii/.android/build-cache/ab06f2790f0cdc218f19a571b0b42582d9f6ff8d/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /home/physiii/.android/build-cache/4a9c7558c57dd0f1590fedc90969c6888a8a14f3/output/AndroidManifest.xml:21:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.4] /home/physiii/.android/build-cache/94d50184940f7473576a52ea06021efbd78ef400/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:10.2.4] /home/physiii/.android/build-cache/f8fa676295bead356c36c15443e406f3fceff6af/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:10.2.4] /home/physiii/.android/build-cache/47b9b7df7725b64bd8aba10107b15b55e178d500/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:10.2.4] /home/physiii/.android/build-cache/26fbbd815157827f0b6476815f7cca943cde3e98/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-auth:10.2.4] /home/physiii/.android/build-cache/51cf481931f6a8ecafc77f35fd86e763da900f2d/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:10.2.4] /home/physiii/.android/build-cache/a7efcb1d95ea8447370b27af33f930554ccbf133/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:10.2.4] /home/physiii/.android/build-cache/77dde81263fb864c772a7d9830dfb306198d8f40/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.4] /home/physiii/.android/build-cache/4b7c6b45d571c97c9da79e6730bea0d392eea9d2/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:10.2.4] /home/physiii/.android/build-cache/a3f8efebe3db661fdc830e3ebd7a4c72cd041c0b/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:10.2.4] /home/physiii/.android/build-cache/9f423cfaea1db7813c2dc74f8a8ef7dfa831c03d/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-fitness:10.2.4] /home/physiii/.android/build-cache/259032f24b2fc4d6dd7a2c79de06800b428dce64/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:10.2.4] /home/physiii/.android/build-cache/bffec469e32d16f8f083d4301be06b35e7b39a7b/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:10.2.4] /home/physiii/.android/build-cache/7791fbe4cb534a9d7493cb8e5b59bbef2fc3fb77/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:10.2.4] /home/physiii/.android/build-cache/131de79087e32580bf567ae385997de7a858626c/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gcm:10.2.4] /home/physiii/.android/build-cache/fe08f079d8e9642a49cd637371f70a7856eea615/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:10.2.4] /home/physiii/.android/build-cache/34c82c16528e0acbaa720419461e08209e398e04/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:10.2.4] /home/physiii/.android/build-cache/f2c4581b96e27b41920b8de0bb2612a4182e11a5/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:10.2.4] /home/physiii/.android/build-cache/0372cd89a112a84102159944cb8ab8dc666f8d05/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:10.2.4] /home/physiii/.android/build-cache/48a9fb3c1325abdd8cdbef54135f4430b4768c47/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:10.2.4] /home/physiii/.android/build-cache/fcd10e47eb6a2c3779ae2f17970b7d3948c61964/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:10.2.4] /home/physiii/.android/build-cache/65520ca53713c7e79d2ad6e3281510d22a9bfd24/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:10.2.4] /home/physiii/.android/build-cache/facc2e96dc1a4c5781197f5e2de7306b818c3d33/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:10.2.4] /home/physiii/.android/build-cache/bce32a619139afc2c4fe9bbd1a04af87b6cd8799/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.4] /home/physiii/.android/build-cache/7201cf9b246033fba5cea112e76c908fc23d37b8/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:10.2.4] /home/physiii/.android/build-cache/a8de36fad522ab22caa014111940438db81f16c9/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/physiii/.android/build-cache/e296e7a7126ddd1e3d09ea7afbdd2eea6fe4e965/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] /home/physiii/.android/build-cache/d3001f4985c37a6a61512c4da4efe5ea462039e0/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /home/physiii/.android/build-cache/0e63d27a3f97a2e44cca1572217f208b4f83b343/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.4] /home/physiii/.android/build-cache/952a03a6ac9d4dcb429a1bb364ea3cb934e4c657/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.4] /home/physiii/.android/build-cache/30f29c9f4718b1c9a77a7b4bfc2788cc2dc11c6a/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] /home/physiii/.android/build-cache/2d47d5d7919afe695d55b12293b7990f741e690e/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:10.2.4] /home/physiii/.android/build-cache/2caca9cd79451cbaff6a41169ffae86852447cc1/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wallet:10.2.4] /home/physiii/.android/build-cache/a97d8cb7a8ea1dc4c04cf47971ef98f861ebd24f/output/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-identity:10.2.4] /home/physiii/.android/build-cache/b0504e763539acc3022bc07cf1082b73a30e9bc3/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /home/physiii/.android/build-cache/232b358acea88c4e7f6ae6dee048275816c187b0/output/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-wearable:10.2.4] /home/physiii/.android/build-cache/54e741d25f1c5cd0542e8d82b622983a9a3174bb/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.4] /home/physiii/.android/build-cache/58a907db34597d0e7e6ccd1a5a1272b89ae82123/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /home/physiii/.android/build-cache/16a32f0eb5dfb26a9135d6440ac3ae16e370557c/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /home/physiii/.android/build-cache/87d5096711d43f8567a7155f0e4eeb6df806b9b1/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /home/physiii/.android/build-cache/bba7cb8f3b2ab7b6963c3c6fcd4ef58485547afb/output/AndroidManifest.xml:21:5-23:54
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.0.0] /home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml
 		INJECTED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml
@@ -250,68 +305,222 @@ MERGED from [com.android.support:support-v4:23.1.1] /home/physiii/.android/build
 		INJECTED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml
 		INJECTED from /home/physiii/code/android/beacon/mobile/src/main/AndroidManifest.xml
 activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads:8.3.0] /home/physiii/.android/build-cache/1c2adf18482e5e6303aca70fb032edb14700c81b/output/AndroidManifest.xml:26:9-29:64
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] /home/physiii/.android/build-cache/0c95cc7512f5453e0e1eec88fd99b1636ebaf6b9/output/AndroidManifest.xml:25:9-232
 	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads:8.3.0] /home/physiii/.android/build-cache/1c2adf18482e5e6303aca70fb032edb14700c81b/output/AndroidManifest.xml:28:13-122
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] /home/physiii/.android/build-cache/0c95cc7512f5453e0e1eec88fd99b1636ebaf6b9/output/AndroidManifest.xml:25:72-181
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads:8.3.0] /home/physiii/.android/build-cache/1c2adf18482e5e6303aca70fb032edb14700c81b/output/AndroidManifest.xml:29:13-61
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] /home/physiii/.android/build-cache/0c95cc7512f5453e0e1eec88fd99b1636ebaf6b9/output/AndroidManifest.xml:25:182-230
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads:8.3.0] /home/physiii/.android/build-cache/1c2adf18482e5e6303aca70fb032edb14700c81b/output/AndroidManifest.xml:27:13-65
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] /home/physiii/.android/build-cache/0c95cc7512f5453e0e1eec88fd99b1636ebaf6b9/output/AndroidManifest.xml:25:19-71
 activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
-ADDED from [com.google.android.gms:play-services-ads:8.3.0] /home/physiii/.android/build-cache/1c2adf18482e5e6303aca70fb032edb14700c81b/output/AndroidManifest.xml:30:9-31:52
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] /home/physiii/.android/build-cache/0c95cc7512f5453e0e1eec88fd99b1636ebaf6b9/output/AndroidManifest.xml:26:9-131
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads:8.3.0] /home/physiii/.android/build-cache/1c2adf18482e5e6303aca70fb032edb14700c81b/output/AndroidManifest.xml:31:13-50
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] /home/physiii/.android/build-cache/0c95cc7512f5453e0e1eec88fd99b1636ebaf6b9/output/AndroidManifest.xml:26:92-129
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads:8.3.0] /home/physiii/.android/build-cache/1c2adf18482e5e6303aca70fb032edb14700c81b/output/AndroidManifest.xml:30:19-91
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] /home/physiii/.android/build-cache/0c95cc7512f5453e0e1eec88fd99b1636ebaf6b9/output/AndroidManifest.xml:26:19-91
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/physiii/.android/build-cache/da7dc32bea6ca08e81b152fdcbbc9c9a57c646b2/output/AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/physiii/.android/build-cache/da7dc32bea6ca08e81b152fdcbbc9c9a57c646b2/output/AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/physiii/.android/build-cache/da7dc32bea6ca08e81b152fdcbbc9c9a57c646b2/output/AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/physiii/.android/build-cache/da7dc32bea6ca08e81b152fdcbbc9c9a57c646b2/output/AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/physiii/.android/build-cache/da7dc32bea6ca08e81b152fdcbbc9c9a57c646b2/output/AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/physiii/.android/build-cache/da7dc32bea6ca08e81b152fdcbbc9c9a57c646b2/output/AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/physiii/.android/build-cache/da7dc32bea6ca08e81b152fdcbbc9c9a57c646b2/output/AndroidManifest.xml:22:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/physiii/.android/build-cache/da7dc32bea6ca08e81b152fdcbbc9c9a57c646b2/output/AndroidManifest.xml:23:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/physiii/.android/build-cache/da7dc32bea6ca08e81b152fdcbbc9c9a57c646b2/output/AndroidManifest.xml:23:27-73
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:8.3.0] /home/physiii/.android/build-cache/6057aaaaba730ab8151672a97802c3d1b3d71d7d/output/AndroidManifest.xml:21:9-24:46
+ADDED from [com.google.android.gms:play-services-auth:10.2.4] /home/physiii/.android/build-cache/cfe1dfabffc8553b90305b2259380d74d7b931d3/output/AndroidManifest.xml:20:9-189
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:8.3.0] /home/physiii/.android/build-cache/6057aaaaba730ab8151672a97802c3d1b3d71d7d/output/AndroidManifest.xml:23:19-52
+		ADDED from [com.google.android.gms:play-services-auth:10.2.4] /home/physiii/.android/build-cache/cfe1dfabffc8553b90305b2259380d74d7b931d3/output/AndroidManifest.xml:20:129-162
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:8.3.0] /home/physiii/.android/build-cache/6057aaaaba730ab8151672a97802c3d1b3d71d7d/output/AndroidManifest.xml:24:19-43
+		ADDED from [com.google.android.gms:play-services-auth:10.2.4] /home/physiii/.android/build-cache/cfe1dfabffc8553b90305b2259380d74d7b931d3/output/AndroidManifest.xml:20:163-187
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:8.3.0] /home/physiii/.android/build-cache/6057aaaaba730ab8151672a97802c3d1b3d71d7d/output/AndroidManifest.xml:22:19-78
+		ADDED from [com.google.android.gms:play-services-auth:10.2.4] /home/physiii/.android/build-cache/cfe1dfabffc8553b90305b2259380d74d7b931d3/output/AndroidManifest.xml:20:69-128
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:8.3.0] /home/physiii/.android/build-cache/6057aaaaba730ab8151672a97802c3d1b3d71d7d/output/AndroidManifest.xml:21:19-72
+		ADDED from [com.google.android.gms:play-services-auth:10.2.4] /home/physiii/.android/build-cache/cfe1dfabffc8553b90305b2259380d74d7b931d3/output/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:10.2.4] /home/physiii/.android/build-cache/cfe1dfabffc8553b90305b2259380d74d7b931d3/output/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.4] /home/physiii/.android/build-cache/cfe1dfabffc8553b90305b2259380d74d7b931d3/output/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:10.2.4] /home/physiii/.android/build-cache/cfe1dfabffc8553b90305b2259380d74d7b931d3/output/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.4] /home/physiii/.android/build-cache/cfe1dfabffc8553b90305b2259380d74d7b931d3/output/AndroidManifest.xml:24:18-63
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.4] /home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.4] /home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.4] /home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.4] /home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.4] /home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.4] /home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/AndroidManifest.xml:7:18-90
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.2.4] /home/physiii/.android/build-cache/4b7c6b45d571c97c9da79e6730bea0d392eea9d2/output/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.2.4] /home/physiii/.android/build-cache/4b7c6b45d571c97c9da79e6730bea0d392eea9d2/output/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.4] /home/physiii/.android/build-cache/4b7c6b45d571c97c9da79e6730bea0d392eea9d2/output/AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.2.4] /home/physiii/.android/build-cache/4b7c6b45d571c97c9da79e6730bea0d392eea9d2/output/AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:10.2.4] /home/physiii/.android/build-cache/4b7c6b45d571c97c9da79e6730bea0d392eea9d2/output/AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.2.4] /home/physiii/.android/build-cache/4b7c6b45d571c97c9da79e6730bea0d392eea9d2/output/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.4] /home/physiii/.android/build-cache/4b7c6b45d571c97c9da79e6730bea0d392eea9d2/output/AndroidManifest.xml:25:25-75
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.android.gms:play-services-gcm:8.3.0] /home/physiii/.android/build-cache/0b5c700bfa16478ff68a60a63525f6c015bbf7b3/output/AndroidManifest.xml:21:5-82
+ADDED from [com.google.android.gms:play-services-gcm:10.2.4] /home/physiii/.android/build-cache/fe08f079d8e9642a49cd637371f70a7856eea615/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.2.4] /home/physiii/.android/build-cache/f2c4581b96e27b41920b8de0bb2612a4182e11a5/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from [com.google.android.gms:play-services-gcm:8.3.0] /home/physiii/.android/build-cache/0b5c700bfa16478ff68a60a63525f6c015bbf7b3/output/AndroidManifest.xml:21:22-79
-provider#com.google.android.gms.measurement.AppMeasurementContentProvider
-ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/physiii/.android/build-cache/a7fa16f2e5587874bacace12e63ac935455d8b12/output/AndroidManifest.xml:28:7-31:37
-	android:authorities
-		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/physiii/.android/build-cache/a7fa16f2e5587874bacace12e63ac935455d8b12/output/AndroidManifest.xml:29:11-76
+		ADDED from [com.google.android.gms:play-services-gcm:10.2.4] /home/physiii/.android/build-cache/fe08f079d8e9642a49cd637371f70a7856eea615/output/AndroidManifest.xml:20:22-79
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/physiii/.android/build-cache/e296e7a7126ddd1e3d09ea7afbdd2eea6fe4e965/output/AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/physiii/.android/build-cache/e296e7a7126ddd1e3d09ea7afbdd2eea6fe4e965/output/AndroidManifest.xml:24:110-132
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/physiii/.android/build-cache/a7fa16f2e5587874bacace12e63ac935455d8b12/output/AndroidManifest.xml:31:11-35
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/physiii/.android/build-cache/e296e7a7126ddd1e3d09ea7afbdd2eea6fe4e965/output/AndroidManifest.xml:24:85-109
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/physiii/.android/build-cache/a7fa16f2e5587874bacace12e63ac935455d8b12/output/AndroidManifest.xml:30:11-90
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/physiii/.android/build-cache/e296e7a7126ddd1e3d09ea7afbdd2eea6fe4e965/output/AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/physiii/.android/build-cache/e296e7a7126ddd1e3d09ea7afbdd2eea6fe4e965/output/AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/physiii/.android/build-cache/e296e7a7126ddd1e3d09ea7afbdd2eea6fe4e965/output/AndroidManifest.xml:25:94-118
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/physiii/.android/build-cache/e296e7a7126ddd1e3d09ea7afbdd2eea6fe4e965/output/AndroidManifest.xml:25:19-93
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/physiii/.android/build-cache/e296e7a7126ddd1e3d09ea7afbdd2eea6fe4e965/output/AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/physiii/.android/build-cache/e296e7a7126ddd1e3d09ea7afbdd2eea6fe4e965/output/AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/physiii/.android/build-cache/e296e7a7126ddd1e3d09ea7afbdd2eea6fe4e965/output/AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/physiii/.android/build-cache/e296e7a7126ddd1e3d09ea7afbdd2eea6fe4e965/output/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/physiii/.android/build-cache/e296e7a7126ddd1e3d09ea7afbdd2eea6fe4e965/output/AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/physiii/.android/build-cache/e296e7a7126ddd1e3d09ea7afbdd2eea6fe4e965/output/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/physiii/.android/build-cache/e296e7a7126ddd1e3d09ea7afbdd2eea6fe4e965/output/AndroidManifest.xml:30:27-75
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/physiii/.android/build-cache/a7fa16f2e5587874bacace12e63ac935455d8b12/output/AndroidManifest.xml:33:7-39:18
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/physiii/.android/build-cache/d3001f4985c37a6a61512c4da4efe5ea462039e0/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /home/physiii/.android/build-cache/0e63d27a3f97a2e44cca1572217f208b4f83b343/output/AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/physiii/.android/build-cache/a7fa16f2e5587874bacace12e63ac935455d8b12/output/AndroidManifest.xml:35:11-33
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/physiii/.android/build-cache/a7fa16f2e5587874bacace12e63ac935455d8b12/output/AndroidManifest.xml:34:11-83
-intent-filter#com.google.android.gms.measurement.UPLOAD
-ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/physiii/.android/build-cache/a7fa16f2e5587874bacace12e63ac935455d8b12/output/AndroidManifest.xml:36:9-38:25
-action#com.google.android.gms.measurement.UPLOAD
-ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/physiii/.android/build-cache/a7fa16f2e5587874bacace12e63ac935455d8b12/output/AndroidManifest.xml:37:11-77
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/physiii/.android/build-cache/a7fa16f2e5587874bacace12e63ac935455d8b12/output/AndroidManifest.xml:37:19-75
-service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/physiii/.android/build-cache/a7fa16f2e5587874bacace12e63ac935455d8b12/output/AndroidManifest.xml:41:7-44:37
-	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/physiii/.android/build-cache/a7fa16f2e5587874bacace12e63ac935455d8b12/output/AndroidManifest.xml:43:11-33
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/physiii/.android/build-cache/d3001f4985c37a6a61512c4da4efe5ea462039e0/output/AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/physiii/.android/build-cache/a7fa16f2e5587874bacace12e63ac935455d8b12/output/AndroidManifest.xml:44:11-35
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/physiii/.android/build-cache/d3001f4985c37a6a61512c4da4efe5ea462039e0/output/AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/physiii/.android/build-cache/a7fa16f2e5587874bacace12e63ac935455d8b12/output/AndroidManifest.xml:42:11-82
-uses-permission#android.permission.USE_CREDENTIALS
-ADDED from [com.google.android.gms:play-services-wallet:8.3.0] /home/physiii/.android/build-cache/f0c314e06235fe7d785fa5772b71f7e2a4c68b04/output/AndroidManifest.xml:22:5-73
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/physiii/.android/build-cache/d3001f4985c37a6a61512c4da4efe5ea462039e0/output/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/physiii/.android/build-cache/d3001f4985c37a6a61512c4da4efe5ea462039e0/output/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/physiii/.android/build-cache/d3001f4985c37a6a61512c4da4efe5ea462039e0/output/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/physiii/.android/build-cache/d3001f4985c37a6a61512c4da4efe5ea462039e0/output/AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.android.gms:play-services-wallet:8.3.0] /home/physiii/.android/build-cache/f0c314e06235fe7d785fa5772b71f7e2a4c68b04/output/AndroidManifest.xml:22:22-71
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/physiii/.android/build-cache/d3001f4985c37a6a61512c4da4efe5ea462039e0/output/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/physiii/.android/build-cache/d3001f4985c37a6a61512c4da4efe5ea462039e0/output/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/physiii/.android/build-cache/d3001f4985c37a6a61512c4da4efe5ea462039e0/output/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/physiii/.android/build-cache/d3001f4985c37a6a61512c4da4efe5ea462039e0/output/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/physiii/.android/build-cache/d3001f4985c37a6a61512c4da4efe5ea462039e0/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /home/physiii/.android/build-cache/0e63d27a3f97a2e44cca1572217f208b4f83b343/output/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/physiii/.android/build-cache/d3001f4985c37a6a61512c4da4efe5ea462039e0/output/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/physiii/.android/build-cache/d3001f4985c37a6a61512c4da4efe5ea462039e0/output/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/physiii/.android/build-cache/d3001f4985c37a6a61512c4da4efe5ea462039e0/output/AndroidManifest.xml:32:16-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/physiii/.android/build-cache/5a8aea68b8c14866851f0f693a8c38b6acfa19d7/output/AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.2.4] /home/physiii/.android/build-cache/952a03a6ac9d4dcb429a1bb364ea3cb934e4c657/output/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.2.4] /home/physiii/.android/build-cache/952a03a6ac9d4dcb429a1bb364ea3cb934e4c657/output/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.2.4] /home/physiii/.android/build-cache/952a03a6ac9d4dcb429a1bb364ea3cb934e4c657/output/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.2.4] /home/physiii/.android/build-cache/952a03a6ac9d4dcb429a1bb364ea3cb934e4c657/output/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.2.4] /home/physiii/.android/build-cache/952a03a6ac9d4dcb429a1bb364ea3cb934e4c657/output/AndroidManifest.xml:6:79-143
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:8.3.0] /home/physiii/.android/build-cache/4335c81390715c49bb1b943816fcf31e9c71c62a/output/AndroidManifest.xml:22:5-24:33
+ADDED from [com.google.android.gms:play-services-maps:10.2.4] /home/physiii/.android/build-cache/232b358acea88c4e7f6ae6dee048275816c187b0/output/AndroidManifest.xml:21:5-77
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:8.3.0] /home/physiii/.android/build-cache/4335c81390715c49bb1b943816fcf31e9c71c62a/output/AndroidManifest.xml:23:8-40
+		ADDED from [com.google.android.gms:play-services-maps:10.2.4] /home/physiii/.android/build-cache/232b358acea88c4e7f6ae6dee048275816c187b0/output/AndroidManifest.xml:21:19-51
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:8.3.0] /home/physiii/.android/build-cache/4335c81390715c49bb1b943816fcf31e9c71c62a/output/AndroidManifest.xml:24:8-31
+		ADDED from [com.google.android.gms:play-services-maps:10.2.4] /home/physiii/.android/build-cache/232b358acea88c4e7f6ae6dee048275816c187b0/output/AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.4] /home/physiii/.android/build-cache/58a907db34597d0e7e6ccd1a5a1272b89ae82123/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] /home/physiii/.android/build-cache/58a907db34597d0e7e6ccd1a5a1272b89ae82123/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] /home/physiii/.android/build-cache/58a907db34597d0e7e6ccd1a5a1272b89ae82123/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] /home/physiii/.android/build-cache/58a907db34597d0e7e6ccd1a5a1272b89ae82123/output/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.4] /home/physiii/.android/build-cache/87d5096711d43f8567a7155f0e4eeb6df806b9b1/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.4] /home/physiii/.android/build-cache/87d5096711d43f8567a7155f0e4eeb6df806b9b1/output/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.4] /home/physiii/.android/build-cache/87d5096711d43f8567a7155f0e4eeb6df806b9b1/output/AndroidManifest.xml:20:20-65

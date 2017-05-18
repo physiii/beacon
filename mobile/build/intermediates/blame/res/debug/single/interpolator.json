@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/interpolator/mr_linear_out_slow_in.xml",
+        "source": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/interpolator/mr_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/interpolator/mr_fast_out_slow_in.xml",
+        "source": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/interpolator/mr_fast_out_slow_in.xml"
+    }
+]

@@ -6,13 +6,5 @@
     {
         "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/menu/home.xml",
         "source": "/home/physiii/code/android/beacon/mobile/src/main/res/menu/home.xml"
-    },
-    {
-        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/menu/home.xml",
-        "source": "/home/physiiii/code/android/beacon/mobile/src/main/res/menu/home.xml"
-    },
-    {
-        "merged": "/home/physiiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/menu/activity_home_drawer.xml",
-        "source": "/home/physiiii/code/android/beacon/mobile/src/main/res/menu/activity_home_drawer.xml"
     }
 ]
