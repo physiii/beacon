@@ -1,48 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="armeabi-v7a,armeabi"
-    api-level="23"
+    api-level="21"
     build-mode="FULL"
-    density="hdpi"
+    density="xxhdpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1495116745006"
+    timestamp="1495545789002"
     token="-3527884103445159235"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="250" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="180" />
+        duration="1259" />
     <task
         name="verifier"
-        duration="17" />
+        duration="0" />
 
     <artifact
-        location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
+    <artifact
+        location="/home/physiii/code/android/beacon/mobile/build/outputs/apk/mobile-debug.apk"
+        type="SPLIT_MAIN" />
     <artifact
         location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
     <artifact
-        location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
     <artifact
         location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
     <artifact
         location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_2.apk"
@@ -51,39 +45,39 @@
         location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_6.apk"
         type="SPLIT" />
     <artifact
+        location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
         location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="/home/physiii/code/android/beacon/mobile/build/outputs/apk/mobile-debug.apk"
-        type="SPLIT_MAIN" />
+        location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1495116745006"
+        timestamp="1495545789002"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
+        <artifact
+            location="/home/physiii/code/android/beacon/mobile/build/outputs/apk/mobile-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_2.apk"
@@ -92,14 +86,20 @@
             location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
+            location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/home/physiii/code/android/beacon/mobile/build/outputs/apk/mobile-debug.apk"
-            type="SPLIT_MAIN" />
+            location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/physiii/code/android/beacon/mobile/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>
