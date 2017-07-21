@@ -828,7 +828,7 @@
     <string name="title_activity_main">open-automation</string>
     <string name="title_activity_main2">open-automation2</string>
     <string name="title_activity_maps">Maps</string>
-    <string name="version_number">0.2.6</string>
+    <string name="version_number">0.2.7</string>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

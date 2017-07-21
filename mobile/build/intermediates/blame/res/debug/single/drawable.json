@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
-        "source": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/drawable/abc_ic_search_api_material.xml"
-    },
-    {
         "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
         "source": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/drawable/abc_ic_search_api_material.xml"
     },
     {
         "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_skip_next.xml",
@@ -60,12 +60,12 @@
         "source": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/drawable/cast_ic_expanded_controller_forward30.xml"
     },
     {
-        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_light.xml",
-        "source": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/drawable/mr_ic_media_route_connecting_light.xml"
-    },
-    {
         "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_skip_previous.xml",
         "source": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/drawable/cast_ic_expanded_controller_skip_previous.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_light.xml",
+        "source": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/drawable/mr_ic_media_route_connecting_light.xml"
     },
     {
         "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_rewind30.xml",
@@ -128,16 +128,16 @@
         "source": "/home/physiii/.android/build-cache/29894057e52a16451ac43e97221bc6acff1deb8f/output/res/drawable/cast_ic_notification_rewind30.xml"
     },
     {
-        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/drawable/ic_collapse.xml",
-        "source": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/drawable/ic_collapse.xml"
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/drawable/mr_ic_pause_light.xml",
+        "source": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/drawable/mr_ic_pause_light.xml"
     },
     {
         "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
         "source": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/drawable/abc_btn_colored_material.xml"
     },
     {
-        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/drawable/mr_ic_pause_light.xml",
-        "source": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/drawable/mr_ic_pause_light.xml"
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/drawable/ic_collapse.xml",
+        "source": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/drawable/ic_collapse.xml"
     },
     {
         "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",

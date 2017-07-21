@@ -1,4 +1,4 @@
-#Thu May 18 09:12:33 CDT 2017
+#Thu Jul 20 11:39:03 CDT 2017
 file.68=/home/physiii/code/android/beacon/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/engine.io-client-0.7.0_45baadd09c1a40fff49ec0c4fb29be1f41b25fc2/classes.dex
 file.67=/home/physiii/code/android/beacon/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b0096bc625d9b6103e903fb77f309e0e9be82070/classes.dex
 file.66=/home/physiii/code/android/beacon/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7e1d7a8a5969f490748549c7e063f5d436c16f5a/classes.dex

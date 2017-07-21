@@ -45,8 +45,10 @@ import org.json.JSONObject;
 
 import java.lang.reflect.Array;
 import java.lang.reflect.Type;
+import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.net.URISyntaxException;
+import java.net.UnknownHostException;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -60,6 +62,7 @@ import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
 public class wsService extends Service implements OnPreparedListener {
 
     String SERVER_MODE = "prod";
+    String RELAY_ADDRESS = "192.168.0.10:5000";
 
     public static final String PREFS_NAME = "MyPrefsFile";
     double longitude = 0;
@@ -77,8 +80,8 @@ public class wsService extends Service implements OnPreparedListener {
     private LocationRequest mLocationRequest;
     MediaPlayer mp;
     String io_server = "init";
-    //String webserver = "24.253.223.242";
     String macAddress = getWifiMacAddress();
+    String hostName = "init";
     private PendingIntent alarmIntent;
     private AlarmManager alarms;
     private WifiManager wifi;
@@ -114,6 +117,8 @@ public class wsService extends Service implements OnPreparedListener {
         alarms.setRepeating(AlarmManager.RTC_WAKEUP, System.currentTimeMillis(),
                 10*1000, alarmIntent);
 
+
+
         try {
             connect_to_io();
         } catch (URISyntaxException e) {
@@ -136,11 +141,11 @@ public class wsService extends Service implements OnPreparedListener {
     public void connect_to_io() throws URISyntaxException {
         if (SERVER_MODE.equals("dev")) {
             //url ="http://pyfi.org/get_ip?server_type=dev";
-            io_server = "dev.pyfi.org";
+            io_server = RELAY_ADDRESS;
         }
         if (SERVER_MODE.equals("prod")) {
             //url ="http://pyfi.org/get_ip?server_type=prod";
-            io_server = "pyfi.org";
+            io_server = RELAY_ADDRESS;
         }
         try {
             mSocket = IO.socket("http://"+io_server+"");
@@ -166,51 +171,18 @@ public class wsService extends Service implements OnPreparedListener {
             Log.i(TAG, "<<<<---- no token ---->>> ");
         }
     }
-    /*public void get_servers() {
-        if (SERVER_MODE.equals("dev")) {
-            url ="http://pyfi.org/get_ip?server_type=dev";
-        }
-        if (SERVER_MODE.equals("prod")) {
-            url ="http://pyfi.org/get_ip?server_type=prod";
-        }
-        RequestQueue queue = Volley.newRequestQueue(this);
-        StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
-                new Response.Listener<String>() {
-                    @Override
-                    public void onResponse(String response) {
-                        try {
-                            io_server = response;
-                            mSocket = IO.socket("http://"+io_server+"");
-                            mSocket.connect();
-                            Log.d(TAG, "-- Starting wsService --" + io_server);
-                            mSocket.on(Socket.EVENT_DISCONNECT,onDisconnect);
-                            mSocket.on(Socket.EVENT_CONNECT,onConnect);
-                            mSocket.on("login",login);
-                            mSocket.on("link device",link_device);
-                            //mSocket.on("get token",onToken);
-                            mSocket.on("ping audio",ping_audio);
-                            SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
-                            userName = settings.getString("username", "Please enter a username");
-                            user_token = settings.getString("user_token", "no user_token");
-                            token = settings.getString("token", "no token");
-                            if (!token.equals("no device_token")) {
-                                link_device();
-                                Log.i(TAG, "<<<<---- " + userName + ":" + token + " ---->>> ");
-                            } else {
-                                Log.i(TAG, "<<<<---- no token ---->>> ");
-                            }
 
-                            Log.i(TAG,"wsService io_server: " + response);
-                        } catch (URISyntaxException e) {}
-                    }
-                }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                Log.i(TAG,"error: " + error);
+    Thread thread = new Thread(new Runnable(){
+        @Override
+        public void run() {
+            try {
+                InetAddress netHost = InetAddress.getLocalHost();
+                hostName = netHost.getHostName();
+            } catch (UnknownHostException e) {
+                hostName = "";
             }
-        });
-        queue.add(stringRequest);
-    }*/
+        }
+    });
 
     public void set_zone() {
         String zone = "{\"wifi\":\"" + connected_wifi
@@ -242,35 +214,6 @@ public class wsService extends Service implements OnPreparedListener {
         }
         Log.i(TAG, "<<<<---- set username ----->>> " + user);
     }
-
-
-    /*private Emitter.Listener onToken = new Emitter.Listener() {
-        @Override
-        public void call(final Object... args) {
-            try {
-                JSONObject data = (JSONObject) args[0];
-                token = data.getString("token");
-                userName = data.getString("user");
-
-                SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
-                SharedPreferences.Editor editor = settings.edit();
-                editor.putString("token", token);
-                editor.commit();
-                Log.i(TAG, "<<<<---- set token ----->>> " + userName);
-
-            } catch (JSONException e) {
-                Log.i(TAG, "<<<<---- ERROR ----->>> " + e);
-                return;
-            }
-
-            if (isLogin) {
-                Intent i = new Intent(getApplicationContext(), HomeActivity.class);
-                i.addFlags(FLAG_ACTIVITY_NEW_TASK);
-                startActivity(i);
-                //isLogin = false;
-            }
-        }
-    };*/
 
     private Emitter.Listener login = new Emitter.Listener() {
         @Override
@@ -308,6 +251,7 @@ public class wsService extends Service implements OnPreparedListener {
 
                 JSONObject data = new JSONObject();
                 data.put("mac",macAddress);
+                data.put("hostname",hostName);
                 data.put("email",userName);
                 data.put("device_type","['mobile']");
                 data.put("token",token);
@@ -413,6 +357,7 @@ public class wsService extends Service implements OnPreparedListener {
             JSONObject device_obj = new JSONObject("{\"device_type\":['mobile']}");
             device_obj.put("user_token",user_token);
             device_obj.put("username",userName);
+            device_obj.put("hostname",hostName);
             device_obj.put("token",token);
             device_obj.put("mac",macAddress);
             mSocket.emit("link device", device_obj);
@@ -544,11 +489,11 @@ public class wsService extends Service implements OnPreparedListener {
                         if (ws_connected) {
                             send_status(status_obj);
                         } else {
-                            try {
+                            /*try {
                                 connect_to_io();
                             } catch (URISyntaxException e) {
                                 e.printStackTrace();
-                            }
+                            }*/
                         }
 
                     }
@@ -660,6 +605,7 @@ public class wsService extends Service implements OnPreparedListener {
     public int onStartCommand(Intent intent, int flags, int startId) {
         stopTimer();
         startTimer();
+        thread.start();
         return START_STICKY;
     }
 

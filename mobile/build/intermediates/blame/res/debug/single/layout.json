@@ -24,12 +24,12 @@
         "source": "/home/physiii/.android/build-cache/285eb9955541b9413eff3d18040720b4e5213802/output/res/layout/mr_playback_control.xml"
     },
     {
-        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
-        "source": "/home/physiii/.android/build-cache/6795fe6b56bfb9293bbf7d5006c269b1324ca9b3/output/res/layout/design_layout_snackbar.xml"
-    },
-    {
         "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
         "source": "/home/physiii/.android/build-cache/90fe1220e4ff83e63519a576d79f80dc0aa6ba06/output/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/home/physiii/.android/build-cache/6795fe6b56bfb9293bbf7d5006c269b1324ca9b3/output/res/layout/design_layout_snackbar.xml"
     },
     {
         "merged": "/home/physiii/code/android/beacon/mobile/build/intermediates/res/merged/debug/layout/mr_chooser_dialog.xml",

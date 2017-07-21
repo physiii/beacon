@@ -6,46 +6,238 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05d492a9-5bdd-4460-a3eb-fd24648a5555" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/restart-dex/debug/tmp-build-info.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-09-06-57-980.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-09-07-15-682.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-09-12-24-985.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-09-12-35-227.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-09-12-47-124.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-09-13-24-802.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-09-23-43-110.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-09-34-33-113.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-09-34-34-610.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-09-34-44-180.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-09-42-55-650.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-09-42-56-777.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-09-43-31-009.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-09-43-35-977.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-09-43-37-886.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-09-43-39-617.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-09-43-41-481.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-09-43-42-428.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-09-43-55-418.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-09-44-32-598.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-09-44-33-352.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-09-44-36-826.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-10-17-00-234.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-18-14-40-02-033.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-23-08-23-06-872.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-05-23-09-36-11-119.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/androidTest/debug/android/support/multidex/instrumentation/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/androidTest/debug/org/pyfi/beacon/ApplicationTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/androidTest/debug/org/pyfi/beacon/test/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$8$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/test/debug/org/pyfi/beacon/ExampleUnitTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-safeguard/androidTest/debug/tag.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$8$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/Java-WebSocket-1.3.0_156e6ed16374b02c68f101ce953d07d4aec3be77.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_025aa3b029df64fad76c25003929b588f16c1c33.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_03519f5510b0eb4561025c3dc9bd7bc1f9984a87.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_04130ad738215f11142673403675306fccda5a9a.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_1750bef9abdc4079376dc97a90a4d49b0f649ff0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_1c21b6f540eb33664c68bd5aecb2cb8921a0b0bf.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_1d991a831c763a98f8d07d4332f2a9185fb98682.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_239e9e699439e5e16de68d289f3dc4c5e010f899.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_23aaa2e724108dd7abbfa53504859bc19d0b9d0a.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_24b299ac3de60b8131a4ad490666aa7508673c7a.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_2901596bebd63a255fd2f49bf70d0094f3d25490.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_2eb8b94b3fd21fc8968b5c81090777de4efb34f7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_3248459a577d9a9cd7db152e0ca58bf83560643b.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_33f13c31346c20a58853489cfe2edf473b1afca6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_344672450dfda2df525ca223dd056484d34972a0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_3c67be1fa95a0766f17f1c391e56fc6611702cc3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_40be669ee0b5ae06eb9f5668e92fbd4efc9f01bb.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_40d2a5087254d041fd1cc780eb1396f63e2224be.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_4164111caa9fdfb527974085ffe1871dfb7238ae.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_5501e3d930450a973a4a7a66647ffe83ac1c1e08.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_5674499e763fa2615ed0c8af99bee2797e27b3c3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_5b470eb4da470a1e59a2c01eb583e21064ebe17f.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_5c1e10302aef5be6019f547ea93c0621753144d3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_5ff45451f8f55afe4fc31609117a6aad5251263e.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_6aa854d09d0fab31490229cc153e9e031d4106aa.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_6b841e66c9c92640512723d9889d0dfcf467ce30.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_6c2a86031b958b3f10dad837e9ae4ee53f421f90.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_6df2a689166aa4f5be3fb1e25d6984a733c67180.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_743e74e3a2413cd6da97a514f426399ceb07fec5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_7e1d7a8a5969f490748549c7e063f5d436c16f5a.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_7ed4a6a4ee7461f193e7d11398c5bcf51ed47a18.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_910dde650d72af6bd45ef25e1139af759c2a133f.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_91d3ac6b4240bebc48df1a0894f7a0297efe3bed.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_968a59bff219b21c3a4abb14b4dda8fdfbbbb7e4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_a06a7bd574707c1ce16a753c28c61c8c482afebf.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_a204b116ffb11de6da3b0eb0acc39c7c2e3797b5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_a4798641fe90e6e3a5060a8867d6054cc06d5536.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_a89a5303f0451b65c333f8db80475e9803323b58.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_aaf274e40bc7292b22266f192d85882dd4776ecd.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_ab60d515c4688347f9253b9a7b2be7334071986b.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_ac809a88e03a140157a1157604003509c297ea7f.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_ad8bd04cc35202cb72a7599a40adfd6bbf75e874.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_b0096bc625d9b6103e903fb77f309e0e9be82070.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_b0c2ccf56440b26c266d717585650f2223d500f3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_b72bce82f0d8b5c4c530bb7288ef878956cdd814.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_b8a53495197375e29bd6fd09f250f0df5015c2c8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_bc01a95240f72a03e58706cc9de959cd8bdb04e8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_bd83591b80cc26f701ae93159e7e675ab420d151.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_bff7bb2d0a7ed47bedfdaeeed9534ff3278bf888.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_ce6ebfdc5043840ff984f358663e2adcde6f2118.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_d9d6127ee9e571feb47c6c0f260219e526040c40.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_e532b8094dc498761a084b1199ef8bce3c9a07ea.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_ee9a3fc79001f8c1329056b2e059f3efc8420e2d.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_f147dab05843c48e3bf69a73879563a3dd657b96.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_fa11d4c0da171813f3479621d8499b76f173662c.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_fb1c50db7e041cc17be789aa4e69b44d1de170b3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_ff533b68e1fa35b681a3dda546390513574767f4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/classes_ffac22a52e3bae9fd6b2ba8603efcc3a0893275c.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/debug_fd2abdeaa23879b4697c569bd380a4e7875a3100.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/engine.io-client-0.3.1_ab199b6d25f225accd1d8e15afe7799a23c0db4b.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/engine.io-client-0.7.0_45baadd09c1a40fff49ec0c4fb29be1f41b25fc2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/gson-2.2.4_081e8d6241e3c692d441efb4c0a5ced93011d086.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_d4d36279ad0f5573b84620da2adea31b6b8929df.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_dcb34e957ae01380880a048200b3bdff86917276.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/okhttp-3.0.1_2ec37f575b9b468d15689a719d7495a85b836f94.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/okhttp-ws-3.0.1_4bb3811c4302d66ee0cd7aa90129b0eb952baf04.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/okio-1.6.0_5eb70692af422dec38a0e28f2f26cade11b929b2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/socket.io-client-0.3.0_c28c0268ca0356a2fad595978d1a42799913ef48.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_a98e74d726b97e78483717f94538eb3e51482447.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes2.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$8$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$8$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/tmp/expandedArchives/classes.jar_y4ygbl2bm8jhyrgvdleo85zz/android/support/multidex/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/tmp/expandedArchives/classes.jar_y4ygbl2bm8jhyrgvdleo85zz/android/support/multidex/MultiDex$V14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/tmp/expandedArchives/classes.jar_y4ygbl2bm8jhyrgvdleo85zz/android/support/multidex/MultiDex$V19.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/tmp/expandedArchives/classes.jar_y4ygbl2bm8jhyrgvdleo85zz/android/support/multidex/MultiDex$V4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/tmp/expandedArchives/classes.jar_y4ygbl2bm8jhyrgvdleo85zz/android/support/multidex/MultiDex.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/tmp/expandedArchives/classes.jar_y4ygbl2bm8jhyrgvdleo85zz/android/support/multidex/MultiDexApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/tmp/expandedArchives/classes.jar_y4ygbl2bm8jhyrgvdleo85zz/android/support/multidex/MultiDexExtractor$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/tmp/expandedArchives/classes.jar_y4ygbl2bm8jhyrgvdleo85zz/android/support/multidex/MultiDexExtractor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/tmp/expandedArchives/classes.jar_y4ygbl2bm8jhyrgvdleo85zz/android/support/multidex/ZipUtil$CentralDirectory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/tmp/expandedArchives/classes.jar_y4ygbl2bm8jhyrgvdleo85zz/android/support/multidex/ZipUtil.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$1.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$2.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$3.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$4.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$5.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$6.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$7.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$8.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$LocalBinder.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$LocalBinder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$1.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$2.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$3.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$4.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$5.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$6.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$7.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$8.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$LocalBinder.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$LocalBinder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental/packageDebug/zip-cache/t2CAo8riIpgHKiDVOcpmugNgtxU=" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental/packageDebug/zip-cache/t2CAo8riIpgHKiDVOcpmugNgtxU=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/t2CAo8riIpgHKiDVOcpmugNgtxU=" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/t2CAo8riIpgHKiDVOcpmugNgtxU=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/multi-dex/debug/componentClasses.jar" afterPath="$PROJECT_DIR$/mobile/build/intermediates/multi-dex/debug/componentClasses.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/dep/dependencies.apk" afterPath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/dep/dependencies.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/slices/slice_0.apk" afterPath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/slices/slice_0.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/slices/slice_1.apk" afterPath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/slices/slice_1.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/slices/slice_2.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/slices/slice_3.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/slices/slice_4.apk" afterPath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/slices/slice_4.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/slices/slice_5.apk" afterPath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/slices/slice_5.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/slices/slice_6.apk" afterPath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/slices/slice_6.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/slices/slice_7.apk" afterPath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/slices/slice_7.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/slices/slice_8.apk" afterPath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/slices/slice_8.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/slices/slice_9.apk" afterPath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/slices/slice_9.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/BeaconWidgetConfigureActivity.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/BeaconWidgetConfigureActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/HomeActivity.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/HomeActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/LoginActivity.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$1.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$2.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$3.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$4.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$5.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$6.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$7.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$8.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$LocalBinder.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$LocalBinder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/BeaconWidgetConfigureActivity.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/BeaconWidgetConfigureActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/HomeActivity.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/HomeActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/LoginActivity.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$1.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$2.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$3.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$4.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$5.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$6.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$7.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$8.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$LocalBinder.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$LocalBinder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/outputs/apk/mobile-debug.apk" afterPath="$PROJECT_DIR$/mobile/build/outputs/apk/mobile-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/mobile/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/mobile/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/mobile/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/mobile/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/mobile/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/mobile/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/manifest.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/manifest.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/manifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_dependencies/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_dependencies/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/restart-dex/debug/build-info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/buildId.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/buildId.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/mobile.iml" afterPath="$PROJECT_DIR$/mobile/mobile.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/pyfi/beacon/wsService.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/org/pyfi/beacon/wsService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/mobile/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tv/tv.iml" afterPath="$PROJECT_DIR$/tv/tv.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wear/wear.iml" afterPath="$PROJECT_DIR$/wear/wear.iml" />
     </list>
     <ignored path="beacon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,13 +269,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wsService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="wsService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mobile/src/main/java/org/pyfi/beacon/wsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="314" column="47" selection-start-line="314" selection-start-column="43" selection-end-line="314" selection-end-column="47" />
+            <state relative-caret-position="90">
+              <caret line="392" column="50" selection-start-line="392" selection-start-column="50" selection-end-line="392" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#6314#6617#0" expanded="true" />
+                <element signature="e#6616#6617#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,48 +305,48 @@
       </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1458">
               <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_login.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_login.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
               <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_home.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_home.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
               <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -3542,7 +3736,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="7470801039789" />
+        <entry key="$PROJECT_DIR$" value="7476420726405" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -3557,13 +3751,19 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.3.2/gradle-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.3.2/gradle-core-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.3.2/builder-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.3.2/lint-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.3.3/gradle-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.3.3/gradle-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.3.3/gradle-core-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.3.3/gradle-core-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.3.3/builder-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.3.3/builder-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.3.3/lint-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.3.3/lint-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.3.2/gradle-api-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.3.2/compilerCommon-2.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.3.3/gradle-api-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.3.3/gradle-api-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.3.3/compilerCommon-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.3.3/compilerCommon-2.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.4/asm-5.0.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.jar" />
@@ -3572,41 +3772,58 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.report/0.7.5.201505241946/org.jacoco.report-0.7.5.201505241946.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/protobuf/protobuf-java/3.0.0/protobuf-java-3.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.3.2/builder-model-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.3.2/builder-test-api-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.3.2/sdklib-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.3.2/sdk-common-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.3.2/common-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.3.2/manifest-merger-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.3.2/ddmlib-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.3.3/builder-model-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.3.3/builder-model-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.3.3/builder-test-api-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.3.3/builder-test-api-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.3.3/sdklib-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.3.3/sdklib-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.3.3/sdk-common-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.3.3/sdk-common-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.3.3/common-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.3.3/common-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.3.3/manifest-merger-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.3.3/manifest-merger-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.3.3/ddmlib-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.3.3/ddmlib-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.13.0/jack-api-0.13.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.10.0/jill-api-0.10.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/protos/25.3.2/protos-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/shared/25.3.2/shared-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/tracker/25.3.2/tracker-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/protos/25.3.3/protos-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/protos/25.3.3/protos-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/shared/25.3.3/shared-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/shared/25.3.3/shared-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/tracker/25.3.3/tracker-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/tracker/25.3.3/tracker-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.4/asm-tree-5.0.4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.3.2/lint-checks-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.3.3/lint-checks-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.3.3/lint-checks-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/18.0/guava-18.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.3.2/baseLibrary-2.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.3.3/baseLibrary-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.3.3/baseLibrary-2.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr4/4.5.3/antlr4-4.5.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.3.2/annotations-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.3.3/annotations-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.3.3/annotations-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.3.2/proguard-base-5.3.2.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.3.2/layoutlib-api-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.3.2/dvlib-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.3.2/repository-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.3.3/layoutlib-api-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.3.3/layoutlib-api-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.3.3/dvlib-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.3.3/dvlib-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.3.3/repository-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.3.3/repository-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.3.2/lint-api-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.3.3/lint-api-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.3.3/lint-api-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.4/asm-analysis-5.0.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar" />
@@ -3626,13 +3843,19 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.3.2/gradle-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.3.2/gradle-core-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.3.2/builder-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.3.2/lint-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.3.3/gradle-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.3.3/gradle-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.3.3/gradle-core-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.3.3/gradle-core-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.3.3/builder-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.3.3/builder-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.3.3/lint-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.3.3/lint-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.3.2/gradle-api-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.3.2/compilerCommon-2.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.3.3/gradle-api-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.3.3/gradle-api-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.3.3/compilerCommon-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.3.3/compilerCommon-2.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.4/asm-5.0.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.jar" />
@@ -3641,41 +3864,58 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.report/0.7.5.201505241946/org.jacoco.report-0.7.5.201505241946.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/protobuf/protobuf-java/3.0.0/protobuf-java-3.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.3.2/builder-model-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.3.2/builder-test-api-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.3.2/sdklib-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.3.2/sdk-common-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.3.2/common-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.3.2/manifest-merger-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.3.2/ddmlib-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.3.3/builder-model-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.3.3/builder-model-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.3.3/builder-test-api-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.3.3/builder-test-api-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.3.3/sdklib-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.3.3/sdklib-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.3.3/sdk-common-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.3.3/sdk-common-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.3.3/common-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.3.3/common-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.3.3/manifest-merger-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.3.3/manifest-merger-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.3.3/ddmlib-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.3.3/ddmlib-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.13.0/jack-api-0.13.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.10.0/jill-api-0.10.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/protos/25.3.2/protos-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/shared/25.3.2/shared-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/tracker/25.3.2/tracker-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/protos/25.3.3/protos-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/protos/25.3.3/protos-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/shared/25.3.3/shared-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/shared/25.3.3/shared-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/tracker/25.3.3/tracker-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/tracker/25.3.3/tracker-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.4/asm-tree-5.0.4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.3.2/lint-checks-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.3.3/lint-checks-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.3.3/lint-checks-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/18.0/guava-18.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.3.2/baseLibrary-2.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.3.3/baseLibrary-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.3.3/baseLibrary-2.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr4/4.5.3/antlr4-4.5.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.3.2/annotations-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.3.3/annotations-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.3.3/annotations-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.3.2/proguard-base-5.3.2.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.3.2/layoutlib-api-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.3.2/dvlib-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.3.2/repository-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.3.3/layoutlib-api-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.3.3/layoutlib-api-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.3.3/dvlib-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.3.3/dvlib-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.3.3/repository-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.3.3/repository-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.3.2/lint-api-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.3.3/lint-api-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.3.3/lint-api-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.4/asm-analysis-5.0.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar" />
@@ -3695,13 +3935,19 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.3.2/gradle-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.3.2/gradle-core-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.3.2/builder-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.3.2/lint-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.3.3/gradle-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.3.3/gradle-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.3.3/gradle-core-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.3.3/gradle-core-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.3.3/builder-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.3.3/builder-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.3.3/lint-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.3.3/lint-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.3.2/gradle-api-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.3.2/compilerCommon-2.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.3.3/gradle-api-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.3.3/gradle-api-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.3.3/compilerCommon-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.3.3/compilerCommon-2.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.4/asm-5.0.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.jar" />
@@ -3710,41 +3956,58 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.report/0.7.5.201505241946/org.jacoco.report-0.7.5.201505241946.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/protobuf/protobuf-java/3.0.0/protobuf-java-3.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.3.2/builder-model-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.3.2/builder-test-api-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.3.2/sdklib-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.3.2/sdk-common-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.3.2/common-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.3.2/manifest-merger-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.3.2/ddmlib-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.3.3/builder-model-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.3.3/builder-model-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.3.3/builder-test-api-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.3.3/builder-test-api-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.3.3/sdklib-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.3.3/sdklib-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.3.3/sdk-common-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.3.3/sdk-common-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.3.3/common-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.3.3/common-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.3.3/manifest-merger-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.3.3/manifest-merger-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.3.3/ddmlib-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.3.3/ddmlib-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.13.0/jack-api-0.13.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.10.0/jill-api-0.10.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/protos/25.3.2/protos-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/shared/25.3.2/shared-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/tracker/25.3.2/tracker-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/protos/25.3.3/protos-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/protos/25.3.3/protos-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/shared/25.3.3/shared-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/shared/25.3.3/shared-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/tracker/25.3.3/tracker-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/tracker/25.3.3/tracker-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.4/asm-tree-5.0.4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.3.2/lint-checks-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.3.3/lint-checks-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.3.3/lint-checks-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/18.0/guava-18.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.3.2/baseLibrary-2.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.3.3/baseLibrary-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.3.3/baseLibrary-2.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr4/4.5.3/antlr4-4.5.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.3.2/annotations-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.3.3/annotations-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.3.3/annotations-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.3.2/proguard-base-5.3.2.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.3.2/layoutlib-api-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.3.2/dvlib-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.3.2/repository-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.3.3/layoutlib-api-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.3.3/layoutlib-api-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.3.3/dvlib-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.3.3/dvlib-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.3.3/repository-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.3.3/repository-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.3.2/lint-api-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.3.3/lint-api-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.3.3/lint-api-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.4/asm-analysis-5.0.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar" />
@@ -3764,13 +4027,19 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.3.2/gradle-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.3.2/gradle-core-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.3.2/builder-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.3.2/lint-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.3.3/gradle-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.3.3/gradle-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.3.3/gradle-core-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.3.3/gradle-core-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.3.3/builder-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.3.3/builder-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.3.3/lint-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.3.3/lint-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.3.2/gradle-api-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.3.2/compilerCommon-2.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.3.3/gradle-api-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.3.3/gradle-api-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.3.3/compilerCommon-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.3.3/compilerCommon-2.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.4/asm-5.0.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.jar" />
@@ -3779,41 +4048,58 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.report/0.7.5.201505241946/org.jacoco.report-0.7.5.201505241946.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/protobuf/protobuf-java/3.0.0/protobuf-java-3.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.3.2/builder-model-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.3.2/builder-test-api-2.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.3.2/sdklib-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.3.2/sdk-common-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.3.2/common-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.3.2/manifest-merger-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.3.2/ddmlib-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.3.3/builder-model-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.3.3/builder-model-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.3.3/builder-test-api-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.3.3/builder-test-api-2.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.3.3/sdklib-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.3.3/sdklib-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.3.3/sdk-common-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.3.3/sdk-common-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.3.3/common-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.3.3/common-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.3.3/manifest-merger-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.3.3/manifest-merger-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.3.3/ddmlib-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.3.3/ddmlib-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.13.0/jack-api-0.13.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.10.0/jill-api-0.10.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/protos/25.3.2/protos-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/shared/25.3.2/shared-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/tracker/25.3.2/tracker-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/protos/25.3.3/protos-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/protos/25.3.3/protos-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/shared/25.3.3/shared-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/shared/25.3.3/shared-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/tracker/25.3.3/tracker-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/tracker/25.3.3/tracker-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.4/asm-tree-5.0.4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.3.2/lint-checks-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.3.3/lint-checks-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.3.3/lint-checks-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/18.0/guava-18.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.3.2/baseLibrary-2.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.3.3/baseLibrary-2.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.3.3/baseLibrary-2.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr4/4.5.3/antlr4-4.5.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.3.2/annotations-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.3.3/annotations-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.3.3/annotations-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.3.2/proguard-base-5.3.2.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.3.2/layoutlib-api-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.3.2/dvlib-25.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.3.2/repository-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.3.3/layoutlib-api-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.3.3/layoutlib-api-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.3.3/dvlib-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.3.3/dvlib-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.3.3/repository-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.3.3/repository-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.3.2/lint-api-25.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.3.3/lint-api-25.3.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.3.3/lint-api-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.4/asm-analysis-5.0.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar" />
@@ -3852,17 +4138,17 @@
         <option value="$PROJECT_DIR$/mobile/src/main/res/layout/nav_header_home.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/menu/activity_home_drawer.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/java/org/pyfi/beacon/HomeActivity.java" />
-        <option value="$PROJECT_DIR$/mobile/src/main/java/org/pyfi/beacon/wsService.java" />
         <option value="$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/mobile/build.gradle" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/mobile/src/main/java/org/pyfi/beacon/wsService.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1920" />
     <option name="y" value="27" />
-    <option name="width" value="1920" />
+    <option name="width" value="1910" />
     <option name="height" value="2133" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -3890,9 +4176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3921,15 +4205,49 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beacon" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beacon" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beacon" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="device.picker.selection" value="ee2b4ecb" />
+    <property name="device.picker.selection" value="84B5T15A10010438" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -4363,24 +4681,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="27" width="1920" height="2133" extended-state="4" />
-    <editor active="true" />
+    <frame x="1920" y="27" width="1910" height="2133" extended-state="4" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959756" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59755474" sideWeight="0.48504272" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59755474" sideWeight="0.47959185" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959756" sideWeight="0.5021482" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.606215" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="280" y="270" width="1492" height="1254" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959756" sideWeight="0.4957265" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959756" sideWeight="0.50641024" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="true" show_stripe_button="true" weight="0.44421804" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="280" y="270" width="1492" height="1254" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959756" sideWeight="0.49358973" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32959756" sideWeight="0.50427353" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23130342" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59755474" sideWeight="0.52040815" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22771214" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -4397,7 +4714,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959756" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959756" sideWeight="0.15384616" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -4434,7 +4752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4482,6 +4799,8 @@
           <caret line="140" column="60" selection-start-line="140" selection-start-column="60" selection-end-line="140" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6314#6617#0" expanded="true" />
+            <element signature="e#6616#6617#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4495,66 +4814,65 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/nav_header_home.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/menu/activity_home_drawer.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/menu/activity_home_drawer.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/content_home.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/content_home.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/app_bar_home.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_login.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_login.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_home.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_home.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/strings.xml">
@@ -4566,13 +4884,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/beacon_widget.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/java/org/pyfi/beacon/wsService.java">
@@ -4581,6 +4899,8 @@
           <caret line="140" column="60" selection-start-line="140" selection-start-column="60" selection-end-line="140" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6314#6617#0" expanded="true" />
+            <element signature="e#6616#6617#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4594,66 +4914,65 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/nav_header_home.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/menu/activity_home_drawer.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/menu/activity_home_drawer.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/content_home.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/content_home.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/app_bar_home.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_login.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_login.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_home.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_home.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/strings.xml">
@@ -4665,13 +4984,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/beacon_widget.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/java/org/pyfi/beacon/wsService.java">
@@ -4680,71 +4999,72 @@
           <caret line="374" column="30" selection-start-line="374" selection-start-column="30" selection-end-line="374" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6314#6617#0" expanded="true" />
+            <element signature="e#6616#6617#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/nav_header_home.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/menu/activity_home_drawer.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/menu/activity_home_drawer.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/content_home.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/content_home.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/app_bar_home.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_login.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_login.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_home.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_home.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/strings.xml">
@@ -4756,13 +5076,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/beacon_widget.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/java/org/pyfi/beacon/wsService.java">
@@ -4771,59 +5091,60 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6314#6617#0" expanded="true" />
+            <element signature="e#6616#6617#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/nav_header_home.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/content_home.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/content_home.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/beacon_widget.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/menu/activity_home_drawer.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/menu/activity_home_drawer.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/app_bar_home.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/app_bar_home.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -4835,25 +5156,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_login.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
+      <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1458">
           <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/java/org/pyfi/beacon/HomeActivity.java">
@@ -4872,32 +5193,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/org/pyfi/beacon/wsService.java">
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="314" column="47" selection-start-line="314" selection-start-column="43" selection-end-line="314" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="162">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_home.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/org/pyfi/beacon/wsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="90">
+          <caret line="392" column="50" selection-start-line="392" selection-start-column="50" selection-end-line="392" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6314#6617#0" expanded="true" />
+            <element signature="e#6616#6617#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
