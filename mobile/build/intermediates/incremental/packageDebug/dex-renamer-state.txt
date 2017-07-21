@@ -1,7 +1,7 @@
-#Thu Jul 20 11:39:03 CDT 2017
-base.0=/home/physiii/code/android/beacon/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7a3ba0e09d1f9436ccbd36717e6e67176533d8d2
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/home/physiii/code/android/beacon/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a46de8910d7df13feccdef0eb1d7d9850dc55ba5/classes.dex
-base.1=/home/physiii/code/android/beacon/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a46de8910d7df13feccdef0eb1d7d9850dc55ba5
-file.0=/home/physiii/code/android/beacon/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7a3ba0e09d1f9436ccbd36717e6e67176533d8d2/classes.dex
+#Fri Jul 21 11:46:18 CDT 2017
+base.0=/home/physiii/code/android/beacon/mobile/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/physiii/code/android/beacon/mobile/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes2.dex
+base.1=/home/physiii/code/android/beacon/mobile/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+file.0=/home/physiii/code/android/beacon/mobile/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

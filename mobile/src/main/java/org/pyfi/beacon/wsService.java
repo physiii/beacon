@@ -62,7 +62,7 @@ import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
 public class wsService extends Service implements OnPreparedListener {
 
     String SERVER_MODE = "prod";
-    String RELAY_ADDRESS = "192.168.0.10:5000";
+    String RELAY_ADDRESS = "pyfi.org";
 
     public static final String PREFS_NAME = "MyPrefsFile";
     double longitude = 0;
