@@ -18,6 +18,7 @@ import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.os.BatteryManager;
 import android.os.Binder;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
@@ -81,7 +82,7 @@ public class wsService extends Service implements OnPreparedListener {
     MediaPlayer mp;
     String io_server = "init";
     String macAddress = getWifiMacAddress();
-    String hostName = "init";
+    String device_name = getDeviceName();
     private PendingIntent alarmIntent;
     private AlarmManager alarms;
     private WifiManager wifi;
@@ -172,17 +173,27 @@ public class wsService extends Service implements OnPreparedListener {
         }
     }
 
-    Thread thread = new Thread(new Runnable(){
-        @Override
-        public void run() {
-            try {
-                InetAddress netHost = InetAddress.getLocalHost();
-                hostName = netHost.getHostName();
-            } catch (UnknownHostException e) {
-                hostName = "";
-            }
+    public String getDeviceName() {
+        String manufacturer = Build.MANUFACTURER;
+        String model = Build.MODEL;
+        if (model.startsWith(manufacturer)) {
+            return capitalize(model);
+        } else {
+            return capitalize(manufacturer) + " " + model;
         }
-    });
+    }
+
+    private String capitalize(String s) {
+        if (s == null || s.length() == 0) {
+            return "";
+        }
+        char first = s.charAt(0);
+        if (Character.isUpperCase(first)) {
+            return s;
+        } else {
+            return Character.toUpperCase(first) + s.substring(1);
+        }
+    }
 
     public void set_zone() {
         String zone = "{\"wifi\":\"" + connected_wifi
@@ -251,7 +262,7 @@ public class wsService extends Service implements OnPreparedListener {
 
                 JSONObject data = new JSONObject();
                 data.put("mac",macAddress);
-                data.put("hostname",hostName);
+                data.put("device_name",device_name);
                 data.put("email",userName);
                 data.put("device_type","['mobile']");
                 data.put("token",token);
@@ -357,7 +368,7 @@ public class wsService extends Service implements OnPreparedListener {
             JSONObject device_obj = new JSONObject("{\"device_type\":['mobile']}");
             device_obj.put("user_token",user_token);
             device_obj.put("username",userName);
-            device_obj.put("hostname",hostName);
+            device_obj.put("device_name",device_name);
             device_obj.put("token",token);
             device_obj.put("mac",macAddress);
             mSocket.emit("link device", device_obj);
@@ -605,7 +616,7 @@ public class wsService extends Service implements OnPreparedListener {
     public int onStartCommand(Intent intent, int flags, int startId) {
         stopTimer();
         startTimer();
-        thread.start();
+        //thread.start();
         return START_STICKY;
     }
 

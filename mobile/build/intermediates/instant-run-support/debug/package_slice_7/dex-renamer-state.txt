@@ -1,4 +1,4 @@
-#Fri Jul 21 11:45:11 CDT 2017
+#Wed Jul 26 14:02:55 CDT 2017
 base.0=/home/physiii/code/android/beacon/mobile/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
 renamed.0=classes.dex
 file.0=/home/physiii/code/android/beacon/mobile/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex

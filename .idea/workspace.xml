@@ -11,23 +11,86 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05d492a9-5bdd-4460-a3eb-fd24648a5555" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$9$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$9$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$9$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$9$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$9.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_mobile_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$1.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$2.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$3.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$4.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$5.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$6.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$7.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$8.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$LocalBinder.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService$LocalBinder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/classes/debug/org/pyfi/beacon/wsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$1.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$2.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$3.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$4.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$5.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$6.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$7.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$8.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$LocalBinder.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService$LocalBinder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental-verifier/debug/org/pyfi/beacon/wsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/t2CAo8riIpgHKiDVOcpmugNgtxU=" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/t2CAo8riIpgHKiDVOcpmugNgtxU=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/multi-dex/debug/componentClasses.jar" afterPath="$PROJECT_DIR$/mobile/build/intermediates/multi-dex/debug/componentClasses.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/slices/slice_7.apk" afterPath="$PROJECT_DIR$/mobile/build/intermediates/split-apk/debug/slices/slice_7.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes2.dex" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes2.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/BeaconWidgetConfigureActivity.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/BeaconWidgetConfigureActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/HomeActivity.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/HomeActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/LoginActivity.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$1.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$2.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$3.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$4.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$5.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$6.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$7.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$8.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$LocalBinder.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService$LocalBinder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/pyfi/beacon/wsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/BeaconWidgetConfigureActivity.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/BeaconWidgetConfigureActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/HomeActivity.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/HomeActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/LoginActivity.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$1.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$2.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$3.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$4.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$5.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$6.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$7.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$8.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$LocalBinder.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService$LocalBinder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService.class" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/org/pyfi/beacon/wsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/outputs/apk/mobile-debug.apk" afterPath="$PROJECT_DIR$/mobile/build/outputs/apk/mobile-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/mobile/build/intermediates/restart-dex/debug/build-info.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/buildId.txt" afterPath="$PROJECT_DIR$/mobile/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/buildId.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/src/main/java/org/pyfi/beacon/wsService.java" afterPath="$PROJECT_DIR$/mobile/src/main/java/org/pyfi/beacon/wsService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tv/tv.iml" afterPath="$PROJECT_DIR$/tv/tv.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wear/wear.iml" afterPath="$PROJECT_DIR$/wear/wear.iml" />
     </list>
     <ignored path="beacon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,11 +125,10 @@
       <file leaf-file-name="wsService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mobile/src/main/java/org/pyfi/beacon/wsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+            <state relative-caret-position="548">
+              <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
               <folding>
-                <element signature="e#6305#6608#0" expanded="true" />
-                <element signature="e#6607#6608#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -3937,7 +3999,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="1920" />
     <option name="y" value="27" />
-    <option name="width" value="1910" />
+    <option name="width" value="1920" />
     <option name="height" value="2133" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -4036,7 +4098,7 @@
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="device.picker.selection" value="84B5T15A10010438" />
+    <property name="device.picker.selection" value="ee2b4ecb" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -4470,8 +4532,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="27" width="1910" height="2133" extended-state="4" />
-    <editor active="true" />
+    <frame x="1920" y="27" width="1920" height="2133" extended-state="4" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959756" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59755474" sideWeight="0.47959185" order="7" side_tool="false" content_ui="tabs" />
@@ -4486,7 +4548,7 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59755474" sideWeight="0.52040815" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22771214" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22649573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -4587,8 +4649,7 @@
         <state relative-caret-position="1566">
           <caret line="140" column="60" selection-start-line="140" selection-start-column="60" selection-end-line="140" selection-end-column="60" />
           <folding>
-            <element signature="e#6305#6608#0" expanded="true" />
-            <element signature="e#6607#6608#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4686,8 +4747,7 @@
         <state relative-caret-position="1566">
           <caret line="140" column="60" selection-start-line="140" selection-start-column="60" selection-end-line="140" selection-end-column="60" />
           <folding>
-            <element signature="e#6305#6608#0" expanded="true" />
-            <element signature="e#6607#6608#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4785,8 +4845,7 @@
         <state relative-caret-position="5742">
           <caret line="374" column="30" selection-start-line="374" selection-start-column="30" selection-end-line="374" selection-end-column="30" />
           <folding>
-            <element signature="e#6305#6608#0" expanded="true" />
-            <element signature="e#6607#6608#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4876,8 +4935,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6305#6608#0" expanded="true" />
-            <element signature="e#6607#6608#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4999,11 +5057,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/java/org/pyfi/beacon/wsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        <state relative-caret-position="548">
+          <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
           <folding>
-            <element signature="e#6305#6608#0" expanded="true" />
-            <element signature="e#6607#6608#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

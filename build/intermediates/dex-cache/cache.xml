@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/home/physiii/code/android/beacon/mobile/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f5aacd03efafe13b388b3c5a2a827fe7fecfdd42">
-        <dex dex="/home/physiii/code/android/beacon/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a46de8910d7df13feccdef0eb1d7d9850dc55ba5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/physiii/code/android/beacon/mobile/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="/home/physiii/code/android/beacon/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7a3ba0e09d1f9436ccbd36717e6e67176533d8d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/physiii/code/android/beacon/mobile/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f5aacd03efafe13b388b3c5a2a827fe7fecfdd42">
+        <dex dex="/home/physiii/code/android/beacon/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a46de8910d7df13feccdef0eb1d7d9850dc55ba5/classes.dex" />
     </item>
 
 </items>
